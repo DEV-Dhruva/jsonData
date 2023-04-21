@@ -1,5 +1,5 @@
 {
-    "Basic": [
+    "level": [
         {
             "question": "Which of the following is the full form of DDL?",
             "a": "Data definition language",
@@ -41,48 +41,6 @@
             "ans": "ans3"
         },
         {
-            "question": "Which of the following is a command of DDL?",
-            "a": "Alter",
-            "b": "Delete",
-            "c": "Create",
-            "d": "All of the above.",
-            "ans": "ans3"
-        },
-        {
-            "question": "Which of the following is the full form of TCL?",
-            "a": "Ternary control language",
-            "b": "Transaction control language",
-            "c": "Transaction central language",
-            "d": "Transmission control language",
-            "ans": "ans2"
-        },
-        {
-            "question": "Which of the following SQL command is used for removing (or deleting) a relation form the database?",
-            "a": "Drop",
-            "b": "Delete",
-            "c": "Rollback",
-            "d": "Remove",
-            "ans": "ans1"
-        },
-        {
-            "question": "What is DBMS?",
-            "a": "Collection of many programs to access data.",
-            "b": "Collection of interrelated data.",
-            "c": "Collection of commands.",
-            "d": "All of the above.",
-            "ans": "ans2"
-        },
-        {
-            "question": "Rectangles in ER diagram represents?",
-            "a": "Tables",
-            "b": "Attributes",
-            "c": "Tuples",
-            "d": "Entity sets.",
-            "ans": "ans4"
-        }
-    ],
-    "Intermediate": [
-        {
             "question": "Which normalization form is based on the transitive dependency?",
             "a": "1NF",
             "b": "2NF",
@@ -123,48 +81,6 @@
             "ans": "ans2"
         },
         {
-            "question": "Which is AS clause used for?",
-            "a": "Rename",
-            "b": "Selection",
-            "c": "Join",
-            "d": "Projection",
-            "ans": "ans1"
-        },
-        {
-            "question": "How many levels are there in architecture of database?",
-            "a": "2",
-            "b": "3",
-            "c": "4",
-            "d": "5",
-            "ans": "ans2"
-        },
-        {
-            "question": "Which data structure is used in Hierarchical model records?",
-            "a": "Graph",
-            "b": "Tree",
-            "c": "Linked List",
-            "d": "Stacks",
-            "ans": "ans2"
-        },
-        {
-            "question": "How is ER diagram represented?",
-            "a": "Circle",
-            "b": "Ellipse",
-            "c": "Triangle",
-            "d": "Square",
-            "ans": "ans2"
-        },
-        {
-            "question": "Which normal form deals with multivalued dependency?",
-            "a": "1NF",
-            "b": "2NF",
-            "c": "3NF",
-            "d": "4NF",
-            "ans": "ans4"
-        }
-    ],
-    "Advanced": [
-        {
             "question": "A relational database developer refers to a record as?",
             "a": "Attribute",
             "b": "Tuple",
@@ -203,46 +119,6 @@
             "c": "Index",
             "d": "All of the above.",
             "ans": "ans2"
-        },
-        {
-            "question": "NATURAL JOIN can also be termed as -",
-            "a": "Combination of Union and cartesian product.",
-            "b": "Combination of Selection and cartesian product.",
-            "c": "Combination of Projection and cartesian product.",
-            "d": "None of the above.",
-            "ans": "ans3"
-        },
-        {
-            "question": "Which of the following operator is used to compare a value to a list of literals values that have been specified?",
-            "a": "ANY",
-            "b": "BETWEEN",
-            "c": "IN",
-            "d": "ALL",
-            "ans": "ans2"
-        },
-        {
-            "question": "Maximum children of a B-tree of order m?",
-            "a": "m/2",
-            "b": "m-1",
-            "c": "m",
-            "d": "m+1",
-            "ans": "ans3"
-        },
-        {
-            "question": "What is the use of COUNT in SQL?",
-            "a": "Returns number of distinct value.",
-            "b": "Returns total values.",
-            "c": "Returns number of groups.",
-            "d": "Returns number of columns.",
-            "ans": "ans2"
-        },
-        {
-            "question": " Select the correct advantages of view.",
-            "a": "Derived columns.",
-            "b": "Data security.",
-            "c": "Hiding of complex queries.",
-            "d": "All of the above.",
-            "ans": "ans4"
         }
     ]
 }

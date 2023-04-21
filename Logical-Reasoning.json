@@ -1,5 +1,5 @@
 {
-    "Basic": [
+    "level": [
         {
             "question": "In the following question, choose the correct code form. \n \nIf ‘air’ is called ‘green’, ‘green’ is called ‘red’, ‘red’ is called ‘sea’, ‘sea’ is called ‘blue’, ‘blue’ is called ‘water’ and ‘water’ is called ‘pink’, then what is the color of grass?",
             "a": "Green",
@@ -41,48 +41,6 @@
             "ans": "ans3"
         },
         {
-            "question": "Solve the following questions and choose the correct alternative from the following. \n \n  Aman runs towards North for 10 m, turns left and runs another 20 m. \n He turns right and walks slowly for 10 m. Then he again turns right, walks another 50 m and stops. \n \n In which direction is he with respect to his initial position?",
-            "a": "South-East",
-            "b": "North-East",
-            "c": "North-West",
-            "d": "Soutn-West",
-            "ans": "ans2"
-        },
-        {
-            "question": "Solve the following question and choose the correct alternative from the following. \n \n  Mohan is facing North and walks 20 km. \n He turns 270° anti-clockwise and walks 20 km. \n He again turns 45° clockwise and walks for 20 km. \n \n Which direction is he facing now?",
-            "a": "North-West",
-            "b": "South-West",
-            "c": "North-East",
-            "d": "south-West",
-            "ans": "ans4"
-        },
-        {
-            "question": "Pointing to an old woman, Aryan said 'Her son is my son’s uncle.' \n How is Aryan related to old woman?",
-            "a": "Mother",
-            "b": "Sister",
-            "c": "Son",
-            "d": "Daughter",
-            "ans": "ans3"
-        },
-        {
-            "question": "Pointing to a boy, a man said to a woman, 'His mother is the only daughter of your father.' \n How was the boy related to the woman?",
-            "a": "Brother",
-            "b": "Uncle",
-            "c": "Husband",
-            "d": "son",
-            "ans": "ans4"
-        },
-        {
-            "question": "Complete the given series by finding the missing term \n \n 5, 15, 45, 225, ?",
-            "a": "1024",
-            "b": "1125",
-            "c": "1500",
-            "d": "2250",
-            "ans": "ans2"
-        }
-    ],
-    "Intermediate": [
-        {
             "question": "In the following question, choose the correct code form. \n \n If in a certain language, MORALE is coded as 296137, CHARCOAL is coded as 45164913, how is the word REAL-MOLE coded in that language?",
             "a": "67193237",
             "b": "67132937",
@@ -123,48 +81,6 @@
             "ans": "ans2"
         },
         {
-            "question": "Read the following information to answer the given question. \n On a fine evening, before sunset, Rohit and Hannibal were talking facing each other. Hannibal's shadow was exactly to the right of Hannibal. \n In which direction was Rohit facing?",
-            "a": "East",
-            "b": "West",
-            "c": "North",
-            "d": "South",
-            "ans": "ans4"
-        },
-        {
-            "question": "Read the following information carefully and answer the question below. \n \n There are six children playing football, namely, Z, Y, X, W, V and U. \n 1. Z and V are brothers. \n 2. U is the sister of V. \n  3. X is the only son of Z’s uncle. \n 4. Y and W are daughters of the brother of X’s father. \n How is X related to U?",
-            "a": "Cousin",
-            "b": "Brother",
-            "c": "Son",
-            "d": "Uncle",
-            "ans": "ans1"
-        },
-        {
-            "question": "Read the following information to answer the given question. \n \n Rohit walked 50 m towards south, then he turned to his left and ran 40 m. He then turned to his left and walked 50 m. \n He again turned to his right and ran 30 m. \n \n At what distance is he from the starting point and in which direction?",
-            "a": "70 m West",
-            "b": "75 m East",
-            "c": "75 m North",
-            "d": "70 m East",
-            "ans": "ans4"
-        },
-        {
-            "question": "Pointing towards a girl, a man said to a woman, “Her mother is the only daughter of your mother.”\n How is the girl related to that woman? ",
-            "a": "Sister",
-            "b": "Daughter",
-            "c": "Aunt",
-            "d": "Wife",
-            "ans": "ans2"
-        },
-        {
-            "question": "At what angle the hands of a clock are inclined at 40 minutes past 2?",
-            "a": "150°",
-            "b": "160°",
-            "c": "170°",
-            "d": "180°",
-            "ans": "ans2"
-        }
-    ],
-    "Advanced": [
-        {
             "question": "In a coded message, SLOW MOVE, GET BACKWARDS, FIRE AWAY is written as VFMD ZMWE, BEN PCTLDCOXU, QHOE CDCI. \n \n Based on this coding scheme, spot the codes for following words \n SALTY",
             "a": "UCFNI",
             "b": "UCFIN",
@@ -203,46 +119,6 @@
             "c": "21.5 m",
             "d": "22.5 m",
             "ans": "ans3"
-        },
-        {
-            "question": "The angle between the minute hand and the hour hand of a clock when the time is 8.30, is",
-            "a": "65",
-            "b": "75",
-            "c": "85",
-            "d": "90",
-            "ans": "ans2"
-        },
-        {
-            "question": "The question given below has a set of three or four statements. Each set of statements is further divided into three segments. Choose the alternative where the third segment in the statement can be logically deduced using both the preceding two, but not just from one of them. \n \n Statement - A. All beggars are poor. All lions are poor. So, all lions are beggars. \n B. All people are boxes. All foxes are people. So, all boxes are foxes. \n C. All men can run. All women are men. So, all women can run.",
-            "a": "A",
-            "b": "B",
-            "c": "C",
-            "d": "None of the above.",
-            "ans": "ans3"
-        },
-        {
-            "question": "The question given below has a set of three or four statements. Each set of statements is further divided into three segments. Choose the alternative where the third segment in the statement can be logically deduced using both the preceding two, but not just from one of them. \n \n Statement - I. All snakes are idiots. \n II. Some idiots are people.\n III. All people are soft.\n \n Conclusion - I. Some idiots are not snakes. \n II. Some people are snakes. \n III. Some soft are idiots.",
-            "a": "Only I follows",
-            "b": "Only II follows",
-            "c": "Only III follows",
-            "d": "Only I and II follows",
-            "ans": "ans3"
-        },
-        {
-            "question": "At what time between 4 and 4.59 will the hands of a watch point in opposite directions?",
-            "a": "45 min. past 4",
-            "b": "40 min. past 4",
-            "c": "50 (4/11) min. past 4",
-            "d": "54 (6/11) past 4",
-            "ans": "ans4"
-        },
-        {
-            "question": "At what time between 7 and 8 will the hands of a clock be in the same straight line but, not together?",
-            "a": "5 (5/11) min past 7",
-            "b": "5 (4/11) min past 7",
-            "c": "5 (3/11) min past 7",
-            "d": "5 (2/11) min past 7",
-            "ans": "ans1"
         }
     ]
 }

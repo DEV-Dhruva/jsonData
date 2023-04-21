@@ -1,5 +1,5 @@
 {
-    "Basic": [
+    "level": [
         {
             "question": "What is the maximum length of a Python identifier?",
             "a": "32",
@@ -9,19 +9,19 @@
             "ans": "ans4"
         },
         {
+            "question": "What will be the datatype of the var in the below code snippet? \n\n var = 10 \n print(type(var)) \n var = \"Hello\" \n print(type(var))",
+            "a": "str and int",
+            "b": "int and str",
+            "c": "str and str",
+            "d": "int and int",
+            "ans": "ans2"
+        },
+        {
             "question": "How is a code block indicated in Python?",
             "a": "Brackets.",
             "b": "Indentation.",
             "c": "Key.",
             "d": "None of the above.",
-            "ans": "ans4"
-        },
-        {
-            "question": "What will be the datatype of the var in the below code snippet? \n\n var = 10 \n print(type(var)) \n var = \"Hello\" \n print(type(var))",
-            "a": "str and int",
-            "b": "int and int",
-            "c": "str and str",
-            "d": "int and str",
             "ans": "ans4"
         },
         {
@@ -33,38 +33,6 @@
             "ans": "ans1"
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n a = [1, 2, 3] \n a = tuple(a) \n a[0] = 2 \n print(a)",
-            "a": "[2, 2, 3]",
-            "b": "(2, 2, 3)",
-            "c": "(1, 2, 3)",
-            "d": "Error.",
-            "ans": "ans4"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n print(type(5 / 2)) \n print(type(5 // 2))",
-            "a": "float and int",
-            "b": "int and float",
-            "c": "float and float",
-            "d": "int and int",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n a = [1, 2, 3, 4, 5] \n sum = 0 \n for ele in a: \n sum += ele \n print(sum)",
-            "a": "15",
-            "b": "0",
-            "c": "20",
-            "d": "None of these.",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n count = 0 \n while(True): \n if count % 3 == 0: \n print(count, end = \" \") \n if(count > 15): \n break; \n count += 1",
-            "a": "0 1 2 ….. 15",
-            "b": "Infinite Loop",
-            "c": "0 3 6 9 12 15",
-            "d": "0 3 6 9 12",
-            "ans": "ans3"
-        },
-        {
             "question": "Which of the following concepts is not a part of Python?",
             "a": "Pointers.",
             "b": "Loops.",
@@ -72,16 +40,6 @@
             "d": "All of the above.",
             "ans": "ans1"
         },
-        {
-            "question": "What will be the output of the following code snippet? \n\n def solve(a, b): \n return b if a == 0 else solve(b % a, a) \n print(solve(20, 50))",
-            "a": "10",
-            "b": "20",
-            "c": "50",
-            "d": "1",
-            "ans": "ans1"
-        }
-    ],
-    "Intermediate": [
         {
             "question": "What will be the output of the following code snippet? \n\n example = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\"]; \n del example[2] \n print(example)",
             "a": "['Sunday', 'Monday', 'Tuesday', 'Wednesday']",
@@ -99,20 +57,12 @@
             "ans": "ans1"
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n numbers = (4, 7, 19, 2, 89, 45, 72, 22) \n sorted_numbers = sorted(numbers) \n even = lambda a: a % 2 == 0 \n even_numbers = filter(even, sorted_numbers) \n print(type(even_numbers))",
-            "a": "filter",
-            "b": "int",
-            "c": "list",
-            "d": "tuple",
-            "ans": "ans1"
-        },
-        {
             "question": "What will be the output of the following code snippet? \n\n numbers = (4, 7, 19, 2, 89, 45, 72, 22) \n sorted_numbers = sorted(numbers) \n odd_numbers = [x for x in sorted_numbers if x % 2 != 0] \n print(odd_numbers)",
-            "a": "[7, 19, 45, 89]",
+            "a": "[4, 7, 19, 2, 89, 45,72, 22]",
             "b": "[2, 4, 22, 72]",
-            "c": "[4, 7, 19, 2, 89, 45,72, 22]",
+            "c": "[7, 19, 45, 89]",
             "d": "[2, 4, 7, 19, 22, 45, 72, 89]",
-            "ans": "ans1"
+            "ans": "ans3"
         },
         {
             "question": "What will be the output of the following code snippet? \n\n def is_even(number): \n message =  f\"{number} is an even number\" if number % 2 == 0 else  f\"{number} is an odd number\" \n return message \n print(is_even(54))",
@@ -123,22 +73,6 @@
             "ans": "ans1"
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n dict1 = {'first' : 'sunday', 'second' : 'monday'} \n dict2 = {1: 3, 2: 4} \n dict1.update(dict2) \n print(dict1)",
-            "a": "{'first': 'sunday', 'second': 'monday', 1: 3, 2: 4}",
-            "b": "{'first': 'sunday', 'second': 'monday'}",
-            "c": "{1: 3, 2: 4}",
-            "d": "None of the above.",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n s = {1, 2, 3, 3, 2, 4, 5, 5} \n print(s)",
-            "a": "{1, 2, 3, 3, 2, 4, 5, 5}",
-            "b": "{1, 2, 3, 4, 5}",
-            "c": "None",
-            "d": "{1, 5}",
-            "ans": "ans1"
-        },
-        {
             "question": "What will be the output of the following code snippet? \n\n a = {'Hello':'World', 'First': 1} \n b = {val: k for k , val in a.items()} \n print(b)",
             "a": "{'Hello':'World', 'First': 1}",
             "b": "{'World': 'Hello', 1: 'First'}",
@@ -146,24 +80,6 @@
             "d": "None of the above",
             "ans": "ans2"
         },
-        {
-            "question": "Which of the following functions converts date to corresponding time in Python?",
-            "a": "strptime()",
-            "b": "strftime()",
-            "c": "Both A and B",
-            "d": "None of the above",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n word = \"Python Programming\" \n n = len(word) \n word1 = word.upper() \n word2 = word.lower() \n converted_word = \"\" \n for i in range(n): \n if i % 2 == 0: \n onverted_word += word2[i] \n else: \n converted_word += word1[i] \n print(converted_word)",
-            "a": "pYtHoN PrOgRaMmInG",
-            "b": "Python Programming",
-            "c": "python programming",
-            "d": "PYTHON PROGRAMMING",
-            "ans": "ans1"
-        }
-    ],
-    "Advanced": [
         {
             "question": "What will be the output of the following code snippet? \n\n def tester(**kwargs): \n for key, value in kwargs.items(): \n print(key, value, end = \" \") \n tester(Sunday = 1, Monday = 2, Tuesday = 3, Wednesday = 4)",
             "a": "Sunday 1 Monday 2 Tuesday 3 Wednesday 4",
@@ -189,22 +105,6 @@
             "ans": "ans1"
         },
         {
-            "question": "How can assertions be disabled in Python?",
-            "a": "Passing -O when running Python.",
-            "b": "Assertions are disabled by default.",
-            "c": "Both A and B are wrong.",
-            "d": "Assertions cannot be disabled in Python.",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n a = [[], \"abc\", [0], 1, 0] \n print(list(filter(bool, a)))",
-            "a": "['abc', [0], 1]",
-            "b": "[1]",
-            "c": "[“abc”]",
-            "d": "None of the above",
-            "ans": "ans1"
-        },
-        {
             "question": "In which language is Python written?",
             "a": "C++",
             "b": "C",
@@ -213,35 +113,11 @@
             "ans": "ans2"
         },
         {
-            "question": "Can one block of except statements handle multiple exception?",
-            "a": "yes, like except TypeError, SyntaxError [,…]",
-            "b": "yes, like except [TypeError, SyntaxError]",
-            "c": "no",
-            "d": "none of the mentioned",
-            "ans": "ans1"
-        },
-        {
-            "question": "Let A and B be objects of class Foo. Which functions are called when print(A + B) is executed?",
-            "a": "__add__(), __str__()",
-            "b": "__str__(), __add__()",
-            "c": "__sum__(), __str__()",
-            "d": "__str__(), __sum__()",
-            "ans": "ans1"
-        },
-        {
             "question": "What is the use of duck typing?",
             "a": "More restriction on the type values that can be passed to a given method",
             "b": "No restriction on the type values that can be passed to a given method",
             "c": "Less restriction on the type values that can be passed to a given method",
             "d": "Makes the program code smaller",
-            "ans": "ans3"
-        },
-        {
-            "question": "What does built-in function help do in context of classes?",
-            "a": "Determines the object name of any value",
-            "b": "Determines the class identifiers of any value",
-            "c": "Determines class description of any built-in type",
-            "d": "Determines class description of any user-defined built-in type",
             "ans": "ans3"
         }
     ]
