@@ -1,0 +1,124 @@
+{
+    "level": [
+        {
+            "question": "What is the range of values that can be stored by int datatype in C?",
+            "a": "-(2^31) to (2^31) - 1",
+            "b": "-256 to 255",
+            "c": "-(2^63) to (2^63) - 1",
+            "d": "0 to (2^31) - 1",
+            "ans": "ans1"
+        },
+        {
+            "question": "How is an array initialized in C language?",
+            "a": "int a[3] = {1, 2, 3};",
+            "b": "int a = {1, 2, 3};",
+            "c": "int a[] = new int[3]",
+            "d": "int a(3) = [1, 2, 3];",
+            "ans": "ans1"
+        },
+        {
+            "question": "What is the output of the following code snippet? \n\n int main() { \n\n int sum = 2 + 4 / 2 + 6 * 2; \n\n printf(\"%d\", sum); \n\n return 0; \n\n }",
+            "a": "2",
+            "b": "15",
+            "c": "16",
+            "d": "18",
+            "ans": "ans3"
+        },
+        {
+            "question": "How is the 3rd element in an array accessed based on pointer notation?",
+            "a": "*a + 3",
+            "b": "*(a + 3)",
+            "c": "*(*a + 3)",
+            "d": "&(a + 3)",
+            "ans": "ans2"
+        },
+        {
+            "question": "How are String represented in memory in C?",
+            "a": "An array of characters.",
+            "b": "The object of some class.",
+            "c": "Same as other primitive data types.",
+            "d": "LinkedList of characters.",
+            "ans": "ans1"
+        },
+        {
+            "question": "What does the following declaration indicate? \n\n int x: 8;",
+            "a": "x stores a value of 8.",
+            "b": "x is an 8-bit integer.",
+            "c": "Both A and B.",
+            "d": "None of the above.",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which of the following is the proper syntax for declaring macros in C?",
+            "a": "#define long long ll",
+            "b": "#define ll long long",
+            "c": "#define ll",
+            "d": "#define long long",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which of the following is an exit controlled loop?",
+            "a": "While loop.",
+            "b": "For loop.",
+            "c": "do-while loop.",
+            "d": "None of the above.",
+            "ans": "ans3"
+        },
+        {
+            "question": "What is the size of the int data type (in bytes) in C?",
+            "a": "4",
+            "b": "8",
+            "c": "2",
+            "d": "1",
+            "ans": "ans1"
+        },
+        {
+            "question": "How to declare a double-pointer in C?",
+            "a": "int *val",
+            "b": "int **val",
+            "c": "int &val",
+            "d": "int *&val",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which of the following will occur if we call the free() function on a NULL pointer?",
+            "a": "Compilation Error.",
+            "b": "Runtime Error.",
+            "c": "Undefined Behaviour.",
+            "d": "The program will execute normally.",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which of the following should be used to free memory from a pointer allocated using the “new” operator?",
+            "a": "free()",
+            "b": "delete",
+            "c": "realloc()",
+            "d": "None of the above.",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which data structure is used to handle recursion in C?",
+            "a": "Stack.",
+            "b": "Queue.",
+            "c": "Dequeue.",
+            "d": "Trees.",
+            "ans": "ans1"
+        },
+        {
+            "question": "What will be the output of the following code snippet? \n\n #include <stdio.h> \n\n #define CUBE(x) x * x * x \n\n void solve() { \n\n int ans = 216 / CUBE(3); \n\n printf(\"%d\", ans); \n\n } \n\n int main() { \n\n solve(); \n\n return 0; \n\n }",
+            "a": "8",
+            "b": "648",
+            "c": "72",
+            "d": "None of the above.",
+            "ans": "ans2"
+        },
+        {
+            "question": "What will be the output of the following code snippet? \n\n #include <stdio.h> \n\n struct School { \n\n int age, rollNo; \n\n }; \n\n void solve() { \n\n struct School sc; \n\n sc.age = 19; \n\n sc.rollNo = 82; \n\n printf(\"%d\", (int)sizeof(sc)); \n\n } \n\n int main() { \n\n solve(); \n\n return 0; \n\n }",
+            "a": "1",
+            "b": "4",
+            "c": "8",
+            "d": "16",
+            "ans": "ans3"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "level": [
+        {
+            "question": "Our country is spiritual country, theirs .... Religious.",
+            "a": "is",
+            "b": "are",
+            "c": "also",
+            "d": "have",
+            "ans": "ans1"
+        },
+        {
+            "question": "Our sir teaches Mathematics .... English.",
+            "a": "across",
+            "b": "besides",
+            "c": "beside",
+            "d": "both",
+            "ans": "ans2"
+        },
+        {
+            "question": "Please, come .... the bathroom. ",
+            "a": "out of",
+            "b": "over",
+            "c": "on",
+            "d": "in",
+            "ans": "ans1"
+        },
+        {
+            "question": "Please, don't laugh .... those beggars.",
+            "a": "for",
+            "b": "against ",
+            "c": "at",
+            "d": "from",
+            "ans": "ans3"
+        },
+        {
+            "question": "Please, stop .... so many mistakes.",
+            "a": "to make",
+            "b": "make",
+            "c": "making",
+            "d": "makes",
+            "ans": "ans3"
+        },
+        {
+            "question": "After six months, you can also speak in English .... me.",
+            "a": "around",
+            "b": "like",
+            "c": "without",
+            "d": "about",
+            "ans": "ans2"
+        },
+        {
+            "question": "All the winners .... prizes tomorrow.",
+            "a": "will be given",
+            "b": "will given",
+            "c": "will be giving",
+            "d": "will have given ",
+            "ans": "ans1"
+        },
+        {
+            "question": "America .... The powerful president.",
+            "a": "have",
+            "b": "has",
+            "c": "is",
+            "d": "does",
+            "ans": "ans2"
+        },
+        {
+            "question": "Amir Khan .... new movie next year.",
+            "a": "is release",
+            "b": "will be release",
+            "c": "going to release",
+            "d": "will release",
+            "ans": "ans4"
+        },
+        {
+            "question": "Before sometimes, the monkey jumped .... the river.",
+            "a": "on",
+            "b": "into",
+            "c": "near",
+            "d": "upon",
+            "ans": "ans2"
+        },
+        {
+            "question": "'Kites' .... the plural form of kite.",
+            "a": "is",
+            "b": "are",
+            "c": "have",
+            "d": "do",
+            "ans": "ans1"
+        },
+        {
+            "question": "Look at all these black clouds! It .... today.",
+            "a": "is going to rain",
+            "b": "is raining",
+            "c": "will be rain",
+            "d": "rains",
+            "ans": "ans1"
+        },
+        {
+            "question": "Listen, a nice song ....",
+            "a": "is singing",
+            "b": "has sung",
+            "c": "was being sung",
+            "d": "is being sung",
+            "ans": "ans4"
+        },
+        {
+            "question": "Listen, an announcement .... to cancel all the flights due to heavy ice-fall.",
+            "a": "making",
+            "b": "is making",
+            "c": "is made",
+            "d": "is being made",
+            "ans": "ans4"
+        },
+        {
+            "question": "Look, a new missile ....",
+            "a": "is launched",
+            "b": "is launch",
+            "c": "is being launch",
+            "d": "is being launched",
+            "ans": "ans4"
+        }
+    ]
+}
