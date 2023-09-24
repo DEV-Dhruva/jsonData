@@ -1,0 +1,248 @@
+{
+    "Basic": [
+        {
+            "question": "56% of Y is 182. What is Y",
+            "a": "350",
+            "b": "364",
+            "c": "325",
+            "d": "330",
+            "ans": "ans3"
+        },
+        {
+            "question": "Y has to score 40% marks to pass. He gets 20 marks and fails by 40 marks. The maximum marks of the exam are?",
+            "a": "100",
+            "b": "200",
+            "c": "150",
+            "d": "250",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which of the following two ratios is greater 17:18 and 10:11?",
+            "a": "17/18",
+            "b": "10/11",
+            "c": "Both are same",
+            "d": "Cannot determine",
+            "ans": "ans1"
+        },
+        {
+            "question": "285 is summation of 3 numbers. Ratio between 2nd and 3rd numbers is 6:5. Ratio between 1st and 2nd numbers is 3:7. The 3rd number is?",
+            "a": "135",
+            "b": "150",
+            "c": "124",
+            "d": "105",
+            "ans": "ans4"
+        },
+        {
+            "question": "A man got Rs. 130 less, as simple interest, when he invested Rs. 2000 for 4 years as compared to investing Rs. 2250 for same duration. What is the rate of interest?",
+            "a": "12 %",
+            "b": "13 %",
+            "c": "12.5 %",
+            "d": "10.50 %",
+            "ans": "ans2"
+        },
+        {
+            "question": "In 3 years by compound interest, a sum becomes Rs. 900. But in 4 years by compound interest, the same sum becomes Rs. 1000. What is the sum and the rate of interest?",
+            "a": "Rs. 625.20, 12.50%",
+            "b": "Rs. 656.10, 11.11%",
+            "c": "Rs. 686.50, 12.50%",
+            "d": "Rs. 695.80, 11.11%",
+            "ans": "ans2"
+        },
+        {
+            "question": "A walks from points Jammu to Delhi and at the same time B starts walking from Delhi to Jammu. After passing each other, they complete their journeys in 361 hours and 289 hours, respectively. Find the ratio of speed of A to that of B?",
+            "a": "17:19",
+            "b": "289:361",
+            "c": "361:289",
+            "d": "19:17",
+            "ans": "ans1"
+        },
+        {
+            "question": " Amit covers a distance at a speed of 24 km/hr in 6 min. If he wants to cover the same distance in 8 min, what should be his speed?",
+            "a": "18 km/hr",
+            "b": "21 km/hr",
+            "c": "30 km/hr",
+            "d": "15 km/hr",
+            "ans": "ans1"
+        },
+        {
+            "question": "Ram is three times as old as his Sam. 2 years ago he was five times as old as Sam. What is the present age of Ram?",
+            "a": "12 years",
+            "b": "14 years",
+            "c": "18 years",
+            "d": "24 years",
+            "ans": "ans1"
+        },
+        {
+            "question": "The average age of a group of 4 friends is 36 years. The youngest friend amongst them is 6 years old. What was the average age of the group at the time of the birth of the youngest friend?",
+            "a": "36 years",
+            "b": "38 years",
+            "c": "32 years",
+            "d": "40 years",
+            "ans": "ans4"
+        }
+    ],
+    "Intermediate": [
+        {
+            "question": " During monsoon clearance sale, Amit buys a shirt at double discount of 20% and 10%. At what price he bought the shirt if marked price was Rs. 1000?",
+            "a": "Rs. 720",
+            "b": "Rs. 800",
+            "c": "Rs. 700",
+            "d": "Rs. 850",
+            "ans": "ans1"
+        },
+        {
+            "question": " Profit of Raj while selling a book to Simran is Rs. 63. Despite a discount of 23% on the book Raj manages to get 10% profit. What must be the list price of the book?",
+            "a": "Rs. 1120",
+            "b": "Rs. 560",
+            "c": "Rs. 900",
+            "d": "Rs. 750",
+            "ans": "ans3"
+        },
+        {
+            "question": " When will be both hands of a clock at right angle, between 8pm and 9pm?",
+            "a": "29 (8/11) minutes past 8 pm",
+            "b": "27 (3/11) minutes past 8 pm",
+            "c": "25 (7/11) minutes past 8 pm",
+            "d": "24 (5/11) minutes before 9 pm",
+            "ans": "ans2"
+        },
+        {
+            "question": "A is formed by reversing the digits of B. B is 45 less than A. The sum of the digits of B is 9. What is A? ",
+            "a": "36",
+            "b": "81",
+            "c": "54",
+            "d": "72",
+            "ans": "ans4"
+        },
+        {
+            "question": "Square of difference between two numbers is 9 while the sum of squares of those two numbers is 225. What is their product?",
+            "a": "108",
+            "b": "125",
+            "c": "169",
+            "d": "96",
+            "ans": "ans1"
+        },
+        {
+            "question": "4/7 of 2/3 of 5/6 of  5/8 of 1008 is",
+            "a": "200",
+            "b": "144",
+            "c": "64",
+            "d": "400",
+            "ans": "ans1"
+        },
+        {
+            "question": "A class eats 2/5 of chocolates on 1st day. On the 2nd day they eat 3/4 of the remainder. How many chocolates were there initially if still 75 chocolates are left?",
+            "a": "250",
+            "b": "750",
+            "c": "500",
+            "d": "1000",
+            "ans": "ans3"
+        },
+        {
+            "question": "The ratio of two numbers is 5 : 6 and their LCM is 480, then their HCF is?",
+            "a": "16",
+            "b": "96",
+            "c": "12",
+            "d": "240",
+            "ans": "ans1"
+        },
+        {
+            "question": "Manoj wants to paste wallpaper on wall of his room. The wall is 4 meters and 50 cm in length and 3 meters and 50 cm in height. But the wall should be covered completely only by square pieces of wallpaper having same size. What is the number of maximum sized wallpaper squares needed to cover the walls completely?",
+            "a": "8",
+            "b": "15.75",
+            "c": "63",
+            "d": "12",
+            "ans": "ans3"
+        },
+        {
+            "question": "What will be fraction form of 0.2365236523652365…?",
+            "a": "2365/10000",
+            "b": "2365/9999",
+            "c": "1254/9999",
+            "d": "None of the above",
+            "ans": "ans2"
+        }
+    ],
+    "Advanced": [
+        {
+            "question": "The marked price of a watch is Rs. 800. A shopkeeper gives two successive discounts and sells the watch at Rs. 612. If the first discount is 10%, the second discount is",
+            "a": "12 %",
+            "b": "20 %",
+            "c": "15 %",
+            "d": "10 %",
+            "ans": "ans3"
+        },
+        {
+            "question": "A car travelling with 5/7th of its actual speed covers 42km in 1hr. 40mins. 48 secs. Find the actual speed of the car.",
+            "a": "17(6/7) km/hr",
+            "b": "35 km/hr",
+            "c": "25 km/hr",
+            "d": "30 km/hr",
+            "ans": "ans2"
+        },
+        {
+            "question": "A train passes a telegraph post in 8 seconds and a 264 m long bridge in 20 seconds. What is the length of the train",
+            "a": "180 m",
+            "b": "176 m",
+            "c": "164 m",
+            "d": "158 m",
+            "ans": "ans2"
+        },
+        {
+            "question": " An equilateral triangle is described on the diagonal of a square. What is the ratio of the area of the triangle to that of the square?",
+            "a": "√3 : 2",
+            "b": "2 : √3",
+            "c": "√3 : 4",
+            "d": "4 : √3",
+            "ans": "ans1"
+        },
+        {
+            "question": " A room is 6m long, 5m broad and 4m high. The maximum length of rod that can be kept in the room is",
+            "a": "√61 m",
+            "b": "√16 m",
+            "c": "√36 m",
+            "d": "√77 m",
+            "ans": "ans4"
+        },
+        {
+            "question": "The average of three numbers is 77. The first number is twice the second and the second number is twice the third. Find the first number.",
+            "a": "33",
+            "b": "66",
+            "c": "77",
+            "d": "132",
+            "ans": "ans4"
+        },
+        {
+            "question": "The average of fifty numbers is 28. If two numbers, namely 25 and 35 are discarded, the average of the remaining numbers is nearly,",
+            "a": "29.27",
+            "b": "27.92",
+            "c": "27.29",
+            "d": "29.72",
+            "ans": "ans2"
+        },
+        {
+            "question": " If a*b = 2a+3b, then the value of 2*3 + 3*4 is",
+            "a": "24",
+            "b": "31",
+            "c": "32",
+            "d": "34",
+            "ans": "ans2"
+        },
+        {
+            "question": "The least of the following 0.2, (.2)2, 0.2(bar on 2), 1÷0.2",
+            "a": "(.2)^2",
+            "b": "0.2",
+            "c": "0.2(bar on 2)",
+            "d": "1÷0.2",
+            "ans": "ans1"
+        },
+        {
+            "question": "If ratio of the areas of two squares is 1:4, the ratio of their perimeters is",
+            "a": "1 : 2",
+            "b": "1 : 4",
+            "c": "1 : 6",
+            "d": "1 : 8",
+            "ans": "ans1"
+        }
+    ]
+}

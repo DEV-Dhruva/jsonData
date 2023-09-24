@@ -1,0 +1,248 @@
+{
+    "Basic": [
+        {
+            "question": "Which is not a feature of OOP in general definitions?",
+            "a": "Efficient Code",
+            "b": "Code reusability",
+            "c": "Modularity",
+            "d": "Duplicate/Redundant data",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which was the first purely object oriented programming language developed?",
+            "a": "Kotlin",
+            "b": "SmallTalk",
+            "c": "Java",
+            "d": "C++",
+            "ans": "ans2"
+        },
+        {
+            "question": " Which feature of OOP indicates code reusability?",
+            "a": "Absraction",
+            "b": "Polymorphism",
+            "c": "Encapsulation",
+            "d": "Inheritance",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which header file is required in C++ to use OOP?",
+            "a": "OOP can be used without using any header file",
+            "b": "stdlib.h",
+            "c": "iostream.h",
+            "d": "stdio.h",
+            "ans": "ans1"
+        },
+        {
+            "question": "Why Java is Partially OOP language?",
+            "a": "It allows code to be written outside classes",
+            "b": "It supports usual declaration of primitive data types",
+            "c": "It does not support pointers",
+            "d": "It doesn’t support all types of inheritance",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which among the following doesn’t come under OOP concept?",
+            "a": "Data hiding",
+            "b": "Message passing",
+            "c": "Platform independent",
+            "d": "Data binding",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which is the correct syntax of inheritance?",
+            "a": "class base_classname :access derived_classname{ /*define class body*/ };",
+            "b": "class derived_classname : access base_classname{ /*define class body*/ };",
+            "c": "class derived_classname : base_classname{ /*define class body*/ };",
+            "d": "class base_classname : derived_classname{ /*define class body*/ };",
+            "ans": "ans2"
+        },
+        {
+            "question": " Which feature of OOP is indicated by the following code? \n \n class student{  int marks;  }; \n class topper:public student{  int age;  topper(int age){ this.age=age; } };",
+            "a": "Encapsulation and Inheritance",
+            "b": "Inheritance and polymorphism",
+            "c": "Polymorphism",
+            "d": "Inheritance",
+            "ans": "ans1"
+        },
+        {
+            "question": "In multilevel inheritance, which is the most significant feature of OOP used?",
+            "a": "Code efficiency",
+            "b": "Code readability",
+            "c": "Flexibility",
+            "d": "Code reusability",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which of the following is not true about polymorphism?",
+            "a": "Helps in redefining the same functionality",
+            "b": "Increases overhead of function definition always",
+            "c": "It is feature of OOP",
+            "d": "Ease in readability of program",
+            "ans": "ans2"
+        }
+    ],
+    "Intermediate": [
+        {
+            "question": "In which access should a constructor be defined, so that object of the class can be created in any function?",
+            "a": "Any specifier will work",
+            "b": "Private",
+            "c": "Public",
+            "d": "Protected",
+            "ans": "ans3"
+        },
+        {
+            "question": "The copy constructors can be used to ________",
+            "a": "Copy an object so that it can be passed to another primitive type variable",
+            "b": "Copy an object for type casting",
+            "c": "Copy an object so that it can be passed to a function",
+            "d": "Copy an object so that it can be passed to a class",
+            "ans": "ans3"
+        },
+        {
+            "question": "What happens when an object is passed by reference?",
+            "a": "Destructor is called at end of function",
+            "b": "Destructor is called when called explicitly",
+            "c": "Destructor is not called",
+            "d": "Destructor is called when function is out of scope",
+            "ans": "ans3"
+        },
+        {
+            "question": "How to access data members of a class?",
+            "a": "Dot, arrow or direct call",
+            "b": "Dot operator",
+            "c": "Arrow operator",
+            "d": "Dot or arrow as required",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which keyword among the following can be used to declare an array of objects in java?",
+            "a": "allocate",
+            "b": "arr",
+            "c": "new",
+            "d": "create",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which operator can be used to free the memory allocated for an object in C++?",
+            "a": "Unallocate",
+            "b": "Free()",
+            "c": "Collect",
+            "d": "delete",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which of the following is not a property of an object?",
+            "a": "Properties",
+            "b": "Names",
+            "c": "Identity",
+            "d": "Attributes",
+            "ans": "ans2"
+        },
+        {
+            "question": "How to overcome diamond problem?",
+            "a": "Using seperate derived class",
+            "b": "Using virtual keyword with same name function",
+            "c": "Can’t be done",
+            "d": "Using alias name",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which among the following best describes the Inheritance?",
+            "a": "Using the data and functions into derived segment",
+            "b": "Using already defined functions in a programming language",
+            "c": "Using the code already written once",
+            "d": "Copying the code already written",
+            "ans": "ans1"
+        },
+        {
+            "question": "What happens if non static members are used in static member function?",
+            "a": "Executes fine",
+            "b": "Compile time error",
+            "c": "Executes if that member function is not used",
+            "d": "Runtime error",
+            "ans": "ans2"
+        }
+    ],
+    "Advanced": [
+        {
+            "question": "What is friend member functions in C++?",
+            "a": "Non-member functions which have access to all the members (including private) of a class",
+            "b": "Member function which doesn’t have access to private members",
+            "c": "Member function which can modify any data of a class",
+            "d": "Member function which can access all the members of a class",
+            "ans": "ans1"
+        },
+        {
+            "question": "Where is the memory allocated for the objects?",
+            "a": "Cache",
+            "b": "ROM",
+            "c": "HDD",
+            "d": "RAM",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which of the following best describes member function overriding?",
+            "a": "Member functions having the same name in derived class only",
+            "b": "Member functions having the same name and different signature inside main function",
+            "c": "Member functions having the same name in base and derived classes",
+            "d": "Member functions having the same name in base class only",
+            "ans": "ans3"
+        },
+        {
+            "question": "How to access the private member function of a class?",
+            "a": "Using class address",
+            "b": "Using object of class",
+            "c": "Using object pointer",
+            "d": "Using address of member function",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which keyword should be used to declare static variables?",
+            "a": "const",
+            "b": "common",
+            "c": "static",
+            "d": "stat",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which is correct syntax for declaring pointer to object?",
+            "a": " *className objectName;",
+            "b": "className* objectName",
+            "c": "className objectName();",
+            "d": "className objectName;",
+            "ans": "ans2"
+        },
+        {
+            "question": "If data members are private, what can we do to access them from the class object?",
+            "a": "Private data members can never be accessed from outside the class",
+            "b": "Create public member functions to access those data members",
+            "c": "Create private member functions to access those data members",
+            "d": "Create protected member functions to access those data members",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which among the following is not a necessary condition for constructors?",
+            "a": "Its name must be same as that of class",
+            "b": "It must not have any return type",
+            "c": "It must contain a definition body",
+            "d": "It can contains arguments",
+            "ans": "ans3"
+        },
+        {
+            "question": "If in multiple inheritance, class C inherits class B, and Class B inherits class A. In which sequence are their destructors called if an object of class C was declared?",
+            "a": "~A() then ~B() then ~C()",
+            "b": " ~C() then ~A() then ~B()",
+            "c": "~C() then ~B() then ~A()",
+            "d": "~B() then ~C() then ~A()",
+            "ans": "ans3"
+        },
+        {
+            "question": " ___________ underlines the feature of Polymorphism in a class.",
+            "a": "Virtual Function",
+            "b": "Inline Function",
+            "c": "Enclosing Function",
+            "d": "Nested class",
+            "ans": "ans1"
+        }
+    ]
+}

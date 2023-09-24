@@ -1,0 +1,248 @@
+{
+    "Basic": [
+        {
+            "question": "Which of the following is correct about JavaScript?",
+            "a": "JavaScript is an Object-Based language",
+            "b": "JavaScript is Assembly-language",
+            "c": "JavaScript is an Object-Oriented language",
+            "d": "JavaScript is a High-level language",
+            "ans": "ans1"
+        },
+        {
+            "question": "Among the given statements, which statement defines closures in JavaScript?",
+            "a": "JavaScript is a function that is enclosed with references to its inner function scope",
+            "b": "JavaScript is a function that is enclosed with references to its lexical environment",
+            "c": "JavaScript is a function that is enclosed with the object to its inner function scope",
+            "d": "None of the mentioned",
+            "ans": "ans2"
+        },
+        {
+            "question": "Arrays in JavaScript are defined by which of the following statements?",
+            "a": "It is an ordered list of values",
+            "b": "It is an ordered list of objects",
+            "c": "It is an ordered list of string",
+            "d": "It is an ordered list of functions",
+            "ans": "ans1"
+        },
+        {
+            "question": "Will the following JavaScript code work? \n \n var js = (function(x) {return x*x;}(10));",
+            "a": "Exception will be thrown",
+            "b": "Memory leak",
+            "c": "Error",
+            "d": "Yes, perfectly",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which of the following is not javascript data types?",
+            "a": "Null type",
+            "b": "Undefined type",
+            "c": "Number type",
+            "d": "All of the above mentioned",
+            "ans": "ans4"
+        },
+        {
+            "question": "What will be the output of the following JavaScript code snippet? \n \n int a=1; \n if(a!=null) // JavaScript not equal to Operators \n     return 1; \n else \n      return 0;",
+            "a": "0",
+            "b": "1",
+            "c": "compile error",
+            "d": "runtime error",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which of the following can be used to call a JavaScript Code Snippet?",
+            "a": "Function / Method",
+            "b": "Preprocessor",
+            "c": "Triggering Event",
+            "d": "RMI",
+            "ans": "ans1"
+        },
+        {
+            "question": "What will be the output of the following JavaScript code? \n \n var a=5 , b=1 \n var obj = { a : 10 } \n // with keyword in JavaScript \n with(obj) \n { \n    alert(b) \n }",
+            "a": "1",
+            "b": "10",
+            "c": "5",
+            "d": "Error",
+            "ans": "ans1"
+        },
+        {
+            "question": "What happens in the following JavaScript code snippet? \n \n var js = 0; \n while (js < 10) \n { \n      console.log(js); \n      js++; \n }",
+            "a": "An exception is thrown",
+            "b": "The values of js are logged or stored in a particular location or storage",
+            "c": "The value of js from 0 to 9 is displayed in the console",
+            "d": "An error is displayed",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which of the following scoping type does JavaScript use?",
+            "a": "Sequential",
+            "b": "Segmental",
+            "c": "Lexical",
+            "d": "Literal",
+            "ans": "ans3"
+        }
+    ],
+    "Intermediate": [
+        {
+            "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
+            "a": "A URL that uses the special javascript:code",
+            "b": "A URL that uses the special javascript:protocol",
+            "c": "A URL that uses the special javascript:encoding",
+            "d": " A URL that uses the special javascript:stack",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+            "a": "Position",
+            "b": "Window",
+            "c": "Standard",
+            "d": "Location",
+            "ans": "ans2"
+        },
+        {
+            "question": "What will be the output of the following JavaScript code? \n \n var quiz=[1,2,3]; \n var js=[6,7,8]; \n var result=quiz.concat(js);  \n document.writeln(result);",
+            "a": "1, 2, 3, 6, 7, 8",
+            "b": "123",
+            "c": "1, 2, 3",
+            "d": "Error",
+            "ans": "ans1"
+        },
+        {
+            "question": "Why JavaScript Engine is needed?",
+            "a": "Both Compiling & Interpreting the JavaScript",
+            "b": "Parsing the javascript",
+            "c": "Interpreting the JavaScript",
+            "d": "Compiling the JavaScript",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which of the following methods/operation does javascript use instead of == and !=?",
+            "a": "JavaScript uses equalto()",
+            "b": "JavaScript uses equals() and notequals() instead",
+            "c": "JavaScript uses bitwise checking",
+            "d": "JavaScript uses === and !== instead",
+            "ans": "ans4"
+        },
+        {
+            "question": "What will be the result or type of error if p is not defined in the following JavaScript code snippet? \n \n console.log(p)",
+            "a": "Value not found error",
+            "b": "Reference Error",
+            "c": "Null",
+            "d": "Zero",
+            "ans": "ans2"
+        },
+        {
+            "question": "What is the prototype represents in the following JavaScript code snippet? \n \n function javascript() {};",
+            "a": "Not valid",
+            "b": "Prototype of a function",
+            "c": "Function javascript",
+            "d": "A custom constructor",
+            "ans": "ans4"
+        },
+        {
+            "question": "Why event handlers is needed in JS?",
+            "a": "Allows JavaScript code to alter the behaviour of windows",
+            "b": "Adds innerHTML page to the code",
+            "c": "Change the server location",
+            "d": "Performs handling of exceptions and occurrences",
+            "ans": "ans1"
+        },
+        {
+            "question": "Which of the following is the property that is triggered in response to JS errors?",
+            "a": "onclick",
+            "b": "onerror",
+            "c": "onmessage",
+            "d": "onexception",
+            "ans": "ans2"
+        },
+        {
+            "question": "What will be the output of the following JavaScript code? \n \n function compare() \n { \n    int sanfoundry=1; \n    char javascript=1; \n     if(sanfoundry.tostring()===javascript) \n        return true; \n     else \n         return false; \n }",
+            "a": "Runtime Error",
+            "b": "Logical Error",
+            "c": "true",
+            "d": "false",
+            "ans": "ans3"
+        }
+    ],
+    "Advanced": [
+        {
+            "question": "Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?",
+            "a": "will work perfectly well on a Windows Machine",
+            "b": "will be displayed as JavaScript text on the browser",
+            "c": "will throw errors and exceptions",
+            "d": "must be restricted to a Unix Machine only",
+            "ans": "ans1"
+        },
+        {
+            "question": "Consider the following JavaScript statement containing regular expressions and check if the pattern matches. \n \n  var text = 'testing: 1, 2, 3'; \n var pattern = /d+/g;",
+            "a": "text.check(pattern)",
+            "b": "pattern.test(text)",
+            "c": "text==pattern",
+            "d": "text.equals(pattern)",
+            "ans": "ans2"
+        },
+        {
+            "question": "What is the advantage of the code produced graphics being smaller than the images themselves?",
+            "a": "Bandwidth saving",
+            "b": "Increase in Bandwidth",
+            "c": "Dynamic advantages",
+            "d": "Static advantage",
+            "ans": "ans1"
+        },
+        {
+            "question": "Which of the following uses a lot of CPU cycles?",
+            "a": "GUI",
+            "b": "Statically generated graphics",
+            "c": "Dynamically generated graphics",
+            "d": "Images",
+            "ans": "ans3"
+        },
+        {
+            "question": "When is JavaScript called obtrusive?",
+            "a": "JavaScript code is medium sized",
+            "b": "JavaScript code is small",
+            "c": "JavaScript code is so large",
+            "d": "JavaScript code is very small",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which of the following is a stateless protocol?",
+            "a": "HTML",
+            "b": "XHTML",
+            "c": "HTTP",
+            "d": "XML",
+            "ans": "ans3"
+        },
+        {
+            "question": "What does the value 2 of the WebSocket attribute Socket.readyState indicate?",
+            "a": "Closed connection",
+            "b": "Handshake connection",
+            "c": "Unestablished connection",
+            "d": "Established connection & communication is possible",
+            "ans": "ans2"
+        },
+        {
+            "question": "How does the client and the server communicate following the rules defined by the WebSocket protocol?",
+            "a": "Long-lived TCP Socket",
+            "b": "Short-lived TCP Socket",
+            "c": "UDP Socket",
+            "d": "HTTP Socket",
+            "ans": "ans1"
+        },
+        {
+            "question": "Which of the following acts as the input of a class-based component?",
+            "a": "Class",
+            "b": "Props",
+            "c": "Factory",
+            "d": "None of the mentioned",
+            "ans": "ans2"
+        },
+        {
+            "question": "Which of the following command is used to Install create-react-app?",
+            "a": "npm install create-react-app",
+            "b": "npm install -f create-react-app",
+            "c": "npm install -g create-react-app",
+            "d": "install -g create-react-app",
+            "ans": "ans3"
+        }
+    ]
+}
