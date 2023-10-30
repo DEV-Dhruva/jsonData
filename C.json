@@ -1,7 +1,7 @@
 {
-    "level": [
+    "Basic": [
         {
-            "question": "What is the range of values that can be stored by int datatype in C?",
+            "question": " What is the range of values that can be stored by int datatype in C?",
             "a": "-(2^31) to (2^31) - 1",
             "b": "-256 to 255",
             "c": "-(2^63) to (2^63) - 1",
@@ -9,15 +9,31 @@
             "ans": "ans1"
         },
         {
+            "question": "What will be the output of the following code snippet? \n \n #include <stdio.h> \n int main() { \n int a = 3, b = 5; \n int t = a; \n a = b; \n b = t; \n printf('%d %d', a, b); \n return 0; \n  }",
+            "a": "3 5",
+            "b": "3 3",
+            "c": "5 5",
+            "d": "5 3",
+            "ans": "ans4"
+        },
+        {
             "question": "How is an array initialized in C language?",
-            "a": "int a[3] = {1, 2, 3};",
-            "b": "int a = {1, 2, 3};",
-            "c": "int a[] = new int[3]",
-            "d": "int a(3) = [1, 2, 3];",
+            "a": "int a[3] = {1,2,3};",
+            "b": "int a = {1,2,3};",
+            "c": "int a[] = new int[3];",
+            "d": "int a(3) = [1,2,3];",
             "ans": "ans1"
         },
         {
-            "question": "What is the output of the following code snippet? \n\n int main() { \n\n int sum = 2 + 4 / 2 + 6 * 2; \n\n printf(\"%d\", sum); \n\n return 0; \n\n }",
+            "question": "What is the output of the following code snippet? \n #include <stdio.h> \n int main() { \n  int a[] = {1, 2, 3, 4}; \n int sum = 0; \n for(int i = 0; i < 4; i++) { \n sum += a[i]; \n  } \n printf('%d', sum); \n return 0; \n }",
+            "a": "1",
+            "b": "4",
+            "c": "20",
+            "d": "10",
+            "ans": "ans4"
+        },
+        {
+            "question": "What is the output of the following code snippet? \n int main() { \n int sum = 2 + 4 / 2 + 6 * 2; \n printf('%d', sum); \n return 0; \n }",
             "a": "2",
             "b": "15",
             "c": "16",
@@ -27,98 +43,206 @@
         {
             "question": "How is the 3rd element in an array accessed based on pointer notation?",
             "a": "*a + 3",
-            "b": "*(a + 3)",
-            "c": "*(*a + 3)",
-            "d": "&(a + 3)",
+            "b": "*(a+3)",
+            "c": "*(*a+3)",
+            "d": "&(a+3)",
             "ans": "ans2"
         },
         {
             "question": "How are String represented in memory in C?",
-            "a": "An array of characters.",
-            "b": "The object of some class.",
-            "c": "Same as other primitive data types.",
-            "d": "LinkedList of characters.",
+            "a": "An array of characters",
+            "b": "The object of some class",
+            "c": "same as other primitive data types",
+            "d": "Linked list of characters",
             "ans": "ans1"
         },
         {
-            "question": "What does the following declaration indicate? \n\n int x: 8;",
-            "a": "x stores a value of 8.",
-            "b": "x is an 8-bit integer.",
+            "question": "What is the disadvantage of arrays in C?",
+            "a": "The amount of memory to be allocated should be knowwn beforehand.",
+            "b": "Elements of an array can be accessed in constant time",
+            "c": "Elements are stored in contigous memory blocks.",
+            "d": "Multiple other data structures can be implemented using arrays",
+            "ans": "ans1"
+        },
+        {
+            "question": "What does the following declaration indicate? \n  int x: 8;",
+            "a": "x stores a value of 8",
+            "b": "x is an 8-bit integer",
             "c": "Both A and B.",
-            "d": "None of the above.",
+            "d": "None of the above",
             "ans": "ans2"
         },
         {
             "question": "Which of the following is the proper syntax for declaring macros in C?",
-            "a": "#define long long ll",
-            "b": "#define ll long long",
-            "c": "#define ll",
+            "a": "#deine long long II",
+            "b": "#define II long long",
+            "c": "#define II",
             "d": "#define long long",
             "ans": "ans2"
-        },
+        }
+    ],
+    "Intermediate": [
         {
-            "question": "Which of the following is an exit controlled loop?",
-            "a": "While loop.",
-            "b": "For loop.",
-            "c": "do-while loop.",
-            "d": "None of the above.",
+            "question": " What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?",
+            "a": "The element will be set to 0.",
+            "b": "The compiler would report an error.",
+            "c": "The program may crash if some important data gets overwritten.",
+            "d": "The array size would appropriately grow.",
             "ans": "ans3"
         },
         {
-            "question": "What is the size of the int data type (in bytes) in C?",
-            "a": "4",
-            "b": "8",
-            "c": "2",
-            "d": "1",
-            "ans": "ans1"
-        },
-        {
-            "question": "How to declare a double-pointer in C?",
-            "a": "int *val",
-            "b": "int **val",
-            "c": "int &val",
-            "d": "int *&val",
+            "question": "What does the following declaration mean? \n int (*ptr)[10];",
+            "a": "ptr is array of pointers to 10 integers",
+            "b": "ptr is a pointer to an array of 10 integers",
+            "c": "ptr is an array of 10 integers",
+            "d": "ptr is an pointer to array",
             "ans": "ans2"
         },
         {
-            "question": "Which of the following will occur if we call the free() function on a NULL pointer?",
-            "a": "Compilation Error.",
-            "b": "Runtime Error.",
-            "c": "Undefined Behaviour.",
-            "d": "The program will execute normally.",
+            "question": "In C, if you pass an array as an argument to a function, what actually gets passed?",
+            "a": "Value of elements in array",
+            "b": "First element of the array",
+            "c": "Base address of the array",
+            "d": "Address of the last element of array",
+            "ans": "ans3"
+        },
+        {
+            "question": "How will you free the allocated memory?",
+            "a": "remove(var-name);",
+            "b": "free(var-name);",
+            "c": "delete(var-name);",
+            "d": "dalloc(var-name);",
+            "ans": "ans2"
+        },
+        {
+            "question": " What is the similarity between a structure, union and enumeration?",
+            "a": "All of them let you define new values",
+            "b": "All of them let you define new data types",
+            "c": "All of them let you define new pointers",
+            "d": "All of them let you define new structures",
+            "ans": "ans2"
+        },
+        {
+            "question": "The maximum combined length of the command-line arguments including the spaces between adjacent arguments is",
+            "a": "128 characters",
+            "b": "256 characters",
+            "c": "67 characters",
+            "d": "It may vary from one OS to another.",
             "ans": "ans4"
         },
         {
-            "question": "Which of the following should be used to free memory from a pointer allocated using the “new” operator?",
-            "a": "free()",
-            "b": "delete",
-            "c": "realloc()",
-            "d": "None of the above.",
+            "question": "What do the 'c' and 'v' in argv stands for?",
+            "a": "'c' means argument control 'v' means argument vector",
+            "b": "'c' means argument count 'v' means argument vertex",
+            "c": "'c' means argument count 'v' means argument vector",
+            "d": "'c' means argument configuration 'v' means argument visibility",
+            "ans": "ans3"
+        },
+        { 
+            "question": "In the following code, the P2 is Integer Pointer or Integer? \n typedef int *ptr; \n ptr p1, p2;",
+            "a": "integer",
+            "b": "integer pointer",
+            "c": "Error in declaration",
+            "d": "None of the above",
             "ans": "ans2"
         },
         {
-            "question": "Which data structure is used to handle recursion in C?",
-            "a": "Stack.",
-            "b": "Queue.",
-            "c": "Dequeue.",
-            "d": "Trees.",
+            "question": "In the following code what is 'P'? \n typedef char *charp; \n const charp P; ",
+            "a": "P is a constant",
+            "b": "P is a character constant",
+            "c": "P is character type",
+            "d": "None of the above",
             "ans": "ans1"
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n #include <stdio.h> \n\n #define CUBE(x) x * x * x \n\n void solve() { \n\n int ans = 216 / CUBE(3); \n\n printf(\"%d\", ans); \n\n } \n\n int main() { \n\n solve(); \n\n return 0; \n\n }",
-            "a": "8",
-            "b": "648",
-            "c": "72",
-            "d": "None of the above.",
+            "question": "What is x in the following program? \n #include<stdio.h> \n int main() \n { \n typedef char (*(*arrfptr[3])())[10]; \n arrfptr x; \n return 0; \n } ",
+            "a": "x is a pointer",
+            "b": "x is an array of three pointer",
+            "c": "x is an array of three function pointers",
+            "d": "Error in x declaration",
+            "ans": "ans3"
+        }
+    ],
+    "Advanced": [
+        {
+            "question": " How will you free the memory allocated by the following program? \n #include<stdio.h> \n #include<stdlib.h> \n #define MAXROW 3 \n #define MAXCOL 4 \n int main() \n { \n int **p, i, j; \n p = (int **) malloc(MAXROW * sizeof(int*)); \n return 0; \n }",
+            "a": "memfree(int p);",
+            "b": "dealloc(p);",
+            "c": "malloc(p, 0);",
+            "d": "free(p);",
+            "ans": "ans4"
+        },
+        {
+            "question": "What do the following declaration signify? \n  int (*pf)();",
+            "a": "pf is a pointer to function.",
+            "b": "pf is a function pointer.",
+            "c": "pf is a pointer to a function which return int",
+            "d": "pf is a function of pointer variable.",
+            "ans": "ans3"
+        },
+        {
+            "question": "What will the function rewind() do?",
+            "a": "Reposition the file pointer to a character reverse.",
+            "b": "Reposition the file pointer stream to end of file.",
+            "c": "Reposition the file pointer to begining of that line.",
+            "d": "Reposition the file pointer to begining of file.",
+            "ans": "ans4"
+        },
+        {
+            "question": "Input/output function prototypes and macros are defined in which header file? ",
+            "a": "conio.h",
+            "b": "stdlib.h",
+            "c": "stdio.h",
+            "d": "dos.h",
+            "ans": "ans3"
+        },
+        {
+            "question": "Which standard library function will you use to find the last occurance of a character in a string in C?",
+            "a": "strnchar()",
+            "b": "strchar()",
+            "c": "strrchar()",
+            "d": "strrchr()",
+            "ans": "ans4"
+        },
+        {
+            "question": "What do the following declaration signify? \n char **argv;",
+            "a": "argv is a pointer to pointer.",
+            "b": "argv is a pointer to a char pointer.",
+            "c": "argv is a function pointer.",
+            "d": "argv is a member of function pointer.",
             "ans": "ans2"
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n #include <stdio.h> \n\n struct School { \n\n int age, rollNo; \n\n }; \n\n void solve() { \n\n struct School sc; \n\n sc.age = 19; \n\n sc.rollNo = 82; \n\n printf(\"%d\", (int)sizeof(sc)); \n\n } \n\n int main() { \n\n solve(); \n\n return 0; \n\n }",
-            "a": "1",
-            "b": "4",
-            "c": "8",
-            "d": "16",
+            "question": "What is the sequence for preprocessor to look for the file within <> ?",
+            "a": "The predefined location then the current directory",
+            "b": "The current directory then the predefined location",
+            "c": "The predefined location only",
+            "d": "The current directory location",
+            "ans": "ans1"
+        },
+        {
+            "question": "Which among the following is never possible in C when members are different in a structure and union? \n //Let P be a structure \n //Let Q be a union",
+            "a": "sizeof(P) is greater than sizeof(Q)",
+            "b": "sizeof(P) is less than sizeof(Q)",
+            "c": "sizeof(P) is equal to sizeof(Q)",
+            "d": "None of the above",
+            "ans": "ans4"
+        },
+        {
+            "question": "Which among the following is right?",
+            "a": "sizeof(struct stemp*) > sizeof(union utemp*) > sizeof(char *)",
+            "b": "sizeof(struct stemp*) < sizeof(union utemp*) < sizeof(char *)",
+            "c": "sizeof(struct stemp*) = sizeof(union utemp*) = sizeof(char *)",
+            "d": "The order Depends on the compiler",
             "ans": "ans3"
+        },
+        {
+            "question": " Comment on the output of this C code? \n  #include <stdio.h> \n #include 'test.h' \n #include 'test.h' \n int main() \n { \n //some code \n }",
+            "a": "TRUE",
+            "b": "Compile Time Error",
+            "c": "FALSE",
+            "d": "Depends on the compiler",
+            "ans": "ans4"
         }
     ]
 }
