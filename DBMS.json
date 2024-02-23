@@ -1,248 +1,417 @@
 {
     "Basic": [
         {
-            "question": "Which of the following is the full form of DDL?",
-            "a": "Data definition language",
-            "b": "Data derivation language",
-            "c": "Dynamic data language",
-            "d": "Detailed data language",
-            "ans": "ans1"
+            "question": "The DBMS acts as an interface between what two components of an enterprise-class database system?",
+            "a": "Database application and the database",
+            "b": "Data and the database",
+            "c": "The user and the database application",
+            "d": "Database application and SQL",
+            "ans": "ans1",
+            "explanation": "The Correct answer is A, because DBMS is the system that manages the database, it means the base of data is not directly connected to the user but there is an application that we call a database application, which is used by the user so that he/she can access the base of data."
         },
         {
-            "question": "Which of the following is the property of transaction that protects data from system failure?",
-            "a": "Atomicicty",
-            "b": "Isolation",
-            "c": "Durability",
-            "d": "Consistency",
-            "ans": "ans3"
+            "question": "Which of the following products was an early implementation of the relational model developed by E.F. Codd of IBM?",
+            "a": "IDBMS",
+            "b": "DB2",
+            "c": "dBase-II",
+            "d": "R:base",
+            "ans": "ans2",
+            "explanation": "DB2 means database 2 or say database version 2. E.F Codd firstly decided to name RDBMS as db2."
         },
         {
-            "question": "Which of the following is preserved in execution of transaction in isolation?",
-            "a": "Atomicicty",
-            "b": "Isolation",
-            "c": "Durability",
-            "d": "Consistency",
-            "ans": "ans4"
+            "question": "The following are components of a database except ________ .",
+            "a": "user data",
+            "b": "metadata",
+            "c": "reports",
+            "d": "indexes",
+            "ans": "ans3",
+            "explanation": "Reports are the component of database application not a database."
         },
         {
-            "question": "Which is the lowest level of abstraction that describes how the data are actually stored?",
-            "a": "Physical",
-            "b": "Abstract",
-            "c": "View",
-            "d": "User",
-            "ans": "ans1"
+            "question": "An application where only one user accesses the database at a given time is an example of a(n) ________ .",
+            "a": "single-user database application",
+            "b": "multiuser database application",
+            "c": "e-commerce database application",
+            "d": "data mining database application",
+            "ans": "ans1",
+            "explanation": "Types of databases -> \n 1) Single user database. \n 2) Work-group database. \n 3) Enterprise database(normally 100's of users). \n 4) Centralized database(Supports centrally located data access by authentication if required). \n \n As the name suggests the single/one users would be option 1/[A]."
         },
         {
-            "question": "What is rows of a relation known as?",
-            "a": "Degree",
-            "b": "Entity",
-            "c": "Tuple",
-            "d": "None",
-            "ans": "ans3"
+            "question": "An on-line commercial site such as Amazon.com is an example of a(n) ________ .",
+            "a": "single-user database application",
+            "b": "multiuser database application",
+            "c": "e-commerce database application",
+            "d": "data mining database application",
+            "ans": "ans3",
+            "explanation": "It is e-commerce database application because it is done electronic and all data are store in database, also .com means it is commercially related to online business."
         },
         {
-            "question": "Which of the following is a command of DDL?",
-            "a": "Alter",
-            "b": "Delete",
-            "c": "Create",
-            "d": "All of the above.",
-            "ans": "ans3"
+            "question": "Which of the following products was the first to implement true relational algebra in a PC DBMS?",
+            "a": "IDBMS",
+            "b": "Oracle",
+            "c": "dBase-II",
+            "d": "R:base",
+            "ans": "ans4",
+            "explanation": "Created by Wayne Erickson in 1981, the original R:Base database was written on a Heathkit CPM computer that Erickson built at home. \n Current R:Base product: \n \n 1) R:BASE 7.6 for Windows. \n 2) R:BASE eXtreme 9.5 (32) for Windows. \n 3) R:BASE eXtreme 9.5 (64) for Windows."
         },
         {
-            "question": "Which of the following is the full form of TCL?",
-            "a": "Ternary control language",
-            "b": "Transaction control language",
-            "c": "Transaction central language",
-            "d": "Transmission control language",
-            "ans": "ans2"
+            "question": "SQL stands for ________ .",
+            "a": "Structured Query Language",
+            "b": "Sequential Query Language",
+            "c": "Structured Question Language",
+            "d": "Sequential Question Language",
+            "ans": "ans1",
+            "explanation": "SQL is Structure Query Language that for used in database and used for standard language."
         },
         {
-            "question": "Which of the following SQL command is used for removing (or deleting) a relation form the database?",
-            "a": "Drop",
-            "b": "Delete",
-            "c": "Rollback",
-            "d": "Remove",
-            "ans": "ans1"
+            "question": "Because it contains a description of its own structure, a database is considered to be ________ .",
+            "a": "described",
+            "b": "metadata compatible",
+            "c": "self-describing",
+            "d": "an application program",
+            "ans": "ans3",
+            "explanation": "Self-describing of the database means it fully describe and illustrate its structure and whole content while metadata is the main attribute (uniquely identifiable) describing other attributes of the data not DB."
         },
         {
-            "question": "What is DBMS?",
-            "a": "Collection of many programs to access data.",
-            "b": "Collection of interrelated data.",
-            "c": "Collection of commands.",
-            "d": "All of the above.",
-            "ans": "ans2"
+            "question": "The following are functions of a DBMS except ________ .",
+            "a": "creating and processing forms",
+            "b": "creating databases",
+            "c": "processing data",
+            "d": "administrating databases",
+            "ans": "ans1",
+            "explanation": "Data base is just to store and retrieve data it can not process the data."
         },
         {
-            "question": "Rectangles in ER diagram represents?",
-            "a": "Tables",
-            "b": "Attributes",
-            "c": "Tuples",
-            "d": "Entity sets.",
-            "ans": "ans4"
+            "question": "Helping people keep track of things is the purpose of a(n) ________ .",
+            "a": "database",
+            "b": "table",
+            "c": "instance",
+            "d": "relationship",
+            "ans": "ans1",
+            "explanation": "Except database and the remaining options are the components of database. Table is a logical structure and instance is an current position etc., and when two tables are related b/w primary key and foreign key."
+        },
+        {
+            "question": "Which of the following products implemented the CODASYL DBTG model?",
+            "a": "IDMS",
+            "b": "DB2",
+            "c": "dBase-II",
+            "d": "R:base",
+            "ans": "ans1",
+            "explanation": "DB2 is a database server developed by IBM."
+        },
+        {
+            "question": "An Enterprise Resource Planning application is an example of a(n) ________ .",
+            "a": "single-user database application",
+            "b": "multiuser database application",
+            "c": "e-commerce database application",
+            "d": "data mining database application",
+            "ans": "ans2",
+            "explanation": "If we want to store the data of big organisations, industries etc., then at that time many people may interact with the database. So, that type of databases are called as multi user databases."
+        },
+        {
+            "question": "A DBMS that combines a DBMS and an application generator is ________ .",
+            "a": "Microsoft's SQL Server",
+            "b": "Microsoft's Access",
+            "c": "IBM's DB2",
+            "d": "Oracle corporation's Oracle",
+            "ans": "ans2",
+            "explanation": "Using Ms Access We can create front end applications as well as we can create database tables and can make relationships among the tables i.e. why Ms Access is combined of DBMS and applications."
+        },
+        {
+            "question": "You have run an SQL statement that asked the DBMS to display data in a table named USER_TABLES. The results include columns of data labeled 'TableName,' 'NumberOfColumns' and 'PrimaryKey.' You are looking at ________ .",
+            "a": "user data",
+            "b": "metadata",
+            "c": "A report",
+            "d": "indexes",
+            "ans": "ans2",
+            "explanation": "Actual data is what will be displayed here. Metadata means data about data eg;who accesses the database, time of access, the size of data etc. They are data about data. So the answer is user data."
+        },
+        {
+            "question": "Which of the following is not considered to be a basic element of an enterprise-class database system?",
+            "a": "Users",
+            "b": "Database applications",
+            "c": "DBMS",
+            "d": "COBOL programs",
+            "ans": "ans4",
+            "explanation": "COBOL is a programming language that reads like regular English and is often used for business and administrative purposes. The name means Common Business Oriented Language. COBOL is referred to as a legacy language, which means it is in a format that is no longer used or supported by new systems."
         }
     ],
     "Intermediate": [
         {
-            "question": "Which normalization form is based on the transitive dependency?",
-            "a": "1NF",
-            "b": "2NF",
-            "c": "3NF",
-            "d": "BCNF",
-            "ans": "ans3"
+            "question": "You can add a row using SQL in a database with which of the following?",
+            "a": "ADD",
+            "b": "REMOVE",
+            "c": "INSERT",
+            "d": "MAKE",
+            "ans": "ans3",
+            "explanation": "insert into TABLENAME into VALUES(col1,col2,....);"
         },
         {
-            "question": "For performing tasks like creating the structure of the relations, deleting relation, which of the following is used?",
-            "a": "Data definition language",
-            "b": "Data derivation language",
-            "c": "Dynamic data language",
-            "d": "Detailed data language",
-            "ans": "ans1"
+            "question": "The command to remove rows from a table 'CUSTOMER' is:",
+            "a": "REMOVE FROM CUSTOMER ...",
+            "b": "DROP FROM CUSTOMER ...",
+            "c": "DELETE FROM CUSTOMER WHERE...",
+            "d": "UPDATE FROM CUSTOMER ...",
+            "ans": "ans3",
+            "explanation": "DELETE is used for delete one or more than one records but not table."
         },
         {
-            "question": "During transaction before commit which of the following statement is done automatically in case of shutdown?",
-            "a": "Rollback",
-            "b": "Commit",
-            "c": "View",
-            "d": "Flashback",
-            "ans": "ans1"
+            "question": "The SQL WHERE clause:",
+            "a": "limits the column data that are returned.",
+            "b": "limits the row data are returned.",
+            "c": "Both A and B are correct.",
+            "d": "Neither A nor B are correct.",
+            "ans": "ans2",
+            "explanation": "The where clause is used to check the condition. \n \n Based on the condition, we can select some specific records from the table and we can update some specific records in the table, and also we can delete some specific records from the table."
         },
         {
-            "question": "Select the correct definition of relation.",
-            "a": "Subset of a cartesian product of list of domains.",
-            "b": "Subset of a cartesian product of list of tuple.",
-            "c": "Subset of a cartesian product of list of attributes.",
-            "d": "Subset of a cartesian product of list of relations.",
-            "ans": "ans1"
+            "question": "Which of the following is the original purpose of SQL?",
+            "a": "To specify the syntax and semantics of SQL data definition language",
+            "b": "To specify the syntax and semantics of SQL manipulation language",
+            "c": "To define the data structures",
+            "d": "All of the above.",
+            "ans": "ans4",
+            "explanation": "SQL stands for 'Structured Query Language', it is used to define the data, control the data and access that data. It uses three sub-languages for doing that: \n \n 1. DDL (Data Definition Language). \n 2. DML (Data Manipulation Language). \n 3. DCL (Data Control Language)."
         },
         {
-            "question": "Which of the following is known as minimal super key?",
-            "a": "Primary Key",
-            "b": "Candidate Key",
-            "c": "Foreign Key",
-            "d": "None of the above.",
-            "ans": "ans2"
+            "question": "The wildcard in a WHERE clause is useful when?",
+            "a": "An exact match is necessary in a SELECT statement.",
+            "b": "An exact match is not possible in a SELECT statement.",
+            "c": "An exact match is necessary in a CREATE statement.",
+            "d": "An exact match is not possible in a CREATE statement.",
+            "ans": "ans2",
+            "explanation": "Answer is an exact match is not possible in a select statements. Because if you want to display the name start with 'sa'. But unfortunately our database have 4 records start with sa. For this you write query like this select ename from emp where ename like 'sa%'; \n \n Here 4 records are displayed so we can't find the exact match."
         },
         {
-            "question": "Which is AS clause used for?",
-            "a": "Rename",
-            "b": "Selection",
-            "c": "Join",
-            "d": "Projection",
-            "ans": "ans1"
+            "question": "A view is which of the following?",
+            "a": "A virtual table that can be accessed via SQL commands",
+            "b": "A virtual table that cannot be accessed via SQL commands",
+            "c": "A base table that can be accessed via SQL commands",
+            "d": "A base table that cannot be accessed via SQL commands",
+            "ans": "ans1",
+            "explanation": "Virtual table is a table which does not occupy any space it link with main table. Which is create by view, we can perform any select statement on virtual table."
         },
         {
-            "question": "How many levels are there in architecture of database?",
-            "a": "2",
-            "b": "3",
-            "c": "4",
-            "d": "5",
-            "ans": "ans2"
+            "question": "The command to eliminate a table from a database is:",
+            "a": "REMOVE TABLE CUSTOMER;",
+            "b": "DROP TABLE CUSTOMER;",
+            "c": "DELETE TABLE CUSTOMER;",
+            "d": "UPDATE TABLE CUSTOMER;",
+            "ans": "ans2",
+            "explanation": "Delete Command Can delete specific record but in Truncate command it is not possible to delete specific record. And in Truncate command Where clause not support."
         },
         {
-            "question": "Which data structure is used in Hierarchical model records?",
-            "a": "Graph",
-            "b": "Tree",
-            "c": "Linked List",
-            "d": "Stacks",
-            "ans": "ans2"
+            "question": "ON UPDATE CASCADE ensures which of the following?",
+            "a": "Normalization",
+            "b": "Data Integrity",
+            "c": "Materialized Views",
+            "d": "All of the above.",
+            "ans": "ans2",
+            "explanation": "ON UPDATE CASCADE indicates that if we update the parent, then the change is cascaded (affected) to the child easily. \n However, Data integrity means maintaining and assuring the accuracy and consistency of data over its entire life-cycle. Therefore, Cascade directly leads to data integrity. \n \n For Example: If you delete a company, you might also want to delete the company's history of addresses."
         },
         {
-            "question": "How is ER diagram represented?",
-            "a": "Circle",
-            "b": "Ellipse",
-            "c": "Triangle",
-            "d": "Square",
-            "ans": "ans2"
+            "question": "SQL data definition commands make up a(n) ________ .",
+            "a": "DDL",
+            "b": "DML",
+            "c": "HTML",
+            "d": "XML",
+            "ans": "ans1",
+            "explanation": "DDL means Data Definition language & it is used for creating, inserting, deleting the table. And alter is used for altering the table."
         },
         {
-            "question": "Which normal form deals with multivalued dependency?",
-            "a": "1NF",
-            "b": "2NF",
-            "c": "3NF",
-            "d": "4NF",
-            "ans": "ans4"
+            "question": "Which of the following is valid SQL for an Index?",
+            "a": "CREATE INDEX ID;",
+            "b": "CHANGE INDEX ID;",
+            "c": "ADD INDEX ID;",
+            "d": "REMOVE INDEX ID",
+            "ans": "ans1",
+            "explanation": "Create index id is correct because first, you have to create id then change, drop, remove."
+        },
+        {
+            "question": "The SQL keyword(s) ________ is used with wildcards.",
+            "a": "LIKE only",
+            "b": "IN only",
+            "c": "NOT IN only",
+            "d": "IN and NOT IN",
+            "ans": "ans1",
+            "explanation": "Using the _ Wildcard. \n \n Now we want to select the persons with a first name that starts with any character, followed by 'la' from the 'Persons' table. We use the following SELECT statement: \n SELECT * FROM Persons WHERE FirstName LIKE '_la'"
+        },
+        {
+            "question": "Which of the following is the correct order of keywords for SQL SELECT statements?",
+            "a": "SELECT, FROM, WHERE",
+            "b": "FROM, WHERE, SELECT",
+            "c": "WHERE, FROM, SELECT",
+            "d": "SELECT, WHERE, FROM",
+            "ans": "ans1",
+            "explanation": "SELECT * FROM CUSTOMER WHERE CUST_ID=1234;"
+        },
+        {
+            "question": "A subquery in an SQL SELECT statement is enclosed in:",
+            "a": "braces -- {...}.",
+            "b": "CAPITAL LETTERS.",
+            "c": "parenthesis -- (...) .",
+            "d": "brackets -- [...].",
+            "ans": "ans3",
+            "explanation": "select * from emp where emp_id=123 AND (emp_name='abc ' OR emp_add='xyz');"
+        },
+        {
+            "question": "The result of a SQL SELECT statement is a(n) ________ .",
+            "a": "report",
+            "b": "form",
+            "c": "file",
+            "d": "table",
+            "ans": "ans4",
+            "explanation": "If you select data from table only. \n \n select *from employee table;"
+        },
+        {
+            "question": "Which of the following are the five built-in functions provided by SQL?",
+            "a": "COUNT, SUM, AVG, MAX, MIN",
+            "b": "SUM, AVG, MIN, MAX, MULT",
+            "c": "SUM, AVG, MULT, DIV, MIN",
+            "d": "SUM, AVG, MIN, MAX, NAME",
+            "ans": "ans1",
+            "explanation": "Yes These are Aggregate Functions"
         }
     ],
     "Advanced": [
         {
-            "question": "A relational database developer refers to a record as?",
-            "a": "Attribute",
-            "b": "Tuple",
-            "c": "Relation",
-            "d": "None of the above.",
-            "ans": "ans2"
-        },
-        {
-            "question": "Which of the following is not a SQL command?",
-            "a": "DELETE",
-            "b": "ORDER BY",
-            "c": "SELECT",
-            "d": "WHERE",
-            "ans": "ans1"
-        },
-        {
-            "question": "Select the correct definition of Relational calculus?",
-            "a": "It is a high level language",
-            "b": "It is a procedural language",
-            "c": "It is a non-procedural language",
-            "d": "It is a data definition language",
-            "ans": "ans3"
-        },
-        {
-            "question": "Select the definition of the correct key which is used to represent relation between two tables?",
-            "a": "Candidate Key",
-            "b": "Foreign Key",
-            "c": "Primary Key",
-            "d": "Super key",
-            "ans": "ans2"
-        },
-        {
-            "question": "Select the correct database object which does not exist physically.",
-            "a": "Base table",
-            "b": "View",
-            "c": "Index",
+            "question": "What type of join is needed when you wish to include rows that do not have matching values?",
+            "a": "Equi-join",
+            "b": "Natural Join",
+            "c": "Outer Join",
             "d": "All of the above.",
-            "ans": "ans2"
+            "ans": "ans3",
+            "explanation": "If you want unmatched rows you will have to use an outer join. \n \n Right outer join gives unmatched rows from right side and left outer join gives unmatched rows from left side. \n \n Full outer join (supported from oracle 9i onwards) will include unmatched rows from both sides."
         },
         {
-            "question": "NATURAL JOIN can also be termed as -",
-            "a": "Combination of Union and cartesian product.",
-            "b": "Combination of Selection and cartesian product.",
-            "c": "Combination of Projection and cartesian product.",
-            "d": "None of the above.",
-            "ans": "ans3"
-        },
-        {
-            "question": "Which of the following operator is used to compare a value to a list of literals values that have been specified?",
-            "a": "ANY",
-            "b": "BETWEEN",
-            "c": "IN",
-            "d": "ALL",
-            "ans": "ans2"
-        },
-        {
-            "question": "Maximum children of a B-tree of order m?",
-            "a": "m/2",
-            "b": "m-1",
-            "c": "m",
-            "d": "m+1",
-            "ans": "ans3"
-        },
-        {
-            "question": "What is the use of COUNT in SQL?",
-            "a": "Returns number of distinct value.",
-            "b": "Returns total values.",
-            "c": "Returns number of groups.",
-            "d": "Returns number of columns.",
-            "ans": "ans2"
-        },
-        {
-            "question": " Select the correct advantages of view.",
-            "a": "Derived columns.",
-            "b": "Data security.",
-            "c": "Hiding of complex queries.",
+            "question": "What type of join is needed when you wish to return rows that do have matching values?",
+            "a": "Equi-join",
+            "b": "Natural Join",
+            "c": "Outer Join",
             "d": "All of the above.",
-            "ans": "ans4"
+            "ans": "ans4",
+            "explanation": "Yes, the correct answer is D because outer join returns both values that have the same and different values"
+        },
+        {
+            "question": "Which of the following is true concerning a procedure?",
+            "a": "You do not create them with SQL.",
+            "b": "They do not need to have a unique name.",
+            "c": "They include procedural and SQL statements.",
+            "d": "They are the same thing as a function.",
+            "ans": "ans3",
+            "explanation": "procedures encompass both procedural and SQL statements. Procedural statements are used to define the logic and flow of operations within a procedure, while SQL statements are employed to interact with the database."
+        },
+        {
+            "question": "A CASE SQL statement is which of the following?",
+            "a": "A way to establish an IF-THEN-ELSE in SQL.",
+            "b": "A way to establish a loop in SQL.",
+            "c": "A way to establish a data definition in SQL.",
+            "d": "All of the above.",
+            "ans": "ans1",
+            "explanation": "It is nothing but, it will checks the equality condition like where clause in normal select statement. \n \n If value is true, then it will display corresponding value."
+        },
+        {
+            "question": "Which of the following statements is true concerning routines and triggers?",
+            "a": "Both consist of procedural code.",
+            "b": "Both have to be called to operate.",
+            "c": "Both run automatically.",
+            "d": "Both are stored in the database.",
+            "ans": "ans1",
+            "explanation": "Routines: Sometimes called subroutines are set of command which is grouped and can be called whenever required. Routines are called with perform <SUBROUT_NAME> and created with form (subroutine_name) and form. \n \n DB Triggers: This is different in term of functionality. DB Triggers are fired whenever any DB event occurs. like change, add a record, dele record. but u may call routines in triggers."
+        },
+        {
+            "question": "Which of the following is one of the basic approaches for joining tables?",
+            "a": "Subqueries",
+            "b": "Union Join",
+            "c": "Natural Join",
+            "d": "All of the above.",
+            "ans": "ans4",
+            "explanation": "option D is fine as the question speaks about the basic approach of joining irrespective of anything."
+        },
+        {
+            "question": "Which of the following is true concerning systems information in an RDBMS?",
+            "a": "RDBMS store database definition information in system-created tables.",
+            "b": "This information can be accessed using SQL.",
+            "c": "This information often cannot be updated by a user.",
+            "d": "All of the above.",
+            "ans": "ans4",
+            "explanation": "The purpose of RDBMS is to store information securely in tables, which can be accessed using commands like DQL. SQL includes DDL, DML, DQL, DCL, TCL. RDBMS uses locks and triggers to secure records from unauthorized updates."
+        },
+        {
+            "question": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID",
+            "a": "Equi-join",
+            "b": "Natural Join",
+            "c": "Outer Join",
+            "d": "Cartesian Join",
+            "ans": "ans1",
+            "explanation": "Natural-join : It joins two tables on the columns with common name but displaying one of them. \n \n Equi-join: It join on equality condition between two columns."
+        },
+        {
+            "question": "Embedded SQL is which of the following?",
+            "a": "Hard-coded SQL statements in a program language such as Java.",
+            "b": "The process of making an application capable of generating specific SQL code on the fly.",
+            "c": "Hard-coded SQL statements in a procedure.",
+            "d": "Hard-coded SQL statements in a trigger.",
+            "ans": "ans1",
+            "explanation": "Embedded SQL refers to hard-coded SQL statements within a program language, such as Java."
+        },
+        {
+            "question": "A UNION query is which of the following?",
+            "a": "Combines the output from no more than two queries and must include the same number of columns.",
+            "b": "Combines the output from no more than two queries and does not include the same number of columns.",
+            "c": "Combines the output from multiple queries and must include the same number of columns.",
+            "d": "Combines the output from multiple queries and does not include the same number of columns.",
+            "ans": "ans3",
+            "explanation": "A UNION query Combines the output from multiple queries and must include the same number of columns."
+        },
+        {
+            "question": "Which of the following statements is true concerning subqueries?",
+            "a": "Involves the use of an inner and outer query.",
+            "b": "Cannot return the same result as a query that is not a subquery.",
+            "c": "Does not start with the word SELECT.",
+            "d": "All of the above.",
+            "ans": "ans1",
+            "explanation": "Subqueries is queries inside a query. Sub-queries should be started with parenthesis ()."
+        },
+        {
+            "question": "Which of the following is a correlated subquery?",
+            "a": "Uses the result of an inner query to determine the processing of an outer query.",
+            "b": "Uses the result of an outer query to determine the processing of an inner query.",
+            "c": "Uses the result of an inner query to determine the processing of an inner query.",
+            "d": "Uses the result of an outer query to determine the processing of an outer query.",
+            "ans": "ans2",
+            "explanation": "Correlated subquery references a column in the outer query and executes the subquery once for every row in the outer query while Uncorrelated subquery executes the subquery first and passes the value to the outer query."
+        },
+        {
+            "question": "How many tables may be included with a join?",
+            "a": "One",
+            "b": "Two",
+            "c": "Three",
+            "d": "All of the above.",
+            "ans": "ans4",
+            "explanation": "The SQL Joins clause is used to combine records from two or more tables in a database. A JOIN is a means for combining fields from two or more tables by using values common to each."
+        },
+        {
+            "question": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T ;",
+            "a": "Equi-join",
+            "b": "Natural Join",
+            "c": "Outer Join",
+            "d": "Cartesian Join",
+            "ans": "ans4",
+            "explanation": "Cartesian Join is simply the joining of one or more table which return the product of all the rows in these tables. \n \n Example: \n Let table CUSTOMER_T has 500 rows and ORDER_T HAS 3000 rows then it return 500*3000=1500000 rows which contains redundant rows means unnecessary rows."
+        },
+        {
+            "question": "Which of the following is true concerning triggers?",
+            "a": "You do not create them with SQL.",
+            "b": "They execute against only some applications that access a database.",
+            "c": "They have an event, condition, and action.",
+            "d": "They cannot cascade (cause another trigger to fire).",
+            "ans": "ans3",
+            "explanation": "Definition of triggers in SQL : They have an event, condition, and action"
         }
     ]
+    
 }
+    
+
+    

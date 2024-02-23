@@ -1,20 +1,49 @@
 {
     "Basic": [
         {
+            "question": "What is JavaScript?",
+            "a": "JavaScript is a scripting language used to make the website interactive",
+            "b": "JavaScript is an assembly language used to make the website interactive",
+            "c": "JavaScript is a compiled language used to make the website interactive",
+            "d": "None of the above",
+            "ans": "ans1",
+            "explanation": "JavaScript is a scripting language used along with HTML and CSS to make the website interactive along. It is used both on the client-side and server-side."
+        },
+        {
             "question": "Which of the following is correct about JavaScript?",
             "a": "JavaScript is an Object-Based language",
             "b": "JavaScript is Assembly-language",
             "c": "JavaScript is an Object-Oriented language",
             "d": "JavaScript is a High-level language",
-            "ans": "ans1"
+            "ans": "ans1",
+            "explanation": "Although JavaScript is not an OOP (Object-Oriented Programming) language like Java or PHP, it is object based language. The standard threesome of polymorphism, encapsulation, and inheritance are the criteria for object orientation, and JavaScript fails to meet them."
         },
         {
             "question": "Among the given statements, which statement defines closures in JavaScript?",
             "a": "JavaScript is a function that is enclosed with references to its inner function scope",
             "b": "JavaScript is a function that is enclosed with references to its lexical environment",
             "c": "JavaScript is a function that is enclosed with the object to its inner function scope",
-            "d": "None of the mentioned",
-            "ans": "ans2"
+            "d": "None of the above",
+            "ans": "ans2",
+            "explanation": "A closure is a function that is enclosed with references to its lexical environment. A closure allows an inner function to access the scope of an outside function. Closures are formed every time a function is created in JavaScript, during function creation time."
+        },
+        {
+            "question": "What will be the output of the following JavaScript code snippet? \n \n <p id='demo'></p> \n var txt1 = 'Sanfoundry_'; \n var txt2 = 'Javascriptmcq'; \n document.getElementById('demo').innerHTML = txt1 + txt2;",
+            "a": "error",
+            "b": "Sanfoundry_ Javascriptmcq",
+            "c": "undefined",
+            "d": "Sanfoundry_Javascriptmcq",
+            "ans": "ans4",
+            "explanation": "The + operator in javascript acts as a concatenation operator when used with string. The new string does not have any space between the two added strings."
+        },
+        {
+            "question": "What will be the output of the following JavaScript code? \n \n <p id='demo'></p> \n <script> \n var js = 10; \n js *= 5; \n document.getElementById('demo').innerHTML = js; \n </script>",
+            "a": "10",
+            "b": "50",
+            "c": "5",
+            "d": "Error",
+            "ans": "ans2",
+            "explanation": "The *= operator in javascript is a shorthand expression for the multiplication of a particular number. It is a combination of two operators * and = ."
         },
         {
             "question": "Arrays in JavaScript are defined by which of the following statements?",
@@ -22,73 +51,62 @@
             "b": "It is an ordered list of objects",
             "c": "It is an ordered list of string",
             "d": "It is an ordered list of functions",
-            "ans": "ans1"
+            "ans": "ans1",
+            "explanation": "An array in JavaScript is an ordered list of values, each value is referred to as an element, and it is identified by an index. An array can include values of many sorts and the length of an array dynamically sized."
+        },
+        {
+            "question": "What will be the output of the following JavaScript code? \n \n // JavaScript Comparison Operators \n function compare() \n { \n int num=2; \n char b=2; \n if(a==b) \n return true; \n else \n return false; \n }",
+            "a": "false",
+            "b": "true",
+            "c": "compilation error",
+            "d": "runtime error",
+            "ans": "ans2",
+            "explanation": "The == in JS convert different types of operands to the same type before making the comparison. A strict comparison results in true value if the operands are of the same type and the contents match."
+        },
+        {
+            "question": "What will be the output of the following JavaScript code snippet? \n \n // JavaScript Equalto Operators \n function equalto() \n { \n int num=10; \n if(num==='10') \n return true; \n else \n return false; \n }",
+            "a": "false",
+            "b": "true",
+            "c": "compilation error",
+            "d": "runtime error",
+            "ans": "ans1",
+            "explanation": "A === operator in JS is only true if the operands are of the same type and the contents match. Two strings are strictly equal when they have the same sequence of characters, same length, and same characters in corresponding positions."
         },
         {
             "question": "Will the following JavaScript code work? \n \n var js = (function(x) {return x*x;}(10));",
-            "a": "Exception will be thrown",
+            "a": "Excepption will be thrown",
             "b": "Memory leak",
             "c": "Error",
             "d": "Yes, perfectly",
-            "ans": "ans4"
+            "ans": "ans4",
+            "explanation": "For functions expressed as expressions, the function name is optional in Javascript. Sometimes function expressions are defined and used right away."
         },
         {
             "question": "Which of the following is not javascript data types?",
             "a": "Null type",
             "b": "Undefined type",
             "c": "Number type",
-            "d": "All of the above mentioned",
-            "ans": "ans4"
+            "d": "All of the above",
+            "ans": "ans4",
+            "explanation": "JavaScript is a dynamic, loosely typed language. Variables in JavaScript aren’t tied to any specific value type, and each variable can be assigned and reassigned to values of all the types."
         },
-        {
-            "question": "What will be the output of the following JavaScript code snippet? \n \n int a=1; \n if(a!=null) // JavaScript not equal to Operators \n     return 1; \n else \n      return 0;",
-            "a": "0",
-            "b": "1",
-            "c": "compile error",
-            "d": "runtime error",
-            "ans": "ans2"
-        },
-        {
-            "question": "Which of the following can be used to call a JavaScript Code Snippet?",
-            "a": "Function / Method",
-            "b": "Preprocessor",
-            "c": "Triggering Event",
-            "d": "RMI",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following JavaScript code? \n \n var a=5 , b=1 \n var obj = { a : 10 } \n // with keyword in JavaScript \n with(obj) \n { \n    alert(b) \n }",
-            "a": "1",
-            "b": "10",
-            "c": "5",
-            "d": "Error",
-            "ans": "ans1"
-        },
-        {
-            "question": "What happens in the following JavaScript code snippet? \n \n var js = 0; \n while (js < 10) \n { \n      console.log(js); \n      js++; \n }",
-            "a": "An exception is thrown",
-            "b": "The values of js are logged or stored in a particular location or storage",
-            "c": "The value of js from 0 to 9 is displayed in the console",
-            "d": "An error is displayed",
-            "ans": "ans3"
-        },
-        {
-            "question": "Which of the following scoping type does JavaScript use?",
-            "a": "Sequential",
-            "b": "Segmental",
-            "c": "Lexical",
-            "d": "Literal",
-            "ans": "ans3"
-        }
-    ],
-    "Intermediate": [
         {
             "question": "Where is Client-side JavaScript code is embedded within HTML documents?",
             "a": "A URL that uses the special javascript:code",
             "b": "A URL that uses the special javascript:protocol",
             "c": "A URL that uses the special javascript:encoding",
-            "d": " A URL that uses the special javascript:stack",
-            "ans": "ans2"
+            "d": "A URL that uses the special javascript:stack",
+            "ans": "ans2",
+            "explanation": "The Client-side JavaScript code is embedded within HTML documents in four ways : \n Inline, between a pair of “script” tags \n From an external file specified by the src attribute of a “script” tag \n In an HTML event handler attribute, such as onclick or onmouseover \n In a URL that uses the special javascript: protocol." 
+        },
+        {
+            "question": "What will be the output of the following JavaScript code snippet? \n \n int a=1; \n if(a!=null) // JavaScript not equal to Operators \n return 1; \n else \n return 0;",
+            "a": "0",
+            "b": "1",
+            "c": "compilation error",
+            "d": "runtime error",
+            "ans": "ans2",
+            "explanation": "!= is not equal to the operator in Javascript. It gives a value of 1 if the two values which are compared are not equal and give 0 if the two values are equal."
         },
         {
             "question": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
@@ -96,153 +114,304 @@
             "b": "Window",
             "c": "Standard",
             "d": "Location",
-            "ans": "ans2"
+            "ans": "ans2",
+            "explanation": "All client-side JavaScript features and APIs are accessed through the Window object. It represents a web browser window or frame, and the identifier window can be used to refer to it."
         },
         {
-            "question": "What will be the output of the following JavaScript code? \n \n var quiz=[1,2,3]; \n var js=[6,7,8]; \n var result=quiz.concat(js);  \n document.writeln(result);",
-            "a": "1, 2, 3, 6, 7, 8",
-            "b": "123",
-            "c": "1, 2, 3",
-            "d": "Error",
-            "ans": "ans1"
+            "question": "What will be the output of the following JavaScript program? \n \n function sanfoundry(javascript) \n { \n return (javascript ?  “yes” :  “no”); \n } \n bool ans=true; \n console.log(sanfoundry(ans));",
+            "a": "Compilation error",
+            "b": "Runtime error",
+            "c": "Yes",
+            "d": "No",
+            "ans": "ans3",
+            "explanation": "In javascript, “?” is called the ternary operator which is used for choosing one choice from the given two choices. It is used instead of if else statement and makes the code shorter."
         },
         {
-            "question": "Why JavaScript Engine is needed?",
-            "a": "Both Compiling & Interpreting the JavaScript",
-            "b": "Parsing the javascript",
-            "c": "Interpreting the JavaScript",
-            "d": "Compiling the JavaScript",
-            "ans": "ans3"
+            "question": "What will be the output of the following JavaScript code? \n \n // Javascript code snippet to compare the height function height() \n { \n var  height = 123.56; \n var type = (height>=190) ? 'tall' : 'short'; \n return type; \n }",
+            "a": "short",
+            "b": "123.56",
+            "c": "tall",
+            "d": "190",
+            "ans": "ans1",
+            "explanation": "The ternary operator in javascript is used as a comparison operator which works on three operands. The statement in the above code initializes type variable with the value short which is returned through the function."
+        }
+    ],
+    "Intermediate": [
+        {
+            "question": "The behaviour of the instances present of a class inside a method is defined by __________",
+            "a": "Method",
+            "b": "Classes",
+            "c": "Interfaces",
+            "d": "Classes and Interfaces",
+            "ans": "ans2",
+            "explanation": "Objects of the class are also known as instances of the class. The behaviour of the instance of a class is defined by the class and is shared by all instances."
         },
         {
-            "question": "Which of the following methods/operation does javascript use instead of == and !=?",
-            "a": "JavaScript uses equalto()",
-            "b": "JavaScript uses equals() and notequals() instead",
-            "c": "JavaScript uses bitwise checking",
-            "d": "JavaScript uses === and !== instead",
-            "ans": "ans4"
+            "question": "The keyword or the property that you use to refer to an object through which they were invoked is _________",
+            "a": "from",
+            "b": "to",
+            "c": "this",
+            "d": "object",
+            "ans": "ans3",
+            "explanation": "‘this’ keyword is used to refer to the object through which the properties or methods were invoked. This use of ‘this’ is a fundamental characteristic of the methods of any class."
         },
         {
-            "question": "What will be the result or type of error if p is not defined in the following JavaScript code snippet? \n \n console.log(p)",
-            "a": "Value not found error",
-            "b": "Reference Error",
-            "c": "Null",
-            "d": "Zero",
-            "ans": "ans2"
+            "question": "What will be the output of the following JavaScript code? \n \n var o = new F(); \n o.constructor === F",
+            "a": "false",
+            "b": "true",
+            "c": "0",
+            "d": "1",
+            "ans": "ans2",
+            "explanation": "Constructor is a function property of the class which is used to create objects of that class. In the above code, both statements create an instance of the class."
         },
         {
-            "question": "What is the prototype represents in the following JavaScript code snippet? \n \n function javascript() {};",
-            "a": "Not valid",
-            "b": "Prototype of a function",
-            "c": "Function javascript",
-            "d": "A custom constructor",
-            "ans": "ans4"
+            "question": "The basic difference between JavaScript and Java is _________",
+            "a": "There is no difference",
+            "b": "Functions are considered as fields",
+            "c": "Variables are specific",
+            "d": "Functions are values, and there is no hard distinction between methods and fields",
+            "ans": "ans4",
+            "explanation": "Java is an OOP programming language while JavaScript is an OOP scripting language. The basic difference between JavaScript and Java is that the functions are values, and there is no hard distinction between methods and fields."
         },
         {
-            "question": "Why event handlers is needed in JS?",
-            "a": "Allows JavaScript code to alter the behaviour of windows",
-            "b": "Adds innerHTML page to the code",
-            "c": "Change the server location",
-            "d": "Performs handling of exceptions and occurrences",
-            "ans": "ans1"
+            "question": "The meaning for Augmenting classes is that ___________",
+            "a": "objects inherit prototype properties even in a dynamic state",
+            "b": "objects inherit prototype properties only in a dynamic state",
+            "c": "objects inherit prototype properties in the static state",
+            "d": "object doesn’t inherit prototype properties in the static state",
+            "ans": "ans1",
+            "explanation": "JavaScript’s prototype-based inheritance mechanism is dynamic an object inherits properties from its prototype, even if the prototype changes after the object is created. This means that we can augment JavaScript classes simply by adding new methods to their prototype objects."
         },
         {
-            "question": "Which of the following is the property that is triggered in response to JS errors?",
-            "a": "onclick",
-            "b": "onerror",
-            "c": "onmessage",
-            "d": "onexception",
-            "ans": "ans2"
+            "question": "The property of JSON() method is __________",
+            "a": "it can be invoked manually as object.JSON()",
+            "b": "it will be automatically invoked by the compiler",
+            "c": "it is invoked automatically by the JSON.stringify() method",
+            "d": "it cannot be invoked in any form",
+            "ans": "ans3",
+            "explanation": "A common use of JSON is to exchange data to/from a web server. When sending data to a web server, the data has to be a string. In that case json.strigify() is used to convert a javascript object into a string."
         },
         {
-            "question": "What will be the output of the following JavaScript code? \n \n function compare() \n { \n    int sanfoundry=1; \n    char javascript=1; \n     if(sanfoundry.tostring()===javascript) \n        return true; \n     else \n         return false; \n }",
-            "a": "Runtime Error",
-            "b": "Logical Error",
-            "c": "true",
-            "d": "false",
-            "ans": "ans3"
+            "question": "When a class B can extend another class A, we say that?",
+            "a": "A is the superclass and B is the subclass",
+            "b": "B is the superclass and A is the subclass",
+            "c": "Both A and B are the superclass",
+            "d": "Both A and B are the subclass",
+            "ans": "ans1",
+            "explanation": "Superclass is the class from which subclasses are defined. Subclasses are also called extensions of superclass.therefore in the above scenario A will be superclass and B will be subclass."
+        },
+        {
+            "question": "If A is the superclass and B is the subclass, then subclass inheriting the superclass can be represented as _________",
+            "a": "B=inherit(A);",
+            "b": "B=A.inherit();",
+            "c": "B.prototype=inherit(A);",
+            "d": "B.prototype=inherit(A.prototype);",
+            "ans": "ans3",
+            "explanation": "inherit() function is a predefined function in javascript which is used to inherit properties of another class. The subclass B inherits the prototype of the class A."
+        },
+        {
+            "question": "Which function among the following lets to register a function to be invoked once?",
+            "a": "setTimeout()",
+            "b": "setTotaltime()",
+            "c": "setInterval()",
+            "d": "settime()",
+            "ans": "ans1",
+            "explanation": "setTimeout() and setInterval() allow you to register a function to be invoked once or repeatedly after a specified amount of time has elapsed. Both these function are used to do time manipulation in javascript."
+        },
+        {
+            "question": "Which function among the following lets to register a function to be invoked repeatedly after a certain time?",
+            "a": "setTimeout()",
+            "b": "setTotaltime()",
+            "c": "setInterval()",
+            "d": "settime()",
+            "ans": "ans3",
+            "explanation": "setTimeout() and setInterval() allow you to register a function to be invoked once or repeatedly after a specified amount of time has elapsed. Both these function are used to do time manipulation in javascript."
+        },
+        {
+            "question": "Which is the handler method used to invoke when uncaught JavaScript exceptions occur?",
+            "a": "onhalt",
+            "b": "Onerror",
+            "c": "Both onhalt and onerror",
+            "d": "Onsuspend",
+            "ans": "ans2",
+            "explanation": "The onerror handler method can be registered to be invoked when uncaught JavaScript exceptions occur. The onerror event is triggered if an error occurs while loading an external file (e.g. a document or an image)."
+        },
+        {
+            "question": "Which property is used to obtain browser vendor and version information?",
+            "a": "modal",
+            "b": "version",
+            "c": "browser",
+            "d": "navigator",
+            "ans": "ans4",
+            "explanation": "The navigator property is used to obtain browser vendor and version information. Various navaigator property includes appname, appversion, geolocation, language etc."
+        },
+        {
+            "question": "Which method receives the return value of setInterval() to cancel future invocations?",
+            "a": "clearInvocation()",
+            "b": "cancelInvocation()",
+            "c": "clearInterval()",
+            "d": "clear()",
+            "ans": "ans3",
+            "explanation": "Like setTimeout(), setInterval() returns a value that can be passed to clearInterval() to cancel any future invocations of the scheduled function. The ID value returned by setInterval() is used as the parameter for the clearInterval() method."
+        },
+        {
+            "question": "The setTimeout() belongs to which object?",
+            "a": "Element",
+            "b": "Window",
+            "c": "LOcation",
+            "d": "Event",
+            "ans": "ans2",
+            "explanation": "The setTimeout() method of the Window object schedules a function to run after a specified number of milliseconds elapses. setTimeout() and setInterval() are used for time manipulations in javascript."
+        },
+        {
+            "question": "Which method receives the return value of setTimeout() to cancel future invocations?",
+            "a": "clearTimeout()",
+            "b": "clearInterval()",
+            "c": "clearSchedule()",
+            "d": "cancelInvocation()",
+            "ans": "ans1",
+            "explanation": "setTimeout() returns a value that can be passed to clearTimeout() to cancel the execution of the scheduled function. The ID value returned by setTimeout() is used as the parameter for the clearTimeout() method."
         }
     ],
     "Advanced": [
         {
-            "question": "Which of the following explains correctly what happens when a JavaScript program is developed on a Unix Machine?",
-            "a": "will work perfectly well on a Windows Machine",
-            "b": "will be displayed as JavaScript text on the browser",
-            "c": "will throw errors and exceptions",
-            "d": "must be restricted to a Unix Machine only",
-            "ans": "ans1"
+            "question": "What are the events generated by the Node objects called?",
+            "a": "generators",
+            "b": "emitters",
+            "c": "dispatchers",
+            "d": "highevents",
+            "ans": "ans2",
+            "explanation": "There are two classes of events one is called event listener and the other is called event emitter. Node objects that generate events (known as event emitters) define an on() method for registering handlers."
         },
         {
-            "question": "Consider the following JavaScript statement containing regular expressions and check if the pattern matches. \n \n  var text = 'testing: 1, 2, 3'; \n var pattern = /d+/g;",
-            "a": "text.check(pattern)",
-            "b": "pattern.test(text)",
-            "c": "text==pattern",
-            "d": "text.equals(pattern)",
-            "ans": "ans2"
+            "question": "What is the function used to deregister event handler ‘f’?",
+            "a": "deleteAllListeners(name)",
+            "b": "deleteListener(name,f)",
+            "c": "removeListener(name,f)",
+            "d": "removeAllListeners(name,f)",
+            "ans": "ans3",
+            "explanation": "The removeEventListener() method removes an event handler that has been attached with the addEventListener() method. The removeListeners(name,f) is used to deregister event handler f represented as : \n emitter.removeListener(name,f)"
+        },
+        {
+            "question": "What is the function used to remove all handlers for name events?",
+            "a": "deleteAllListeners(name)",
+            "b": "deleteListener(name,f)",
+            "c": "removeListener(name,f)",
+            "d": "removeAllListeners(name)",
+            "ans": "ans4",
+            "explanation": "The removeAllListeners(name) is used to remove all handlers from name events represented as : \n emitter.removeAllListeners(name)"
+        },
+        {
+            "question": "Which function is a synonym for on()?",
+            "a": "addListener()",
+            "b": "listeners()",
+            "c": "once()",
+            "d": "add()",
+            "ans": "ans1",
+            "explanation": "The on() method is used for registering handlers. addListener() is a synonym for on()."
+        },
+        {
+            "question": "Which of the following is an event emitter?",
+            "a": "once",
+            "b": "process",
+            "c": "listeners",
+            "d": "on",
+            "ans": "ans2",
+            "explanation": "The process object is an event emitter. The Node defines other important globals under the process namespaces that contain properties of that object like version, argv, env, pid, getuid(), cwd(), chdir() and exit()."
         },
         {
             "question": "What is the advantage of the code produced graphics being smaller than the images themselves?",
             "a": "Bandwidth saving",
-            "b": "Increase in Bandwidth",
+            "b": "Increase in bandwidth",
             "c": "Dynamic advantages",
             "d": "Static advantage",
-            "ans": "ans1"
+            "ans": "ans1",
+            "explanation": "The code used to produce graphics on the client side is typically much smaller than the images themselves, creating substantial bandwidth savings"
         },
         {
-            "question": "Which of the following uses a lot of CPU cycles?",
+            "question": " Which of the following uses a lot of CPU cycles?",
             "a": "GUI",
             "b": "Statically generated graphics",
             "c": "Dynamically generated graphics",
             "d": "Images",
-            "ans": "ans3"
+            "ans": "ans3",
+            "explanation": "Dynamic graphics for data, means simulating motion or movement using the computer. It may also be thought of as multiple plots linked by time. Dynamically generating graphics from real-time data uses a lot of CPU cycles."
+        },
+        {
+            "question": "Which HTML element is used to include images?",
+            "a": "image",
+            "b": "img",
+            "c": "src",
+            "d": "sourcing",
+            "ans": "ans2",
+            "explanation": "Web pages include images using the HTML img element. src tag is used to include the image link."
+        },
+        {
+            "question": "What is the purpose of image replacement?",
+            "a": "To replace an image",
+            "b": "To implement special effects",
+            "c": "Removal of image rollovers",
+            "d": "Implementation of image rollovers",
+            "ans": "ans4",
+            "explanation": "Image replacement is a technique developed to allow designers to use image-based typesetting while meeting accessibility requirements. One common use for image replacement is to implement image rollovers, in which an image changes when the mouse pointer moves over it."
         },
         {
             "question": "When is JavaScript called obtrusive?",
             "a": "JavaScript code is medium sized",
             "b": "JavaScript code is small",
             "c": "JavaScript code is so large",
-            "d": "JavaScript code is very small",
-            "ans": "ans3"
+            "d": "JavaScript code is Very small",
+            "ans": "ans3",
+            "explanation": "When the amount of JavaScript code is so large that it effectively obscures the HTML, we call JavaScript as obtrusive. On the other hand unobtrusive JavaScript is a best practice methodology for attaching JavaScript to the front-end of a website."
         },
         {
-            "question": "Which of the following is a stateless protocol?",
-            "a": "HTML",
-            "b": "XHTML",
-            "c": "HTTP",
-            "d": "XML",
-            "ans": "ans3"
+            "question": "What is the reason for avoiding the attributes property in the HTML DOM?",
+            "a": "Found unnecessary",
+            "b": "Attributes don’t have attributes",
+            "c": "Attributes have attributes",
+            "d": "Considered irrelevant",
+            "ans": "ans2",
+            "explanation": "When a web page is loaded, the browser creates a Document Object Model of the page. The reason for avoiding the attributes property in the HTML DOM is because Attributes don’t have attributes."
         },
         {
-            "question": "What does the value 2 of the WebSocket attribute Socket.readyState indicate?",
-            "a": "Closed connection",
-            "b": "Handshake connection",
-            "c": "Unestablished connection",
-            "d": "Established connection & communication is possible",
-            "ans": "ans2"
+            "question": "What is the purpose of the method nodeMap.setNamedItem()?",
+            "a": "Sets ID",
+            "b": "Sets attribute node",
+            "c": "Sets element name",
+            "d": "Sets element type",
+            "ans": "ans2",
+            "explanation": "The setNamedItem() method adds the specified node to the NamedNodeMap. The method nodeMap.setNamedItem() sets the specified attribute node (by name)"
         },
         {
-            "question": "How does the client and the server communicate following the rules defined by the WebSocket protocol?",
-            "a": "Long-lived TCP Socket",
-            "b": "Short-lived TCP Socket",
-            "c": "UDP Socket",
-            "d": "HTTP Socket",
-            "ans": "ans1"
+            "question": "How is everything treated in HTML DOM?",
+            "a": "Node",
+            "b": "Attributes",
+            "c": "Elements",
+            "d": "Arrays",
+            "ans": "ans1",
+            "explanation": "The HTML DOM model is constructed as a tree of Objects. In the HTML DOM (Document Object Model), everything is a node: \n \n The document itself is a document node. \n All HTML elements are element nodes. \n All HTML attributes are attribute nodes. \n Text inside HTML elements are text nodes. \n Comments are comment nodes."
         },
         {
-            "question": "Which of the following acts as the input of a class-based component?",
-            "a": "Class",
-            "b": "Props",
-            "c": "Factory",
-            "d": "None of the mentioned",
-            "ans": "ans2"
+            "question": "What does the 'NamedNodeMap object' represent in the HTML DOM?",
+            "a": "Unordered collection of elements",
+            "b": "Unordered collection of attributes",
+            "c": "Unordered collection of nodes",
+            "d": "Unordered collection of arrays",
+            "ans": "ans4",
+            "explanation": "In the HTML DOM, the NamedNodeMap object represents an unordered collection of an elements attribute nodes. The nodes in the NamedNodeMap can be accessed through their name."
         },
         {
-            "question": "Which of the following command is used to Install create-react-app?",
-            "a": "npm install create-react-app",
-            "b": "npm install -f create-react-app",
-            "c": "npm install -g create-react-app",
-            "d": "install -g create-react-app",
-            "ans": "ans3"
+            "question": "What is the purpose of the 'Attr object' in the HTML DOM?",
+            "a": "Used to focus on a particular part of the HTML page",
+            "b": "HTML Attribute",
+            "c": "Used to arrange elements",
+            "d": "CSS attribute",
+            "ans": "ans2",
+            "explanation": "When a web page is loaded, the browser creates a Document Object Model of the page. In the HTML DOM, the Attr object represents an HTML attribute."
         }
     ]
+    
 }
+    
+
+    

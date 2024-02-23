@@ -1,248 +1,417 @@
 {
     "Basic": [
         {
-            "question": "What is the maximum length of a Python identifier?",
-            "a": "32",
-            "b": "16",
-            "c": "128",
-            "d": "No fixed length is specified.",
-            "ans": "ans4"
+            "question": "Who developed Python Programming Language?",
+            "a": "Wick van Rossum",
+            "b": "Rasmus Lerdorf",
+            "c": "Guido van Rossum",
+            "d": "Niene Stom",
+            "ans": "ans3",
+            "explanation": "Python language is designed by a Dutch programmer Guido van Rossum in the Netherlands."
         },
         {
-            "question": "How is a code block indicated in Python?",
-            "a": "Brackets.",
-            "b": "Indentation.",
-            "c": "Key.",
-            "d": "None of the above.",
-            "ans": "ans4"
+            "question": "Which type of Programming does Python support?",
+            "a": "object-oriented programming",
+            "b": "structured programming",
+            "c": "functional programming",
+            "d": "all of the above",
+            "ans": "ans4",
+            "explanation": "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming."
         },
         {
-            "question": "What will be the datatype of the var in the below code snippet? \n\n var = 10 \n print(type(var)) \n var = \"Hello\" \n print(type(var))",
-            "a": "str and int",
-            "b": "int and int",
-            "c": "str and str",
-            "d": "int and str",
-            "ans": "ans4"
+            "question": "Is Python case sensitive when dealing with identifiers?",
+            "a": "no",
+            "b": "yes",
+            "c": "machine dependent",
+            "d": "none of the above",
+            "ans": "ans2",
+            "explanation": "Case is always significant while dealing with identifiers in python."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n print(2**3 + (5 + 6)**(1 + 1))",
-            "a": "129",
-            "b": "8",
-            "c": "121",
-            "d": "None of the above.",
-            "ans": "ans1"
+            "question": "Which of the following is the correct extension of the Python file?",
+            "a": ".python",
+            "b": ".pl",
+            "c": ".py",
+            "d": ".p",
+            "ans": "ans3",
+            "explanation": "‘.py’ is the correct extension of the Python file. Python programs can be written in any text editor. To save these programs we need to save in files with file extension ‘.py’."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n a = [1, 2, 3] \n a = tuple(a) \n a[0] = 2 \n print(a)",
-            "a": "[2, 2, 3]",
-            "b": "(2, 2, 3)",
-            "c": "(1, 2, 3)",
-            "d": "Error.",
-            "ans": "ans4"
+            "question": "Is Python code compiled or interpreted?",
+            "a": "Python code is both compiled and interpreted",
+            "b": "Python code is neither compiled nor interpreted",
+            "c": "Python code is only compiled",
+            "d": "Python code is only interpreted",
+            "ans": "ans1",
+            "explanation": "Many languages have been implemented using both compilers and interpreters, including C, Pascal, and Python."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n print(type(5 / 2)) \n print(type(5 // 2))",
-            "a": "float and int",
-            "b": "int and float",
-            "c": "float and float",
-            "d": "int and int",
-            "ans": "ans1"
+            "question": "All keywords in Python are in _________",
+            "a": "Capitalized",
+            "b": "lower case",
+            "c": "UPPER CASE",
+            "d": "none of the above",
+            "ans": "ans4",
+            "explanation": "Keywords True, False and None are capitalized while the others are in lower case."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n a = [1, 2, 3, 4, 5] \n sum = 0 \n for ele in a: \n sum += ele \n print(sum)",
-            "a": "15",
-            "b": "0",
-            "c": "20",
-            "d": "None of these.",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n count = 0 \n while(True): \n if count % 3 == 0: \n print(count, end = \" \") \n if(count > 15): \n break; \n count += 1",
-            "a": "0 1 2 ….. 15",
-            "b": "Infinite Loop",
-            "c": "0 3 6 9 12 15",
-            "d": "0 3 6 9 12",
-            "ans": "ans3"
-        },
-        {
-            "question": "Which of the following concepts is not a part of Python?",
-            "a": "Pointers.",
-            "b": "Loops.",
-            "c": "Dynamic Typing.",
-            "d": "All of the above.",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n def solve(a, b): \n return b if a == 0 else solve(b % a, a) \n print(solve(20, 50))",
-            "a": "10",
-            "b": "20",
-            "c": "50",
+            "question": "What will be the value of the following Python expression? \n \n 4 + 3 % 5",
+            "a": "7",
+            "b": "2",
+            "c": "4",
             "d": "1",
-            "ans": "ans1"
+            "ans": "ans1",
+            "explanation": "The order of precedence is: %, +. Hence the expression above, on simplification results in 4 + 3 = 7. Hence the result is 7."
+        },
+        {
+            "question": "Which of the following is used to define a block of code in Python language?",
+            "a": "Indentation",
+            "b": "Key",
+            "c": "Brackets",
+            "d": "all of the above",
+            "ans": "ans1",
+            "explanation": "In Python, to define a block of code we use indentation. Indentation refers to whitespaces at the beginning of the line."
+        },
+        {
+            "question": "Which keyword is used for function in Python language?",
+            "a": "Function",
+            "b": "def",
+            "c": "Fun",
+            "d": "Define",
+            "ans": "ans2",
+            "explanation": "The def keyword is used to create, (or define) a function in python."
+        },
+        {
+            "question": "Which of the following character is used to give single-line comments in Python?",
+            "a": "//",
+            "b": "#",
+            "c": "!",
+            "d": "/*",
+            "ans": "ans2",
+            "explanation": "To write single-line comments in Python use the Hash character (#) at the beginning of the line. It is also called number sign or pound sign. To write multi-line comments, close the text between triple quotes. \n Example: “”” comment \n text “””"
+        },
+        {
+            "question": "What will be the output of the following Python code? \n \n i = 1 \n while True: \n if i%3 == 0: \n break \n print(i) \n \n i + = 1",
+            "a": "1 2 3",
+            "b": "error",
+            "c": "1 2",
+            "d": "none of the above",
+            "ans": "ans2",
+            "explanation": "SyntaxError, there shouldn’t be a space between + and = in +=."
+        },
+        {
+            "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version",
+            "ans": "ans4",
+            "explanation": "The function sys.version can help us to find the version of python that we are currently working on. It also contains information on the build number and compiler used. For example, 3.5.2, 2.7.3 etc. this function also returns the current date, time, bits etc along with the version."
+        },
+        {
+            "question": "Python supports the creation of anonymous functions at runtime, using a construct called __________",
+            "a": "pi",
+            "b": "anonymous",
+            "c": "lambda",
+            "d": "none of the above",
+            "ans": "ans3",
+            "explanation": "Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called lambda. Lambda functions are restricted to a single expression. They can be used wherever normal functions can be used."
+        },
+        {
+            "question": "What is the order of precedence in python?",
+            "a": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction",
+            "b": "Exponential, Parentheses, Division, Multiplication, Addition, Subtraction",
+            "c": "Parentheses, Exponential, Multiplication, Division, Subtraction, Addition",
+            "d": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
+            "ans": "ans4",
+            "explanation": "For order of precedence, just remember this PEMDAS (similar to BODMAS)."
+        },
+        {
+            "question": "What will be the output of the following Python code snippet if x=1? \n \n x<<2",
+            "a": "4",
+            "b": "2",
+            "c": "1",
+            "d": "8",
+            "ans": "ans1",
+            "explanation": "The binary form of 1 is 0001. The expression x<<2 implies we are performing bitwise left shift on x. This shift yields the value: 0100, which is the binary form of the number 4."
         }
     ],
     "Intermediate": [
         {
-            "question": "What will be the output of the following code snippet? \n\n example = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\"]; \n del example[2] \n print(example)",
-            "a": "['Sunday', 'Monday', 'Tuesday', 'Wednesday']",
-            "b": "['Sunday', 'Monday', 'Wednesday']",
-            "c": "['Monday', 'Tuesday', 'Wednesday']",
-            "d": "['Sunday', 'Monday', 'Tuesday']",
-            "ans": "ans2"
+            "question": "Which of the following statements is used to create an empty set in Python?",
+            "a": "()",
+            "b": "[]",
+            "c": "{}",
+            "d": "set()",
+            "ans": "ans4",
+            "explanation": "{ } creates a dictionary not a set. Only set() creates an empty set."
         },
         {
-            "question": "What will be the type of the variable sorted_numbers in the below code snippet? \n numbers = (4, 7, 19, 2, 89, 45, 72, 22) \n sorted_numbers = sorted(numbers) \n print(sorted_numbers)",
-            "a": "List",
-            "b": "Tuple",
-            "c": "String",
-            "d": "Int",
-            "ans": "ans1"
+            "question": "What will be the value of ‘result’ in following Python program? \n \n list1 = [1,2,3,4] \n list2 = [2,4,5,6] \n list3 = [2,6,7,8] \n result = list() \n result.extend(i for i in list1 if i not in (list2+list3) and i not in result) \n result.extend(i for i in list2 if i not in (list1+list3) and i not in result) \n result.extend(i for i in list3 if i not in (list1+list2) and i not in result)",
+            "a": "[1, 3, 5, 7, 8]",
+            "b": "[1, 7, 8]",
+            "c": "[1, 2, 4, 7, 8]",
+            "d": "error",
+            "ans": "ans1",
+            "explanation": "Here, ‘result’ is a list which is extending three times. When first time ‘extend’ function is called for ‘result’, the inner code generates a generator object, which is further used in ‘extend’ function. This generator object contains the values which are in ‘list1’ only (not in ‘list2’ and ‘list3’). \n Same is happening in second and third call of ‘extend’ function in these generator object contains values only in ‘list2’ and ‘list3’ respectively. So, ‘result’ variable will contain elements which are only in one list (not more than 1 list)."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n numbers = (4, 7, 19, 2, 89, 45, 72, 22) \n sorted_numbers = sorted(numbers) \n even = lambda a: a % 2 == 0 \n even_numbers = filter(even, sorted_numbers) \n print(type(even_numbers))",
-            "a": "filter",
-            "b": "int",
-            "c": "list",
-            "d": "tuple",
-            "ans": "ans1"
+            "question": "To add a new element to a list we use which Python command?",
+            "a": "list1.addEnd(5)",
+            "b": "list1.addLast(5)",
+            "c": "list1.append(5)",
+            "d": "list1.add(5)",
+            "ans": "ans3",
+            "explanation": "We use the function append to add an element to the list."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n numbers = (4, 7, 19, 2, 89, 45, 72, 22) \n sorted_numbers = sorted(numbers) \n odd_numbers = [x for x in sorted_numbers if x % 2 != 0] \n print(odd_numbers)",
-            "a": "[7, 19, 45, 89]",
-            "b": "[2, 4, 22, 72]",
-            "c": "[4, 7, 19, 2, 89, 45,72, 22]",
-            "d": "[2, 4, 7, 19, 22, 45, 72, 89]",
-            "ans": "ans1"
+            "question": "What will be the output of the following Python code? \n \n print('*', 'abcde'.center(6), '*', sep='')",
+            "a": "* abcde *",
+            "b": "*abcde *",
+            "c": "* abcde*",
+            "d": "* abcde *",
+            "ans": "ans2",
+            "explanation": "Padding is done towards the right-hand-side first when the final string is of even length."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n def is_even(number): \n message =  f\"{number} is an even number\" if number % 2 == 0 else  f\"{number} is an odd number\" \n return message \n print(is_even(54))",
-            "a": "54 is an even number",
-            "b": "54 is an odd number",
-            "c": "number is an even number",
-            "d": "number is an odd number",
-            "ans": "ans1"
+            "question": "What will be the output of the following Python code? \n \n >>>list1 = [1, 3] \n >>>list2 = list1 \n >>>list1[0] = 4 \n >>>print(list2)",
+            "a": "[1, 4]",
+            "b": "[1, 3, 4]",
+            "c": "[4, 3]",
+            "d": "[1, 3]",
+            "ans": "ans3",
+            "explanation": "Lists should be copied by executing [:] operation."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n dict1 = {'first' : 'sunday', 'second' : 'monday'} \n dict2 = {1: 3, 2: 4} \n dict1.update(dict2) \n print(dict1)",
-            "a": "{'first': 'sunday', 'second': 'monday', 1: 3, 2: 4}",
-            "b": "{'first': 'sunday', 'second': 'monday'}",
-            "c": "{1: 3, 2: 4}",
-            "d": "None of the above.",
-            "ans": "ans1"
+            "question": "Which one of the following is the use of function in python?",
+            "a": "Functions don’t provide better modularity for your application",
+            "b": "you can’t also create your own functions",
+            "c": "Functions are reusable pieces of programs",
+            "d": "all of the above",
+            "ans": "ans3",
+            "explanation": "Functions are reusable pieces of programs. They allow you to give a name to a block of statements, allowing you to run that block using the specified name anywhere in your program and any number of times."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n s = {1, 2, 3, 3, 2, 4, 5, 5} \n print(s)",
-            "a": "{1, 2, 3, 3, 2, 4, 5, 5}",
-            "b": "{1, 2, 3, 4, 5}",
-            "c": "None",
-            "d": "{1, 5}",
-            "ans": "ans1"
+            "question": "Which of the following Python statements will result in the output: 6? \n \n A = [[1, 2, 3], \n [4, 5, 6], \n [7, 8, 9]]",
+            "a": "A[2][1]",
+            "b": "A[1][2]",
+            "c": "A[3][2]",
+            "d": "A[2][3]",
+            "ans": "ans2",
+            "explanation": "The output that is required is 6, that is, row 2, item 3. This position is represented by the statement: A[1][2]."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n a = {'Hello':'World', 'First': 1} \n b = {val: k for k , val in a.items()} \n print(b)",
-            "a": "{'Hello':'World', 'First': 1}",
-            "b": "{'World': 'Hello', 1: 'First'}",
-            "c": "Can be both A or B",
-            "d": "None of the above",
-            "ans": "ans2"
+            "question": "What is the maximum possible length of an identifier in Python?",
+            "a": "79 characters",
+            "b": "31 characters",
+            "c": "63 characters",
+            "d": "none of the above",
+            "ans": "ans4",
+            "explanation": "Identifiers can be of any length."
         },
         {
-            "question": "Which of the following functions converts date to corresponding time in Python?",
-            "a": "strptime()",
-            "b": "strftime()",
-            "c": "Both A and B",
-            "d": "None of the above",
-            "ans": "ans1"
+            "question": "What will be the output of the following Python code? \n \n x = 'abcd' \n for i in range(len(x)): \n print(i)",
+            "a": "error",
+            "b": "1 2 3 4",
+            "c": "a b c d",
+            "d": "0 1 2 3",
+            "ans": "ans4",
+            "explanation": "i takes values 0, 1, 2 and 3."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n word = \"Python Programming\" \n n = len(word) \n word1 = word.upper() \n word2 = word.lower() \n converted_word = \"\" \n for i in range(n): \n if i % 2 == 0: \n onverted_word += word2[i] \n else: \n converted_word += word1[i] \n print(converted_word)",
-            "a": "pYtHoN PrOgRaMmInG",
-            "b": "Python Programming",
-            "c": "python programming",
-            "d": "PYTHON PROGRAMMING",
-            "ans": "ans1"
+            "question": "What are the two main types of functions in Python?",
+            "a": "System function",
+            "b": "Custom function",
+            "c": "Built-in function & User defined function",
+            "d": "User function",
+            "ans": "ans3",
+            "explanation": "Built-in functions and user defined ones. The built-in functions are part of the Python language. Examples are: dir(), len() or abs(). The user defined functions are functions created with the def keyword."
+        },
+        {
+            "question": "What will be the output of the following Python program? \n \n def addItem(listParam): \n listParam += [1] \n \n mylist = [1, 2, 3, 4] \n addItem(mylist) \n print(len(mylist))",
+            "a": "5",
+            "b": "8",
+            "c": "2",
+            "d": "1",
+            "ans": "ans1",
+            "explanation": "+ will append the element to the list."
+        },
+        {
+            "question": "Which of the following is a Python tuple?",
+            "a": "{1, 2, 3}",
+            "b": "{}",
+            "c": "[1, 2, 3]",
+            "d": "(1, 2, 3)",
+            "ans": "ans4",
+            "explanation": "Tuples are represented with round brackets."
+        },
+        {
+            "question": "What will be the output of the following Python code snippet? \n \n z=set('abc$de') \n 'a' in z",
+            "a": "Error",
+            "b": "True",
+            "c": "False",
+            "d": "No output",
+            "ans": "ans2",
+            "explanation": "The code shown above is used to check whether a particular item is a part of a given set or not. Since ‘a’ is a part of the set z, the output is true. Note that this code would result in an error in the absence of the quotes."
+        },
+        {
+            "question": "What will be the output of the following Python expression? \n \n round(4.576)",
+            "a": "4",
+            "b": "4.6",
+            "c": "5",
+            "d": "4,5",
+            "ans": "ans3",
+            "explanation": "This is a built-in function which rounds a number to give precision in decimal digits. In the above case, since the number of decimal places has not been specified, the decimal number is rounded off to a whole number. Hence the output will be 5."
+        },
+        {
+            "question": "Which of the following is a feature of Python DocString?",
+            "a": "In Python all functions should have a docstring",
+            "b": "Docstrings can be accessed by the __doc__ attribute on objects",
+            "c": "It provides a convenient way of associating documentation with Python modules, functions, classes, and methods",
+            "d": "all of the above",
+            "ans": "ans4",
+            "explanation": "Python has a nifty feature called documentation strings, usually referred to by its shorter name docstrings. DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand."
         }
     ],
     "Advanced": [
         {
-            "question": "What will be the output of the following code snippet? \n\n def tester(**kwargs): \n for key, value in kwargs.items(): \n print(key, value, end = \" \") \n tester(Sunday = 1, Monday = 2, Tuesday = 3, Wednesday = 4)",
-            "a": "Sunday 1 Monday 2 Tuesday 3 Wednesday 4",
-            "b": "Sunday 1",
-            "c": "Wednesday 4",
-            "d": "None of the above",
-            "ans": "ans1"
+            "question": "How many except statements can a try-except block have?",
+            "a": "zero",
+            "b": "one",
+            "c": "more than one",
+            "d": "more than zero",
+            "ans": "ans4",
+            "explanation": "There has to be at least one except statement."
         },
         {
-            "question": "As what datatype are the *kwargs stored, when passed into a function?",
-            "a": "Lists.",
-            "b": "Tuples.",
-            "c": "Dictionary.",
-            "d": "None of the above.",
-            "ans": "ans3"
+            "question": "When will the else part of try-except-else be executed?",
+            "a": "always",
+            "b": "when an exception occurs",
+            "c": "when no exception occurs",
+            "d": "when an exception occurs in to except block",
+            "ans": "ans3",
+            "explanation": "The else part is executed when no exception occurs."
         },
         {
-            "question": "What will be the output of the following code snippet? \n\n from math import * \n a = 2.19 \n b = 3.999999 \n c = -3.30 \n print(int(a), floor(b), ceil(c), fabs(c))",
-            "a": "2 3 -3 3.3",
-            "b": "3 4 -3 3",
-            "c": "2 3 -3 3",
-            "d": "2 3 -3 -3.3",
-            "ans": "ans1"
+            "question": "Is the following Python code valid? \n \n try: \n # Do something \n except: \n # Do something \n finally: \n # Do something",
+            "a": "no, there is no such thing as finally",
+            "b": "no, finally cannot be used with except",
+            "c": "no, finally must come before except",
+            "d": "yes",
+            "ans": "ans4",
+            "explanation": "Refer Python Documenation"
         },
         {
-            "question": "How can assertions be disabled in Python?",
-            "a": "Passing -O when running Python.",
-            "b": "Assertions are disabled by default.",
-            "c": "Both A and B are wrong.",
-            "d": "Assertions cannot be disabled in Python.",
-            "ans": "ans1"
-        },
-        {
-            "question": "What will be the output of the following code snippet? \n\n a = [[], \"abc\", [0], 1, 0] \n print(list(filter(bool, a)))",
-            "a": "['abc', [0], 1]",
-            "b": "[1]",
-            "c": "[“abc”]",
-            "d": "None of the above",
-            "ans": "ans1"
-        },
-        {
-            "question": "In which language is Python written?",
-            "a": "C++",
-            "b": "C",
-            "c": "Java",
-            "d": "None of these",
-            "ans": "ans2"
+            "question": "Is the following Python code valid? \n \n try: \n # Do something \n except: \n # Do something \n else: \n # Do something",
+            "a": "no, there is no such thing as else",
+            "b": "no, else cannot be used with except",
+            "c": "no, else must come before except",
+            "d": "yes",
+            "ans": "ans4",
+            "explanation": "Refer Python Documenation"
         },
         {
             "question": "Can one block of except statements handle multiple exception?",
             "a": "yes, like except TypeError, SyntaxError [,…]",
             "b": "yes, like except [TypeError, SyntaxError]",
             "c": "no",
-            "d": "none of the mentioned",
-            "ans": "ans1"
+            "d": "none of the above",
+            "ans": "ans1",
+            "explanation": "Each type of exception can be specified directly. There is no need to put it in a list."
         },
         {
-            "question": "Let A and B be objects of class Foo. Which functions are called when print(A + B) is executed?",
-            "a": "__add__(), __str__()",
-            "b": "__str__(), __add__()",
-            "c": "__sum__(), __str__()",
-            "d": "__str__(), __sum__()",
-            "ans": "ans1"
+            "question": "Which of these definitions correctly describes a module?",
+            "a": "Denoted by triple quotes for providing the specification of certain program elements",
+            "b": "Design and implementation of specific functionality to be incorporated into a program",
+            "c": "Defines the specification of how it is to be used",
+            "d": "Any program that reuses code",
+            "ans": "ans2",
+            "explanation": "The term “module” refers to the implementation of specific functionality to be incorporated into a program."
         },
         {
-            "question": "What is the use of duck typing?",
-            "a": "More restriction on the type values that can be passed to a given method",
-            "b": "No restriction on the type values that can be passed to a given method",
-            "c": "Less restriction on the type values that can be passed to a given method",
-            "d": "Makes the program code smaller",
-            "ans": "ans3"
+            "question": "Which of the following is not an advantage of using modules?",
+            "a": "Provides a means of reuse of program code",
+            "b": "Provides a means of dividing up tasks",
+            "c": "Provides a means of reducing the size of the program",
+            "d": "Provides a means of testing individual parts of the program",
+            "ans": "ans3",
+            "explanation": "The total size of the program remains the same regardless of whether modules are used or not. Modules simply divide the program."
         },
         {
-            "question": "What does built-in function help do in context of classes?",
-            "a": "Determines the object name of any value",
-            "b": "Determines the class identifiers of any value",
-            "c": "Determines class description of any built-in type",
-            "d": "Determines class description of any user-defined built-in type",
-            "ans": "ans3"
+            "question": "Program code making use of a given module is called a ______ of the module.",
+            "a": "Client",
+            "b": "Docstring",
+            "c": "Interface",
+            "d": "Modularity",
+            "ans": "ans1",
+            "explanation": "Program code making use of a given module is called the client of the module. There may be multiple clients for a module."
+        },
+        {
+            "question": " ______ is a string literal denoted by triple quotes for providing the specifications of certain program elements.",
+            "a": "Interface",
+            "b": "Modularity",
+            "c": "Client",
+            "d": "Docstring",
+            "ans": "ans4",
+            "explanation": "Docstring used for providing the specifications of program elements."
+        },
+        {
+            "question": "Which of the following is true about top-down design process?",
+            "a": "The details of a program design are addressed before the overall design",
+            "b": "Only the details of the program are addressed",
+            "c": "The overall design of the program is addressed before the details",
+            "d": "Only the design of the program is addressed",
+            "ans": "ans3",
+            "explanation": "Top-down design is an approach for deriving a modular design in which the overall design."
+        },
+        {
+            "question": "Which module in Python supports regular expressions?",
+            "a": "re",
+            "b": "regex",
+            "c": "pyregex",
+            "d": "none of the above",
+            "ans": "ans1",
+            "explanation": "re is a part of the standard library and can be imported using: import re."
+        },
+        {
+            "question": "Which of the following creates a pattern object?",
+            "a": "re.create(str)",
+            "b": "re.regex(str)",
+            "c": "re.compile(str)",
+            "d": "re.assemble(str)",
+            "ans": "ans3",
+            "explanation": "It converts a given string into a pattern object."
+        },
+        {
+            "question": "What does the function re.match do?",
+            "a": "matches a pattern at the start of the string",
+            "b": "matches a pattern at any position in the string",
+            "c": "such a function does not exist",
+            "d": "none of the above",
+            "ans": "ans1",
+            "explanation": "It will look for the pattern at the beginning and return None if it isn’t found."
+        },
+        {
+            "question": "What does the function re.search do?",
+            "a": "matches a pattern at the start of the string",
+            "b": "matches a pattern at any position in the string",
+            "c": "such a function does not exist",
+            "d": "none of the above",
+            "ans": "ans2",
+            "explanation": "It will look for the pattern at any position in the string"
+        },
+        {
+            "question": "What will be the output of the following Python code? \n \n sentence = 'we are humans' \n matched = re.match(r'(.*) (.*?) (.*)', sentence) \n print(matched.groups())",
+            "a": "(‘we’, ‘are’, ‘humans’)",
+            "b": "(we, are, humans)",
+            "c": "(‘we’, ‘humans’)",
+            "d": "‘we are humans",
+            "ans": "ans1",
+            "explanation": "This function returns all the subgroups that have been matched."
         }
     ]
+    
 }
+    
+
+    
