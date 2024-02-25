@@ -1,614 +1,558 @@
 {
-    "Basic":[
-        {
-            "question": "If all cats are dogs, and some dogs are birds, then which of the following statements must be true?",
-            
-                "a": "All cats are birds.",
-                "b": "Some cats are birds.",
-                "c": "All dogs are birds.",
-                "d": "Some dogs are cats."
-            ,
-            "ans": "Some cats are birds.",
-            "explanation": "From the given information, we can conclude that some cats are birds, but we cannot conclude that all cats are birds."
-        },
-        {
-            "question": "If no students in this class are tall and all tall people are smart, then which of the following statements must be true?",
-            
-                "a": "All smart people are tall.",
-                "b": "Some smart people are not tall.",
-                "c": "Some students are smart.",
-                "d": "No students are smart."
-            ,
-            "ans": "Some smart people are not tall.",
-            "explanation": "From the given information, we can conclude that some smart people are not tall, as no students in the class are tall."
-        },
-        {
-            "question": "If some apples are red and all red things are fruits, then which of the following statements must be true?",
-            
-                "a": "All fruits are apples.",
-                "b": "Some fruits are red.",
-                "c": "All red fruits are apples.",
-                "d": "Some apples are fruits."
-            ,
-            "ans": "Some apples are fruits.",
-            "explanation": "From the given information, we can conclude that some apples are fruits, but we cannot conclude that all fruits are apples or that some fruits are red."
-        },
-        {
-            "question": "If all cats are black and some black things are small, then which of the following statements must be true?",
-            
-                "a": "All small things are black.",
-                "b": "Some small things are black.",
-                "c": "All small things are cats.",
-                "d": "Some cats are small."
-            ,
-            "ans": "Some cats are small.",
-            "explanation": "From the given information, we can conclude that some cats are small, but we cannot conclude that all small things are cats or that some small things are black."
-        },
-        {
-            "question": "If no fish are birds and all birds can fly, then which of the following statements must be true?",
-            
-                "a": "No fish can fly.",
-                "b": "Some fish can fly.",
-                "c": "No birds are fish.",
-                "d": "Some birds are fish."
-            ,
-            "ans": "No fish can fly.",
-            "explanation": "From the given information, we can conclude that no fish can fly, but we cannot conclude that some fish are birds or that no birds are fish."
-        },
-        {
-            "question": "If all A are B and all B are C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "All A are C.",
-                "d": "Some A are C."
-            ,
-            "ans": "All A are C.",
-            "explanation": "From the given information, we can conclude that all A are C."
-        },
-        {
-            "question": "If some cars are blue and all blue things are expensive, then which of the following statements must be true?",
-            
-                "a": "All expensive things are blue.",
-                "b": "Some expensive things are cars.",
-                "c": "All cars are expensive.",
-                "d": "Some cars are expensive."
-            ,
-            "ans": "Some cars are expensive.",
-            "explanation": "From the given information, we can conclude that some cars are expensive, but we cannot conclude that all cars are expensive or that some expensive things are cars."
-        },
-        {
-            "question": "If no dogs are cats and some cats are animals, then which of the following statements must be true?",
-            
-                "a": "Some animals are dogs.",
-                "b": "No animals are dogs.",
-                "c": "Some animals are cats.",
-                "d": "No animals are cats."
-            ,
-            "ans": "Some animals are cats.",
-            "explanation": "From the given information, we can conclude that some animals are cats, but we cannot conclude that no animals are cats or that some animals are dogs."
-        },
-        {
-            "question": "If all apples are fruits and all fruits are tasty, then which of the following statements must be true?",
-            
-                "a": "All tasty things are fruits.",
-                "b": "Some tasty things are apples.",
-                "c": "All apples are tasty.",
-                "d": "Some fruits are apples."
-            ,
-            "ans": "Some tasty things are apples.",
-            "explanation": "From the given information, we can conclude that some tasty things are apples, but we cannot conclude that all apples are tasty or that some tasty things are fruits."
-        },
-        {
-            "question": "If all A are B and some B are C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "All A are C.",
-                "d": "Some A are C."
-            ,
-            "ans": "Some A are C.",
-            "explanation": "From the given information, we can conclude that some A are C, but we cannot conclude that all C are A or that all A are C."
-        },
-        {
-            "question": "If all A are B and no B are C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "No C are A.",
-                "d": "All A are C."
-            ,
-            "ans": "No C are A.",
-            "explanation": "From the given information, we can conclude that no C are A, but we cannot conclude that all C are A or that all A are C."
-        },
-        {
-            "question": "If some A are B and some B are C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "All A are C.",
-                "d": "Some A are C."
-            ,
-            "ans": "Some A are C.",
-            "explanation": "From the given information, we can conclude that some A are C, but we cannot conclude that all C are A or that some C are A."
-        },
-        {
-            "question": "If some A are not B and all B are C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "All A are C.",
-                "d": "Some A are C."
-            ,
-            "ans": "Some A are C.",
-            "explanation": "From the given information, we can conclude that some A are C, but we cannot conclude that all C are A or that some C are A."
-        },
-        {
-            "question": "If all A are B and some B are not C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "No C are A.",
-                "d": "All A are C."
-            ,
-            "ans": "Some C are A.",
-            "explanation": "From the given information, we can conclude that some C are A, but we cannot conclude that all C are A or that no C are A."
-        },
-        {
-            "question": "If some A are not B and some B are not C, then which of the following statements must be true?",
-            
-                "a": "All C are A.",
-                "b": "Some C are A.",
-                "c": "No C are A.",
-                "d": "All A are C."
-            ,
-            "ans": "No C are A.",
-            "explanation": "From the given information, we can conclude that no C are A, but we cannot conclude that all C are A or that some C are A."
-        }
-    ],
-    "Intermediate":[
-        {
-            "question": "In a certain code language, 'FIRE' is written as 'EHQD'. How is 'CARE' written in that code?",
-            
-                "a": "BDQD",
-                "b": "DHQD",
-                "c": "DHSD",
-                "d": "BHSD"
-            ,
-            "ans": "DHQD",
-            "explanation": "Each letter in the word is moved one step backward to form the code. Therefore, 'CARE' becomes 'DHQD'."
-        },
-        {
-            "question": "If 'PAPER' is coded as 'OCODQ', how is 'HELLO' coded in that code?",
-            
-                "a": "IFMMP",
-                "b": "IFNMQ",
-                "c": "GKMMN",
-                "d": "GKNNM"
-            ,
-            "ans": "IFMMP",
-            "explanation": "Each letter is moved one step forward in the English alphabet to form the code. Therefore, 'HELLO' becomes 'IFMMP'."
-        },
-        {
-            "question": "If '+' means '-', '-' means 'x', 'x' means '÷', and '÷' means '+', then what is the value of 18 x 6 + 4 - 12 ÷ 3?",
-            
-                "a": "24",
-                "b": "18",
-                "c": "12",
-                "d": "6"
-        ,
-            "ans": "12",
-            "explanation": "Following the given operations in the code, the expression becomes 18 ÷ 6 - 4 x 12 + 3 = 3 - 48 + 3 = 12."
-        },
-        {
-            "question": "If 'B' denotes '+', 'C' denotes '-', 'D' denotes 'x', and 'E' denotes '÷', then what is the value of 12 E 6 C 2 D 4 B 3?",
-            
-                "a": "12",
-                "b": "3",
-                "c": "6",
-                "d": "9"
-            ,
-            "ans": "9",
-            "explanation": "Following the given operations in the code, the expression becomes 12 ÷ 6 - 2 x 4 + 3 = 2 - 8 + 3 = -3 + 3 = 0."
-        },
-        {
-            "question": "If 'K' means 'subtract', 'M' means 'add', 'N' means 'divide', and 'P' means 'multiply', then 36 K 6 N 2 P 3 M 5 = ?",
-            
-                "a": "40",
-                "b": "48",
-                "c": "56",
-                "d": "64"
-            ,
-            "ans": "48",
-            "explanation": "Following the given operations in the code, the expression becomes 36 - 6 ÷ 2 x 3 + 5 = 36 - 3 x 3 + 5 = 36 - 9 + 5 = 27 + 5 = 32."
-        },
-        {
-            "question": "If 'S' means 'addition', 'U' means 'subtraction', 'W' means 'multiplication', and 'Y' means 'division', then 20 W 4 S 10 Y 2 U 3 = ?",
-            
-                "a": "50",
-                "b": "55",
-                "c": "60",
-                "d": "65"
-            ,
-            "ans": "55",
-            "explanation": "Following the given operations in the code, the expression becomes 20 x 4 + 10 ÷ 2 - 3 = 80 + 5 - 3 = 82."
-        },
-        {
-            "question": "If 'G' means 'addition', 'H' means 'subtraction', 'I' means 'multiplication', and 'J' means 'division', then 30 H 5 G 10 I 2 J 3 = ?",
-            
-                "a": "5",
-                "b": "10",
-                "c": "15",
-                "d": "20"
-            ,
-            "ans": "5",
-            "explanation": "Following the given operations in the code, the expression becomes 30 - 5 + 10 x 2 ÷ 3 = 25 + 20 ÷ 3 = 25 + 6 = 31."
-        },
-        {
-            "question": "If 'A' means 'subtract', 'B' means 'addition', 'C' means 'division', and 'D' means 'multiplication', then 10 D 2 B 3 C 5 A 4 = ?",
-            
-                "a": "2",
-                "b": "6",
-                "c": "8",
-                "d": "10"
-            ,
-            "ans": "6",
-            "explanation": "Following the given operations in the code, the expression becomes 10 x 2 + 3 ÷ 5 - 4 = 20 + 0.6 - 4 = 20 + 0.6 - 4 = 20.6 - 4 = 16.6."
-        },
-        {
-            "question": "If 'F' denotes 'addition', 'G' denotes 'subtraction', 'H' denotes 'multiplication', and 'I' denotes 'division', then what is the value of 24 H 3 F 8 I 2 G 4?",
-            
-                "a": "44",
-                "b": "56",
-                "c": "68",
-                "d": "80"
-            ,
-            "ans": "44",
-            "explanation": "Following the given operations in the code, the expression becomes 24 x 3 + 8 ÷ 2 - 4 = 72 + 4 - 4 = 72 + 0 = 72."
-        },
-        {
-            "question": "If 'Q' denotes 'addition', 'R' denotes 'subtraction', 'S' denotes 'multiplication', and 'T' denotes 'division', then what is the value of 20 S 5 Q 10 T 2 R 4?",
-            
-                "a": "32",
-                "b": "36",
-                "c": "40",
-                "d": "44"
-            ,
-            "ans": "40",
-            "explanation": "Following the given operations in the code, the expression becomes 20 x 5 + 10 ÷ 2 - 4 = 100 + 5 - 4 = 101."
-        },
-        {
-            "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', and 'D' means 'E', then what does 'A' mean?",
-            
-                "a": "B",
-                "b": "C",
-                "c": "D",
-                "d": "E"
-            ,
-            "ans": "C",
-            "explanation": "Following the given code, 'A' means 'B'."
-        },
-        {
-            "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', and 'P' means 'Q', then what does 'M' mean?",
-            
-                "a": "N",
-                "b": "O",
-                "c": "P",
-                "d": "Q"
-            ,
-            "ans": "N",
-            "explanation": "Following the given code, 'M' means 'N'."
-        },
-        {
-            "question": "If 'X' means 'Y', 'Y' means 'Z', 'Z' means 'A', and 'A' means 'B', then what does 'X' mean?",
-            
-                "a": "Y",
-                "b": "Z",
-                "c": "A",
-                "d": "B"
-            ,
-            "ans": "Y",
-            "explanation": "Following the given code, 'X' means 'Y'."
-        },
-        {
-            "question": "If 'E' means 'F', 'F' means 'G', 'G' means 'H', and 'H' means 'I', then what does 'EFG' mean?",
-            
-                "a": "FGH",
-                "b": "GHI",
-                "c": "HIJ",
-                "d": "IJK"
-            ,
-            "ans": "GHI",
-            "explanation": "Following the given code, 'EFG' means 'GHI'."
-        },
-        {
-            "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', 'P' means 'Q', and 'Q' means 'M', then what does 'MNOP' mean?",
-            
-                "a": "NOQM",
-                "b": "OPQN",
-                "c": "PQNM",
-                "d": "QNOP"
-            ,
-            "ans": "QNOP",
-            "explanation": "Following the given code, 'MNOP' means 'QNOP'."
-        },
-        {
-            "question": "If 'F' means 'G', 'G' means 'H', 'H' means 'I', 'I' means 'J', and 'J' means 'K', then what does 'FGHIJ' mean?",
-            
-                "a": "GHJKL",
-                "b": "HIJKL",
-                "c": "IJKLM",
-                "d": "JKLMN"
-            ,
-            "ans": "GHJKL",
-            "explanation": "Following the given code, 'FGHIJ' means 'HIJKL'."
-        },
-        {
-            "question": "If 'P' means 'Q', 'Q' means 'R', 'R' means 'S', 'S' means 'T', and 'T' means 'U', then what does 'PQRST' mean?",
-            
-                "a": "QRSTU",
-                "b": "RSTUV",
-                "c": "STUVW",
-                "d": "TUVWX"
-            ,
-            "ans": "QRSTU",
-            "explanation": "Following the given code, 'PQRST' means 'QRSTU'."
-        },
-        {
-            "question": "If 'K' means 'L', 'L' means 'M', 'M' means 'N', 'N' means 'O', and 'O' means 'P', then what does 'KLMNO' mean?",
-            
-                "a": "LMNOP",
-                "b": "MNOPQ",
-                "c": "NOPQR",
-                "d": "OPQRS"
-            ,
-            "ans": "LMNOP",
-            "explanation": "Following the given code, 'KLMNO' means 'LMNOP'."
-        },
-        {
-            "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', 'D' means 'E', and 'E' means 'F', then what does 'ABCDE' mean?",
-            
-                "a": "BCDEF",
-                "b": "CDEFG",
-                "c": "DEFGH",
-                "d": "EFGHI"
-            ,
-            "ans": "BCDEF",
-            "explanation": "Following the given code, 'ABCDE' means 'BCDEF'."
-        },
-        {
-            "question": "If 'G' means 'H', 'H' means 'I', 'I' means 'J', 'J' means 'K', and 'K' means 'L', then what does 'GHIJK' mean?",
-            
-                "a": "HIJKL",
-                "b": "IJKLM",
-                "c": "JKLMN",
-                "d": "KLMNO"
-            ,
-            "ans": "HIJKL",
-            "explanation": "Following the given code, 'GHIJK' means 'HIJKL'."
-        }
-    ],
-    "Advanced":[
-        {
-            "question": "In a certain code language, 'FIRE' is written as 'EHQD'. How is 'CARE' written in that code?",
-            
-                "a": "BDQD",
-                "b": "DHQD",
-                "c": "DHSD",
-                "d": "BHSD"
-            ,
-            "ans": "DHQD",
-            "explanation": "Each letter in the word is moved one step backward to form the code. Therefore, 'CARE' becomes 'DHQD'."
-        },
-        {
-            "question": "If 'PAPER' is coded as 'OCODQ', how is 'HELLO' coded in that code?",
-            
-                "a": "IFMMP",
-                "b": "IFNMQ",
-                "c": "GKMMN",
-                "d": "GKNNM"
-            ,
-            "ans": "IFMMP",
-            "explanation": "Each letter is moved one step forward in the English alphabet to form the code. Therefore, 'HELLO' becomes 'IFMMP'."
-        },
-        {
-            "question": "If '+' means '-', '-' means 'x', 'x' means '÷', and '÷' means '+', then what is the value of 18 x 6 + 4 - 12 ÷ 3?",
-            
-                "a": "24",
-                "b": "18",
-                "c": "12",
-                "d": "6"
-        ,
-            "ans": "12",
-            "explanation": "Following the given operations in the code, the expression becomes 18 ÷ 6 - 4 x 12 + 3 = 3 - 48 + 3 = 12."
-        },
-        {
-            "question": "If 'B' denotes '+', 'C' denotes '-', 'D' denotes 'x', and 'E' denotes '÷', then what is the value of 12 E 6 C 2 D 4 B 3?",
-            
-                "a": "12",
-                "b": "3",
-                "c": "6",
-                "d": "9"
-            ,
-            "ans": "9",
-            "explanation": "Following the given operations in the code, the expression becomes 12 ÷ 6 - 2 x 4 + 3 = 2 - 8 + 3 = -3 + 3 = 0."
-        },
-        {
-            "question": "If 'K' means 'subtract', 'M' means 'add', 'N' means 'divide', and 'P' means 'multiply', then 36 K 6 N 2 P 3 M 5 = ?",
-            
-                "a": "40",
-                "b": "48",
-                "c": "56",
-                "d": "64"
-            ,
-            "ans": "48",
-            "explanation": "Following the given operations in the code, the expression becomes 36 - 6 ÷ 2 x 3 + 5 = 36 - 3 x 3 + 5 = 36 - 9 + 5 = 27 + 5 = 32."
-        },
-        {
-            "question": "If 'S' means 'addition', 'U' means 'subtraction', 'W' means 'multiplication', and 'Y' means 'division', then 20 W 4 S 10 Y 2 U 3 = ?",
-            
-                "a": "50",
-                "b": "55",
-                "c": "60",
-                "d": "65"
-            ,
-            "ans": "55",
-            "explanation": "Following the given operations in the code, the expression becomes 20 x 4 + 10 ÷ 2 - 3 = 80 + 5 - 3 = 82."
-        },
-        {
-            "question": "If 'G' means 'addition', 'H' means 'subtraction', 'I' means 'multiplication', and 'J' means 'division', then 30 H 5 G 10 I 2 J 3 = ?",
-            
-                "a": "5",
-                "b": "10",
-                "c": "15",
-                "d": "20"
-            ,
-            "ans": "5",
-            "explanation": "Following the given operations in the code, the expression becomes 30 - 5 + 10 x 2 ÷ 3 = 25 + 20 ÷ 3 = 25 + 6 = 31."
-        },
-        {
-            "question": "If 'A' means 'subtract', 'B' means 'addition', 'C' means 'division', and 'D' means 'multiplication', then 10 D 2 B 3 C 5 A 4 = ?",
-            
-                "a": "2",
-                "b": "6",
-                "c": "8",
-                "d": "10"
-            ,
-            "ans": "6",
-            "explanation": "Following the given operations in the code, the expression becomes 10 x 2 + 3 ÷ 5 - 4 = 20 + 0.6 - 4 = 20 + 0.6 - 4 = 20.6 - 4 = 16.6."
-        },
-        {
-            "question": "If 'F' denotes 'addition', 'G' denotes 'subtraction', 'H' denotes 'multiplication', and 'I' denotes 'division', then what is the value of 24 H 3 F 8 I 2 G 4?",
-            
-                "a": "44",
-                "b": "56",
-                "c": "68",
-                "d": "80"
-            ,
-            "ans": "44",
-            "explanation": "Following the given operations in the code, the expression becomes 24 x 3 + 8 ÷ 2 - 4 = 72 + 4 - 4 = 72 + 0 = 72."
-        },
-        {
-            "question": "If 'Q' denotes 'addition', 'R' denotes 'subtraction', 'S' denotes 'multiplication', and 'T' denotes 'division', then what is the value of 20 S 5 Q 10 T 2 R 4?",
-            
-                "a": "32",
-                "b": "36",
-                "c": "40",
-                "d": "44"
-            ,
-            "ans": "40",
-            "explanation": "Following the given operations in the code, the expression becomes 20 x 5 + 10 ÷ 2 - 4 = 100 + 5 - 4 = 101."
-        },
-        {
-            "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', and 'D' means 'E', then what does 'A' mean?",
-            
-                "a": "B",
-                "b": "C",
-                "c": "D",
-                "d": "E"
-            ,
-            "ans": "C",
-            "explanation": "Following the given code, 'A' means 'B'."
-        },
-        {
-            "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', and 'P' means 'Q', then what does 'M' mean?",
-            
-                "a": "N",
-                "b": "O",
-                "c": "P",
-                "d": "Q"
-            ,
-            "ans": "N",
-            "explanation": "Following the given code, 'M' means 'N'."
-        },
-        {
-            "question": "If 'X' means 'Y', 'Y' means 'Z', 'Z' means 'A', and 'A' means 'B', then what does 'X' mean?",
-            
-                "a": "Y",
-                "b": "Z",
-                "c": "A",
-                "d": "B"
-            ,
-            "ans": "Y",
-            "explanation": "Following the given code, 'X' means 'Y'."
-        },
-        {
-            "question": "If 'E' means 'F', 'F' means 'G', 'G' means 'H', and 'H' means 'I', then what does 'EFG' mean?",
-            
-                "a": "FGH",
-                "b": "GHI",
-                "c": "HIJ",
-                "d": "IJK"
-            ,
-            "ans": "GHI",
-            "explanation": "Following the given code, 'EFG' means 'GHI'."
-        },
-        {
-            "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', 'P' means 'Q', and 'Q' means 'M', then what does 'MNOP' mean?",
-            
-                "a": "NOQM",
-                "b": "OPQN",
-                "c": "PQNM",
-                "d": "QNOP"
-            ,
-            "ans": "QNOP",
-            "explanation": "Following the given code, 'MNOP' means 'QNOP'."
-        },
-        {
-            "question": "If 'F' means 'G', 'G' means 'H', 'H' means 'I', 'I' means 'J', and 'J' means 'K', then what does 'FGHIJ' mean?",
-            
-                "a": "GHJKL",
-                "b": "HIJKL",
-                "c": "IJKLM",
-                "d": "JKLMN"
-            ,
-            "ans": "GHJKL",
-            "explanation": "Following the given code, 'FGHIJ' means 'HIJKL'."
-        },
-        {
-            "question": "If 'P' means 'Q', 'Q' means 'R', 'R' means 'S', 'S' means 'T', and 'T' means 'U', then what does 'PQRST' mean?",
-            
-                "a": "QRSTU",
-                "b": "RSTUV",
-                "c": "STUVW",
-                "d": "TUVWX"
-            ,
-            "ans": "QRSTU",
-            "explanation": "Following the given code, 'PQRST' means 'QRSTU'."
-        },
-        {
-            "question": "If 'K' means 'L', 'L' means 'M', 'M' means 'N', 'N' means 'O', and 'O' means 'P', then what does 'KLMNO' mean?",
-            
-                "a": "LMNOP",
-                "b": "MNOPQ",
-                "c": "NOPQR",
-                "d": "OPQRS"
-            ,
-            "ans": "LMNOP",
-            "explanation": "Following the given code, 'KLMNO' means 'LMNOP'."
-        },
-        {
-            "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', 'D' means 'E', and 'E' means 'F', then what does 'ABCDE' mean?",
-            
-                "a": "BCDEF",
-                "b": "CDEFG",
-                "c": "DEFGH",
-                "d": "EFGHI"
-            ,
-            "ans": "BCDEF",
-            "explanation": "Following the given code, 'ABCDE' means 'BCDEF'."
-        },
-        {
-            "question": "If 'G' means 'H', 'H' means 'I', 'I' means 'J', 'J' means 'K', and 'K' means 'L', then what does 'GHIJK' mean?",
-            
-                "a": "HIJKL",
-                "b": "IJKLM",
-                "c": "JKLMN",
-                "d": "KLMNO"
-            ,
-            "ans": "HIJKL",
-            "explanation": "Following the given code, 'GHIJK' means 'HIJKL'."
-        }
+  "Basic": [
+    {
+      "question": "If all cats are dogs, and some dogs are birds, then which of the following statements must be true?",
 
-    ]
+      "a": "All cats are birds.",
+      "b": "Some cats are birds.",
+      "c": "All dogs are birds.",
+      "d": "Some dogs are cats.",
+      "ans": "ans2",
+      "explanation": "From the given information, we can conclude that some cats are birds, but we cannot conclude that all cats are birds."
+    },
+    {
+      "question": "If no students in this class are tall and all tall people are smart, then which of the following statements must be true?",
+
+      "a": "All smart people are tall.",
+      "b": "Some smart people are not tall.",
+      "c": "Some students are smart.",
+      "d": "No students are smart.",
+      "ans": "ans2",
+      "explanation": "From the given information, we can conclude that some smart people are not tall, as no students in the class are tall."
+    },
+    {
+      "question": "If some apples are red and all red things are fruits, then which of the following statements must be true?",
+
+      "a": "All fruits are apples.",
+      "b": "Some fruits are red.",
+      "c": "All red fruits are apples.",
+      "d": "Some apples are fruits.",
+      "ans": "ans4",
+      "explanation": "From the given information, we can conclude that some apples are fruits, but we cannot conclude that all fruits are apples or that some fruits are red."
+    },
+    {
+      "question": "If all cats are black and some black things are small, then which of the following statements must be true?",
+
+      "a": "All small things are black.",
+      "b": "Some small things are black.",
+      "c": "All small things are cats.",
+      "d": "Some cats are small.",
+      "ans": "ans4",
+      "explanation": "From the given information, we can conclude that some cats are small, but we cannot conclude that all small things are cats or that some small things are black."
+    },
+    {
+      "question": "If no fish are birds and all birds can fly, then which of the following statements must be true?",
+
+      "a": "No fish can fly.",
+      "b": "Some fish can fly.",
+      "c": "No birds are fish.",
+      "d": "Some birds are fish.",
+      "ans": "ans1",
+      "explanation": "From the given information, we can conclude that no fish can fly, but we cannot conclude that some fish are birds or that no birds are fish."
+    },
+    {
+      "question": "If all A are B and all B are C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "All A are C.",
+      "d": "Some A are C.",
+      "ans": "ans3",
+      "explanation": "From the given information, we can conclude that all A are C."
+    },
+    {
+      "question": "If some cars are blue and all blue things are expensive, then which of the following statements must be true?",
+
+      "a": "All expensive things are blue.",
+      "b": "Some expensive things are cars.",
+      "c": "All cars are expensive.",
+      "d": "Some cars are expensive.",
+      "ans": "ans4",
+      "explanation": "From the given information, we can conclude that some cars are expensive, but we cannot conclude that all cars are expensive or that some expensive things are cars."
+    },
+    {
+      "question": "If no dogs are cats and some cats are animals, then which of the following statements must be true?",
+
+      "a": "Some animals are dogs.",
+      "b": "No animals are dogs.",
+      "c": "Some animals are cats.",
+      "d": "No animals are cats.",
+      "ans": "ans3",
+      "explanation": "From the given information, we can conclude that some animals are cats, but we cannot conclude that no animals are cats or that some animals are dogs."
+    },
+    {
+      "question": "If all apples are fruits and all fruits are tasty, then which of the following statements must be true?",
+
+      "a": "All tasty things are fruits.",
+      "b": "Some tasty things are apples.",
+      "c": "All apples are tasty.",
+      "d": "Some fruits are apples.",
+      "ans": "ans2",
+      "explanation": "From the given information, we can conclude that some tasty things are apples, but we cannot conclude that all apples are tasty or that some tasty things are fruits."
+    },
+    {
+      "question": "If all A are B and some B are C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "All A are C.",
+      "d": "Some A are C.",
+      "ans": "ans4",
+      "explanation": "From the given information, we can conclude that some A are C, but we cannot conclude that all C are A or that all A are C."
+    },
+    {
+      "question": "If all A are B and no B are C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "No C are A.",
+      "d": "All A are C.",
+      "ans": "ans3",
+      "explanation": "From the given information, we can conclude that no C are A, but we cannot conclude that all C are A or that all A are C."
+    },
+    {
+      "question": "If some A are B and some B are C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "All A are C.",
+      "d": "Some A are C.",
+      "ans": "ans4",
+      "explanation": "From the given information, we can conclude that some A are C, but we cannot conclude that all C are A or that some C are A."
+    },
+    {
+      "question": "If some A are not B and all B are C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "All A are C.",
+      "d": "Some A are C.",
+      "ans": "ans4",
+      "explanation": "From the given information, we can conclude that some A are C, but we cannot conclude that all C are A or that some C are A."
+    },
+    {
+      "question": "If all A are B and some B are not C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "No C are A.",
+      "d": "All A are C.",
+      "ans": "ans2",
+      "explanation": "From the given information, we can conclude that some C are A, but we cannot conclude that all C are A or that no C are A."
+    },
+    {
+      "question": "If some A are not B and some B are not C, then which of the following statements must be true?",
+
+      "a": "All C are A.",
+      "b": "Some C are A.",
+      "c": "No C are A.",
+      "d": "All A are C.",
+      "ans": "ans3",
+      "explanation": "From the given information, we can conclude that no C are A, but we cannot conclude that all C are A or that some C are A."
+    }
+  ],
+  "Intermediate": [
+    {
+      "question": "In a certain code language, 'FIRE' is written as 'EHQD'. How is 'CARE' written in that code?",
+
+      "a": "BDQD",
+      "b": "DHQD",
+      "c": "DHSD",
+      "d": "BHSD",
+      "ans": "ans2",
+      "explanation": "Each letter in the word is moved one step backward to form the code. Therefore, 'CARE' becomes 'DHQD'."
+    },
+    {
+      "question": "If 'PAPER' is coded as 'OCODQ', how is 'HELLO' coded in that code?",
+
+      "a": "IFMMP",
+      "b": "IFNMQ",
+      "c": "GKMMN",
+      "d": "GKNNM",
+      "ans": "ans1",
+      "explanation": "Each letter is moved one step forward in the English alphabet to form the code. Therefore, 'HELLO' becomes 'IFMMP'."
+    },
+    {
+      "question": "If '+' means '-', '-' means 'x', 'x' means '÷', and '÷' means '+', then what is the value of 18 x 6 + 4 - 12 ÷ 3?",
+
+      "a": "24",
+      "b": "18",
+      "c": "12",
+      "d": "6",
+      "ans": "ans3",
+      "explanation": "Following the given operations in the code, the expression becomes 18 ÷ 6 - 4 x 12 + 3 = 3 - 48 + 3 = 12."
+    },
+    {
+      "question": "If 'B' denotes '+', 'C' denotes '-', 'D' denotes 'x', and 'E' denotes '÷', then what is the value of 12 E 6 C 2 D 4 B 3?",
+
+      "a": "12",
+      "b": "3",
+      "c": "6",
+      "d": "9",
+      "ans": "ans4",
+      "explanation": "Following the given operations in the code, the expression becomes 12 ÷ 6 - 2 x 4 + 3 = 2 - 8 + 3 = -3 + 3 = 0."
+    },
+    {
+      "question": "If 'K' means 'subtract', 'M' means 'add', 'N' means 'divide', and 'P' means 'multiply', then 36 K 6 N 2 P 3 M 5 = ?",
+
+      "a": "40",
+      "b": "48",
+      "c": "56",
+      "d": "64",
+      "ans": "ans2",
+      "explanation": "Following the given operations in the code, the expression becomes 36 - 6 ÷ 2 x 3 + 5 = 36 - 3 x 3 + 5 = 36 - 9 + 5 = 27 + 5 = 32."
+    },
+    {
+      "question": "If 'S' means 'addition', 'U' means 'subtraction', 'W' means 'multiplication', and 'Y' means 'division', then 20 W 4 S 10 Y 2 U 3 = ?",
+
+      "a": "50",
+      "b": "55",
+      "c": "60",
+      "d": "65",
+      "ans": "ans2",
+      "explanation": "Following the given operations in the code, the expression becomes 20 x 4 + 10 ÷ 2 - 3 = 80 + 5 - 3 = 82."
+    },
+    {
+      "question": "If 'G' means 'addition', 'H' means 'subtraction', 'I' means 'multiplication', and 'J' means 'division', then 30 H 5 G 10 I 2 J 3 = ?",
+
+      "a": "5",
+      "b": "10",
+      "c": "15",
+      "d": "20",
+      "ans": "ans1",
+      "explanation": "Following the given operations in the code, the expression becomes 30 - 5 + 10 x 2 ÷ 3 = 25 + 20 ÷ 3 = 25 + 6 = 31."
+    },
+    {
+      "question": "If 'A' means 'subtract', 'B' means 'addition', 'C' means 'division', and 'D' means 'multiplication', then 10 D 2 B 3 C 5 A 4 = ?",
+
+      "a": "2",
+      "b": "6",
+      "c": "8",
+      "d": "10",
+      "ans": "ans2",
+      "explanation": "Following the given operations in the code, the expression becomes 10 x 2 + 3 ÷ 5 - 4 = 20 + 0.6 - 4 = 20 + 0.6 - 4 = 20.6 - 4 = 16.6."
+    },
+    {
+      "question": "If 'F' denotes 'addition', 'G' denotes 'subtraction', 'H' denotes 'multiplication', and 'I' denotes 'division', then what is the value of 24 H 3 F 8 I 2 G 4?",
+
+      "a": "44",
+      "b": "56",
+      "c": "68",
+      "d": "80",
+      "ans": "ans1",
+      "explanation": "Following the given operations in the code, the expression becomes 24 x 3 + 8 ÷ 2 - 4 = 72 + 4 - 4 = 72 + 0 = 72."
+    },
+    {
+      "question": "If 'Q' denotes 'addition', 'R' denotes 'subtraction', 'S' denotes 'multiplication', and 'T' denotes 'division', then what is the value of 20 S 5 Q 10 T 2 R 4?",
+
+      "a": "32",
+      "b": "36",
+      "c": "40",
+      "d": "44",
+      "ans": "ans3",
+      "explanation": "Following the given operations in the code, the expression becomes 20 x 5 + 10 ÷ 2 - 4 = 100 + 5 - 4 = 101."
+    },
+    {
+      "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', and 'D' means 'E', then what does 'A' mean?",
+
+      "a": "B",
+      "b": "C",
+      "c": "D",
+      "d": "E",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'A' means 'B'."
+    },
+    {
+      "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', and 'P' means 'Q', then what does 'M' mean?",
+
+      "a": "N",
+      "b": "O",
+      "c": "P",
+      "d": "Q",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'M' means 'N'."
+    },
+    {
+      "question": "If 'X' means 'Y', 'Y' means 'Z', 'Z' means 'A', and 'A' means 'B', then what does 'X' mean?",
+
+      "a": "Y",
+      "b": "Z",
+      "c": "A",
+      "d": "B",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'X' means 'Y'."
+    },
+    {
+      "question": "If 'E' means 'F', 'F' means 'G', 'G' means 'H', and 'H' means 'I', then what does 'EFG' mean?",
+
+      "a": "FGH",
+      "b": "GHI",
+      "c": "HIJ",
+      "d": "IJK",
+      "ans": "ans2",
+      "explanation": "Following the given code, 'EFG' means 'GHI'."
+    },
+    {
+      "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', 'P' means 'Q', and 'Q' means 'M', then what does 'MNOP' mean?",
+
+      "a": "NOQM",
+      "b": "OPQN",
+      "c": "PQNM",
+      "d": "QNOP",
+      "ans": "ans4",
+      "explanation": "Following the given code, 'MNOP' means 'QNOP'."
+    },
+    {
+      "question": "If 'F' means 'G', 'G' means 'H', 'H' means 'I', 'I' means 'J', and 'J' means 'K', then what does 'FGHIJ' mean?",
+
+      "a": "GHJKL",
+      "b": "HIJKL",
+      "c": "IJKLM",
+      "d": "JKLMN",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'FGHIJ' means 'HIJKL'."
+    },
+    {
+      "question": "If 'P' means 'Q', 'Q' means 'R', 'R' means 'S', 'S' means 'T', and 'T' means 'U', then what does 'PQRST' mean?",
+
+      "a": "QRSTU",
+      "b": "RSTUV",
+      "c": "STUVW",
+      "d": "TUVWX",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'PQRST' means 'QRSTU'."
+    },
+    {
+      "question": "If 'K' means 'L', 'L' means 'M', 'M' means 'N', 'N' means 'O', and 'O' means 'P', then what does 'KLMNO' mean?",
+
+      "a": "LMNOP",
+      "b": "MNOPQ",
+      "c": "NOPQR",
+      "d": "OPQRS",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'KLMNO' means 'LMNOP'."
+    },
+    {
+      "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', 'D' means 'E', and 'E' means 'F', then what does 'ABCDE' mean?",
+
+      "a": "BCDEF",
+      "b": "CDEFG",
+      "c": "DEFGH",
+      "d": "EFGHI",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'ABCDE' means 'BCDEF'."
+    },
+    {
+      "question": "If 'G' means 'H', 'H' means 'I', 'I' means 'J', 'J' means 'K', and 'K' means 'L', then what does 'GHIJK' mean?",
+
+      "a": "HIJKL",
+      "b": "IJKLM",
+      "c": "JKLMN",
+      "d": "KLMNO",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'GHIJK' means 'HIJKL'."
+    }
+  ],
+  "Advanced": [
+    {
+      "question": "In a certain code language, 'FIRE' is written as 'EHQD'. How is 'CARE' written in that code?",
+
+      "a": "BDQD",
+      "b": "DHQD",
+      "c": "DHSD",
+      "d": "BHSD",
+      "ans": "ans2",
+      "explanation": "Each letter in the word is moved one step backward to form the code. Therefore, 'CARE' becomes 'DHQD'."
+    },
+    {
+      "question": "If 'PAPER' is coded as 'OCODQ', how is 'HELLO' coded in that code?",
+
+      "a": "IFMMP",
+      "b": "IFNMQ",
+      "c": "GKMMN",
+      "d": "GKNNM",
+      "ans": "ans1",
+      "explanation": "Each letter is moved one step forward in the English alphabet to form the code. Therefore, 'HELLO' becomes 'IFMMP'."
+    },
+    {
+      "question": "If '+' means '-', '-' means 'x', 'x' means '÷', and '÷' means '+', then what is the value of 18 x 6 + 4 - 12 ÷ 3?",
+
+      "a": "24",
+      "b": "18",
+      "c": "12",
+      "d": "6",
+      "ans": "ans3",
+      "explanation": "Following the given operations in the code, the expression becomes 18 ÷ 6 - 4 x 12 + 3 = 3 - 48 + 3 = 12."
+    },
+    {
+      "question": "If 'B' denotes '+', 'C' denotes '-', 'D' denotes 'x', and 'E' denotes '÷', then what is the value of 12 E 6 C 2 D 4 B 3?",
+
+      "a": "12",
+      "b": "3",
+      "c": "6",
+      "d": "9",
+      "ans": "ans4",
+      "explanation": "Following the given operations in the code, the expression becomes 12 ÷ 6 - 2 x 4 + 3 = 2 - 8 + 3 = -3 + 3 = 0."
+    },
+    {
+      "question": "If 'K' means 'subtract', 'M' means 'add', 'N' means 'divide', and 'P' means 'multiply', then 36 K 6 N 2 P 3 M 5 = ?",
+
+      "a": "40",
+      "b": "48",
+      "c": "56",
+      "d": "64",
+      "ans": "ans2",
+      "explanation": "Following the given operations in the code, the expression becomes 36 - 6 ÷ 2 x 3 + 5 = 36 - 3 x 3 + 5 = 36 - 9 + 5 = 27 + 5 = 32."
+    },
+    {
+      "question": "If 'S' means 'addition', 'U' means 'subtraction', 'W' means 'multiplication', and 'Y' means 'division', then 20 W 4 S 10 Y 2 U 3 = ?",
+
+      "a": "50",
+      "b": "55",
+      "c": "60",
+      "d": "65",
+      "ans": "ans2",
+      "explanation": "Following the given operations in the code, the expression becomes 20 x 4 + 10 ÷ 2 - 3 = 80 + 5 - 3 = 82."
+    },
+    {
+      "question": "If 'G' means 'addition', 'H' means 'subtraction', 'I' means 'multiplication', and 'J' means 'division', then 30 H 5 G 10 I 2 J 3 = ?",
+
+      "a": "5",
+      "b": "10",
+      "c": "15",
+      "d": "20",
+      "ans": "ans1",
+      "explanation": "Following the given operations in the code, the expression becomes 30 - 5 + 10 x 2 ÷ 3 = 25 + 20 ÷ 3 = 25 + 6 = 31."
+    },
+    {
+      "question": "If 'A' means 'subtract', 'B' means 'addition', 'C' means 'division', and 'D' means 'multiplication', then 10 D 2 B 3 C 5 A 4 = ?",
+
+      "a": "2",
+      "b": "6",
+      "c": "8",
+      "d": "10",
+      "ans": "ans2",
+      "explanation": "Following the given operations in the code, the expression becomes 10 x 2 + 3 ÷ 5 - 4 = 20 + 0.6 - 4 = 20 + 0.6 - 4 = 20.6 - 4 = 16.6."
+    },
+    {
+      "question": "If 'F' denotes 'addition', 'G' denotes 'subtraction', 'H' denotes 'multiplication', and 'I' denotes 'division', then what is the value of 24 H 3 F 8 I 2 G 4?",
+
+      "a": "44",
+      "b": "56",
+      "c": "68",
+      "d": "80",
+      "ans": "ans1",
+      "explanation": "Following the given operations in the code, the expression becomes 24 x 3 + 8 ÷ 2 - 4 = 72 + 4 - 4 = 72 + 0 = 72."
+    },
+    {
+      "question": "If 'Q' denotes 'addition', 'R' denotes 'subtraction', 'S' denotes 'multiplication', and 'T' denotes 'division', then what is the value of 20 S 5 Q 10 T 2 R 4?",
+
+      "a": "32",
+      "b": "36",
+      "c": "40",
+      "d": "44",
+      "ans": "ans3",
+      "explanation": "Following the given operations in the code, the expression becomes 20 x 5 + 10 ÷ 2 - 4 = 100 + 5 - 4 = 101."
+    },
+    {
+      "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', and 'D' means 'E', then what does 'A' mean?",
+
+      "a": "B",
+      "b": "C",
+      "c": "D",
+      "d": "E",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'A' means 'B'."
+    },
+    {
+      "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', and 'P' means 'Q', then what does 'M' mean?",
+
+      "a": "N",
+      "b": "O",
+      "c": "P",
+      "d": "Q",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'M' means 'N'."
+    },
+    {
+      "question": "If 'X' means 'Y', 'Y' means 'Z', 'Z' means 'A', and 'A' means 'B', then what does 'X' mean?",
+
+      "a": "Y",
+      "b": "Z",
+      "c": "A",
+      "d": "B",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'X' means 'Y'."
+    },
+    {
+      "question": "If 'E' means 'F', 'F' means 'G', 'G' means 'H', and 'H' means 'I', then what does 'EFG' mean?",
+
+      "a": "FGH",
+      "b": "GHI",
+      "c": "HIJ",
+      "d": "IJK",
+      "ans": "ans2",
+      "explanation": "Following the given code, 'EFG' means 'GHI'."
+    },
+    {
+      "question": "If 'M' means 'N', 'N' means 'O', 'O' means 'P', 'P' means 'Q', and 'Q' means 'M', then what does 'MNOP' mean?",
+
+      "a": "NOQM",
+      "b": "OPQN",
+      "c": "PQNM",
+      "d": "QNOP",
+      "ans": "ans4",
+      "explanation": "Following the given code, 'MNOP' means 'QNOP'."
+    },
+    {
+      "question": "If 'F' means 'G', 'G' means 'H', 'H' means 'I', 'I' means 'J', and 'J' means 'K', then what does 'FGHIJ' mean?",
+
+      "a": "GHJKL",
+      "b": "HIJKL",
+      "c": "IJKLM",
+      "d": "JKLMN",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'FGHIJ' means 'HIJKL'."
+    },
+    {
+      "question": "If 'P' means 'Q', 'Q' means 'R', 'R' means 'S', 'S' means 'T', and 'T' means 'U', then what does 'PQRST' mean?",
+
+      "a": "QRSTU",
+      "b": "RSTUV",
+      "c": "STUVW",
+      "d": "TUVWX",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'PQRST' means 'QRSTU'."
+    },
+    {
+      "question": "If 'K' means 'L', 'L' means 'M', 'M' means 'N', 'N' means 'O', and 'O' means 'P', then what does 'KLMNO' mean?",
+
+      "a": "LMNOP",
+      "b": "MNOPQ",
+      "c": "NOPQR",
+      "d": "OPQRS",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'KLMNO' means 'LMNOP'."
+    },
+    {
+      "question": "If 'A' means 'B', 'B' means 'C', 'C' means 'D', 'D' means 'E', and 'E' means 'F', then what does 'ABCDE' mean?",
+
+      "a": "BCDEF",
+      "b": "CDEFG",
+      "c": "DEFGH",
+      "d": "EFGHI",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'ABCDE' means 'BCDEF'."
+    },
+    {
+      "question": "If 'G' means 'H', 'H' means 'I', 'I' means 'J', 'J' means 'K', and 'K' means 'L', then what does 'GHIJK' mean?",
+
+      "a": "HIJKL",
+      "b": "IJKLM",
+      "c": "JKLMN",
+      "d": "KLMNO",
+      "ans": "ans1",
+      "explanation": "Following the given code, 'GHIJK' means 'HIJKL'."
+    }
+  ]
 }

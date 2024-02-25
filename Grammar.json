@@ -1,493 +1,449 @@
 {
-    "Basic":[
-        {
-            "question": "What is the plural form of 'cat'?",
-            
-                "a": "cats",
-                "b": "caties",
-                "c": "cates",
-                "d": "catz"
-            ,
-            "ans": "cats",
-            "explanation": "The plural form of 'cat' is 'cats'."
-        },
-        {
-            "question": "Which word is a pronoun?",
-            
-                "a": "book",
-                "b": "she",
-                "c": "run",
-                "d": "jump"
-            ,
-            "ans": "she",
-            "explanation": "'She' is a pronoun that refers to a female person or animal."
-        },
-        {
-            "question": "What is the past tense of 'eat'?",
-            
-                "a": "eated",
-                "b": "eaten",
-                "c": "ate",
-                "d": "eat"
-            ,
-            "ans": "ate",
-            "explanation": "The past tense of 'eat' is 'ate'."
-        },
-        {
-            "question": "Which sentence is correct?",
-            
-                "a": "He goed to the store.",
-                "b": "She have a cat.",
-                "c": "I am going to the park.",
-                "d": "They plays soccer."
-            ,
-            "ans": "I am going to the park.",
-            "explanation": "The correct sentence is 'I am going to the park.'"
-        },
-        {
-            "question": "What is a synonym for 'happy'?",
-            
-                "a": "sad",
-                "b": "angry",
-                "c": "joyful",
-                "d": "tired"
-            ,
-            "ans": "joyful",
-            "explanation": "'Joyful' is a synonym for 'happy'."
-        },
-        {
-            "question": "Which word is a conjunction?",
-            
-                "a": "quickly",
-                "b": "and",
-                "c": "apple",
-                "d": "jump"
-            ,
-            "ans": "and",
-            "explanation": "'And' is a conjunction used to connect words or phrases."
-        },
-        {
-            "question": "What is the opposite of 'big'?",
-            
-                "a": "small",
-                "b": "fast",
-                "c": "tall",
-                "d": "short"
-            ,
-            "ans": "small",
-            "explanation": "'Small' is the opposite of 'big'."
-        },
-        {
-            "question": "Which sentence is a question?",
-            
-                "a": "The sun is shining.",
-                "b": "She is reading a book.",
-                "c": "What time is it?",
-                "d": "He likes ice cream."
-            ,
-            "ans": "What time is it?",
-            "explanation": "'What time is it?' is a question."
-        },
-        {
-            "question": "What is the plural form of 'child'?",
-            
-                "a": "childs",
-                "b": "childrens",
-                "c": "childes",
-                "d": "children"
-            ,
-            "ans": "children",
-            "explanation": "The plural form of 'child' is 'children'."
-        },
-        {
-            "question": "Which word is a preposition?",
-            
-                "a": "jump",
-                "b": "on",
-                "c": "happy",
-                "d": "book"
-            ,
-            "ans": "on",
-            "explanation": "'On' is a preposition that indicates location or direction."
-        },
-        {
-            "question": "What is the past tense of 'go'?",
-            
-                "a": "went",
-                "b": "goed",
-                "c": "gone",
-                "d": "go"
-            ,
-            "ans": "went",
-            "explanation": "The past tense of 'go' is 'went'."
-        },
-        {
-            "question": "Which sentence is correct?",
-            
-                "a": "She do not like ice cream.",
-                "b": "He plays soccer yesterday.",
-                "c": "They are going to the beach.",
-                "d": "I goed to the store."
-            ,
-            "ans": "They are going to the beach.",
-            "explanation": "The correct sentence is 'They are going to the beach.'"
-        },
-        {
-            "question": "What is an antonym for 'hot'?",
-            
-                "a": "cold",
-                "b": "warm",
-                "c": "cool",
-                "d": "freezing"
-            ,
-            "ans": "cold",
-            "explanation": "'Cold' is an antonym for 'hot'."
-        },
-        {
-            "question": "Which word is a verb?",
-            
-                "a": "book",
-                "b": "jump",
-                "c": "blue",
-                "d": "apple"
-            ,
-            "ans": "jump",
-            "explanation": "'Jump' is a verb that describes an action."
-        },
-        {
-            "question": "What is the plural form of 'person'?",
-            
-                "a": "persons",
-                "b": "people",
-                "c": "persones",
-                "d": "peoples"
-            ,
-            "ans": "people",
-            "explanation": "The plural form of 'person' is 'people'."
-        }
+  "Basic": [
+    {
+      "question": "What is the plural form of 'cat'?",
 
-    ],
+      "a": "cats",
+      "b": "caties",
+      "c": "cates",
+      "d": "catz",
+      "ans": "ans1",
+      "explanation": "The plural form of 'cat' is 'cats'."
+    },
+    {
+      "question": "Which word is a pronoun?",
 
-    "Intermediate":[
-        {
-            "question": "Which of the following sentences is grammatically correct?",
-            
-                "a": "She don't like pizza.",
-                "b": "He don't like pizza.",
-                "c": "She doesn't like pizza.",
-                "d": "He doesn't like pizza."
-            ,
-            "ans": "She doesn't like pizza.",
-            "explanation": "The correct form is 'doesn't' for singular third-person subjects (she/he/it) in the present simple tense."
-        },
-        {
-            "question": "Choose the sentence that uses 'whom' correctly.",
-            
-                "a": "Whom is going to the party tonight?",
-                "b": "To whom should I address this letter?",
-                "c": "Whom is responsible for this mess?",
-                "d": "She is the one whom you should ask."
-            ,
-            "ans":"To whom should I address this letter?",
-            "explanation": "In this sentence, 'whom' is used correctly as the object of the preposition 'to' in the phrase 'to whom'."
-        },
-        {
-            "question": "Which of the following sentences is in the passive voice?",
-            
-                "a": "The dog chased the cat.",
-                "b": "The cat was chased by the dog.",
-                "c": "She will finish the project tomorrow.",
-                "d": "He has written a book."
-            ,
-            "ans": "The cat was chased by the dog.",
-            "explanation": "The passive voice is formed with a form of 'to be' (was, were, is, are, etc.) and a past participle (chased)."
-        },
-        {
-            "question": "Select the sentence that uses 'their' correctly.",
-            
-                "a": "Their going to the concert tomorrow.",
-                "b": "Their is a beautiful park near the lake.",
-                "c": "She gave me their phone number.",
-                "d": "Their are many books on the shelf."
-            ,
-            "ans": "She gave me their phone number.",
-            "explanation": "In this sentence, 'their' is used correctly as a possessive pronoun to indicate that the phone number belongs to someone else."
-        },
-        {
-            "question": "Choose the sentence with the correct use of the apostrophe.",
-            
-                "a": "The dogs tail wagged happily.",
-                "b": "The dog's tail wagged happily.",
-                "c": "The dogs' tail wagged happily.",
-                "d": "The dogs tails wagged happily."
-            ,
-            "ans": "b",
-            "explanation": "The apostrophe is used to indicate possession. In this sentence, 'dog's' is used to show that the tail belongs to the dog."
-        },
-        {
-            "question": "Identify the sentence with correct subject-verb agreement.",
-            
-                "a": "He don't like coffee.",
-                "b": "She don't like coffee.",
-                "c": "He doesn't like coffee.",
-                "d": "She doesn't like coffee."
-            ,
-            "ans": "He doesn't like coffee.",
-            "explanation": "The correct form is 'doesn't' for singular third-person subjects (he/she/it) in the present simple tense."
-        },
-        {
-            "question": "Choose the sentence with the correct use of 'its' and 'it's'.",
-            
-                "a": "Its raining outside.",
-                "b": "It's raining outside.",
-                "c": "The dog wagged it's tail.",
-                "d": "The dog wagged its tail."
-            ,
-            "ans": "The dog wagged its tail.",
-            "explanation": "'Its' is a possessive pronoun, while 'it's' is a contraction of 'it is'. In this sentence, 'its' is used correctly to show that the tail belongs to the dog."
-        },
-        {
-            "question": "Which sentence uses 'who' correctly?",
-            
-                "a": "Who is the book you borrowed from?",
-                "b": "Who is going to the party with?",
-                "c": "Who should I talk to about this?",
-                "d": "Who's bag is this?"
-            ,
-            "ans": "Who should I talk to about this?",
-            "explanation": "'Who' is used correctly as the subject of the verb 'talk'."
-        },
-        {
-            "question": "Select the sentence with the correct use of the past perfect tense.",
-            
-                "a": "She had went to the store before it closed.",
-                "b": "He had began his new job already.",
-                "c": "They had never saw such a beautiful sunset.",
-                "d": "I had eaten dinner already."
-            ,
-            "ans": "I had eaten dinner already.",
-            "explanation": "The past perfect tense is formed with 'had' + past participle. In this sentence, 'had eaten' is the correct past perfect construction."
-        },
-        {
-            "question": "Identify the sentence with correct comma usage.",
-            
-                "a": "I went to the store but, I forgot to buy milk.",
-                "b": "She likes to read books, in the park.",
-                "c": "He enjoys playing soccer, and tennis.",
-                "d": "They went to the beach, and swam in the ocean."
-            ,
-            "ans":"They went to the beach, and swam in the ocean.",
-            "explanation": "Commas are used to separate items in a list. In this sentence, the comma is correctly used to separate the two activities."
-        },
-        {
-            "question": "Choose the sentence with the correct use of 'your' and 'you're'.",
-            
-                "a": "Your going to love this movie.",
-                "b": "You're going to love this movie.",
-                "c": "She asked for you're phone number.",
-                "d": "I like your new haircut."
-            ,
-            "ans":"I like your new haircut.",
-            "explanation": "'Your' is a possessive pronoun, while 'you're' is a contraction of 'you are'. In this sentence, 'your' is used correctly to show possession."
-        },
-        {
-            "question": "Select the sentence with the correct use of a comparative adjective.",
-            
-                "a": "This book is more better than the one I read last week.",
-                "b": "She is the goodest student in the class.",
-                "c": "He is taller than his brother.",
-                "d": "The weather today is more nice than yesterday."
-            ,
-            "ans": "He is taller than his brother.",
-            "explanation": "Comparative adjectives are used to compare two things. In this sentence, 'taller' is the correct comparative form of 'tall'."
-        },
-        {
-            "question": "Which sentence uses the correct conditional mood?",
-            
-                "a": "If I would have known, I would have told you.",
-                "b": "If he will come, we can go together.",
-                "c": "If she had time, she will join us.",
-                "d": "If you go to the store, pick up some milk."
-            ,
-            "ans": "If you go to the store, pick up some milk.",
-            "explanation": "The conditional mood is used to express a situation that is dependent on another. In this sentence, 'If you go' is the correct use of the conditional mood."
-        },
-        {
-            "question": "Identify the sentence with the correct use of a split infinitive.",
-            
-                "a": "She decided to quickly finish her homework.",
-                "b": "He promised to carefully read the instructions.",
-                "c": "They wanted to really see the show.",
-                "d": "I tried to quietly sneak out of the room."
-            ,
-            "ans": "She decided to quickly finish her homework.",
-            "explanation": "A split infinitive occurs when an adverb or other word is inserted between 'to' and the verb in an infinitive. In this sentence, 'quickly' splits the infinitive 'to finish'."
-        },
-        {
-            "question": "Choose the sentence with the correct use of a dangling participle.",
-            
-                "a": "Walking down the street, the trees looked beautiful.",
-                "b": "Sitting on the bench, the bus arrived.",
-                "c": "Having finished the book, it was time to start a new one.",
-                "d": "Eating dinner, the phone rang."
-            ,
-            "ans": "Walking down the street, the trees looked beautiful.",
-            "explanation": "A dangling participle occurs when the participle is not clearly related to the subject of the sentence. In this sentence, 'walking down the street' does not logically describe 'the trees'."
-        }
+      "a": "book",
+      "b": "she",
+      "c": "run",
+      "d": "jump",
+      "ans": "ans2",
+      "explanation": "'She' is a pronoun that refers to a female person or animal."
+    },
+    {
+      "question": "What is the past tense of 'eat'?",
 
-    ],
-    
-    "Advanced": [
-        {
-            "question": "Identify the sentence that contains a dangling modifier.",
-                "a": "After being marinated overnight, the chef cooked the steak perfectly.",
-                "b": "Racing down the hill, the deer was narrowly missed by the car.",
-                "c": "Served on a silver platter, the guests devoured the delicious meal.",
-                "d": "While jogging in the park, my keys fell out of my pocket.",
-                "ans": "Racing down the hill, the deer was narrowly missed by the car.",
-            "explanation": "A dangling modifier occurs when the subject of the modifier is not clearly stated in the sentence. In this case, 'racing down the hill' does not clearly refer to any subject in the sentence."
-        },
-        {
-            "question": "Select the sentence with the correct subject-verb agreement.",
-            
-                "a": "The number of students attending the seminar are increasing.",
-                "b": "Neither the book nor the movie was interesting.",
-                "c": "The staff at the restaurant is very friendly.",
-                "d": "Each of the boxes need to be labeled.",
-            "ans": "The staff at the restaurant is very friendly.",
-            "explanation": "The subject 'staff' is singular, so the verb should be 'is' instead of 'are'."
-        },
-        {
-            "question": "Which sentence uses the correct past perfect tense?",
-            
-                "a": "She has eaten lunch before she went to the meeting.",
-                "b": "I had never saw that movie before last night.",
-                "c": "By the time we arrived, the movie already started.",
-                "d": "He was tired because he hadn't slept well the night before."
-            ,
-            "ans":"He was tired because he hadn't slept well the night before.",
-            "explanation": "The past perfect tense is formed with 'had' + past participle. In this sentence, 'hadn't slept' is the correct past perfect construction."
-        },
-        {
-            "question": "Choose the sentence with the correct use of the subjunctive mood.",
-            
-                "a": "If I was you, I would take the job.",
-                "b": "I wish she was here right now.",
-                "c": "It's important that he goes to the doctor.",
-                "d": "If I were taller, I could reach the top shelf."
-            ,
-            "ans": "If I were taller, I could reach the top shelf.",
-            "explanation": "The subjunctive mood is used to express hypothetical or unreal situations. In this case, 'were' is used instead of 'was' to indicate an unreal condition."
-        },
-        {
-            "question": "Identify the sentence with the correct use of the comparative form.",
-            
-                "a": "She is the most tallest girl in her class.",
-                "b": "This book is more interesting than the one I read last week.",
-                "c": "He runs more faster than his brother.",
-                "d": "The weather today is more nice than yesterday."
-            ,
-            "ans":  "This book is more interesting than the one I read last week.",
-            "explanation": "The comparative form is used to compare two things. In this sentence, 'more interesting' is used correctly to compare two books."
-        },
-        {
-            "question": "Select the sentence with the correct use of a gerund.",
-            
-                "a": "I enjoy to swim in the ocean.",
-                "b": "He suggested going to the movies tonight.",
-                "c": "She admitted to making a mistake.",
-                "d": "They avoid to eat fast food."
-            ,
-            "ans": "He suggested going to the movies tonight.",
-            "explanation": "A gerund is a verb form ending in -ing that functions as a noun. In this sentence, 'going' is a gerund that serves as the object of the verb 'suggested'."
-        },
-        {
-            "question": "Which sentence uses the correct past participle form?",
-            
-                "a": "She had went to the store before it closed.",
-                "b": "He has began his new job already.",
-                "c": "They have never saw such a beautiful sunset.",
-                "d": "I have eaten dinner already."
-            ,
-            "ans": "I have eaten dinner already.",
-            "explanation": "The past participle form of 'eat' is 'eaten'. In this sentence, 'eaten' is used correctly with the auxiliary verb 'have'."
-        },
-        {
-            "question": "Choose the sentence with the correct use of a split infinitive.",
-            
-                "a": "She decided to quickly finish her homework.",
-                "b": "He promised to carefully read the instructions.",
-                "c": "They wanted to really see the show.",
-                "d": "I tried to quietly sneak out of the room."
-            ,
-            "ans": "She decided to quickly finish her homework.",
-            "explanation": "A split infinitive occurs when an adverb or other word is inserted between 'to' and the verb in an infinitive. In this sentence, 'quickly' splits the infinitive 'to finish'."
-        },
-        {
-            "question": "Identify the sentence with the correct use of a comma splice.",
-            
-                "a": "I went to the store, and bought some milk.",
-                "b": "She was tired, so she went to bed early.",
-                "c": "He studied hard, but he failed the test.",
-                "d": "They went for a walk, they saw a beautiful sunset."
-            ,
-            "ans": "I went to the store, and bought some milk.",
-            "explanation": "A comma splice occurs when two independent clauses are joined by a comma without a coordinating conjunction. In this sentence, the comma splice is used to join 'I went to the store' and 'bought some milk'."
-        },
-        {
-            "question": "Select the sentence with the correct use of a restrictive clause.",
-            
-                "a": "The book, which is on the table, is mine.",
-                "b": "I want to buy a car, that is reliable.",
-                "c": "The man, who is wearing a hat, is my uncle.",
-                "d": "I need to return the book, that I borrowed from you."
-            ,
-            "ans": "The man, who is wearing a hat, is my uncle.",
-            "explanation": "A restrictive clause provides essential information about the noun it modifies and is not set off by commas. In this sentence, 'who is wearing a hat' restricts the identity of 'the man'."
-        },
-        {
-            "question": "Which sentence uses the correct past continuous tense?",
-            
-                "a": "I was walking home when it starts to rain.",
-                "b": "She were cooking dinner when the guests arrived.",
-                "c": "He was studying all night for his exam.",
-                "d": "They were playing tennis when it gets dark."
-            ,
-            "ans": "He was studying all night for his exam.",
-            "explanation": "The past continuous tense is formed with 'was' or 'were' + present participle. In this sentence, 'was studying' is the correct past continuous construction."
-        },
-        {
-            "question": "Identify the sentence with the correct use of an appositive.",
-            
-                "a": "My brother, the doctor, is coming to visit.",
-                "b": "The movie, that we saw last night, was very good.",
-                "c": "She wants to buy a car, a reliable one.",
-                "d": "He gave me a book, I've been wanting to read."
-            ,
-            "ans":  "My brother, the doctor, is coming to visit.",
-            "explanation": "An appositive is a noun or noun phrase that renames or explains another noun. In this sentence, 'the doctor' is an appositive that renames 'my brother'."
-        },
-        {
-            "question": "Select the sentence with the correct use of a dangling participle.",
-            
-                "a": "Walking down the street, the trees looked beautiful.",
-                "b": "Sitting on the bench, the bus arrived.",
-                "c": "Having finished the book, it was time to start a new one.",
-                "d": "Eating dinner, the phone rang."
-            ,
-            "ans": "Walking down the street, the trees looked beautiful.",
-            "explanation": "A dangling participle occurs when the participle is not clearly related to the subject of the sentence. In this sentence, 'walking down the street' does not logically describe 'the trees'."
-        },
-        {
-            "question": "Which sentence uses the correct conditional mood?",
-            
-                "a": "If I would have known, I would have told you.",
-                "b": "If he will come, we can go together.",
-                "c": "If she had time, she will join us.",
-                "d": "If you go to the store, pick up some milk."
-            ,
-            "ans": "If you go to the store, pick up some milk.",
-            "explanation": "The conditional mood is used to express a situation that is dependent on another. In this sentence, 'If you go' is the correct use of the conditional mood."
-        }
-    ]
+      "a": "eated",
+      "b": "eaten",
+      "c": "ate",
+      "d": "eat",
+      "ans": "ans3",
+      "explanation": "The past tense of 'eat' is 'ate'."
+    },
+    {
+      "question": "Which sentence is correct?",
+
+      "a": "He goed to the store.",
+      "b": "She have a cat.",
+      "c": "I am going to the park.",
+      "d": "They plays soccer.",
+      "ans": "ans3",
+      "explanation": "The correct sentence is 'I am going to the park.'"
+    },
+    {
+      "question": "What is a synonym for 'happy'?",
+
+      "a": "sad",
+      "b": "angry",
+      "c": "joyful",
+      "d": "tired",
+      "ans": "ans3",
+      "explanation": "'Joyful' is a synonym for 'happy'."
+    },
+    {
+      "question": "Which word is a conjunction?",
+
+      "a": "quickly",
+      "b": "and",
+      "c": "apple",
+      "d": "jump",
+      "ans": "ans2",
+      "explanation": "'And' is a conjunction used to connect words or phrases."
+    },
+    {
+      "question": "What is the opposite of 'big'?",
+
+      "a": "small",
+      "b": "fast",
+      "c": "tall",
+      "d": "short",
+      "ans": "ans1",
+      "explanation": "'Small' is the opposite of 'big'."
+    },
+    {
+      "question": "Which sentence is a question?",
+
+      "a": "The sun is shining.",
+      "b": "She is reading a book.",
+      "c": "What time is it?",
+      "d": "He likes ice cream.",
+      "ans": "ans3",
+      "explanation": "'What time is it?' is a question."
+    },
+    {
+      "question": "What is the plural form of 'child'?",
+
+      "a": "childs",
+      "b": "childrens",
+      "c": "childes",
+      "d": "children",
+      "ans": "ans4",
+      "explanation": "The plural form of 'child' is 'children'."
+    },
+    {
+      "question": "Which word is a preposition?",
+
+      "a": "jump",
+      "b": "on",
+      "c": "happy",
+      "d": "book",
+      "ans": "ans2",
+      "explanation": "'On' is a preposition that indicates location or direction."
+    },
+    {
+      "question": "What is the past tense of 'go'?",
+
+      "a": "went",
+      "b": "goed",
+      "c": "gone",
+      "d": "go",
+      "ans": "ans1",
+      "explanation": "The past tense of 'go' is 'went'."
+    },
+    {
+      "question": "Which sentence is correct?",
+
+      "a": "She do not like ice cream.",
+      "b": "He plays soccer yesterday.",
+      "c": "They are going to the beach.",
+      "d": "I goed to the store.",
+      "ans": "ans3",
+      "explanation": "The correct sentence is 'They are going to the beach.'"
+    },
+    {
+      "question": "What is an antonym for 'hot'?",
+
+      "a": "cold",
+      "b": "warm",
+      "c": "cool",
+      "d": "freezing",
+      "ans": "ans1",
+      "explanation": "'Cold' is an antonym for 'hot'."
+    },
+    {
+      "question": "Which word is a verb?",
+
+      "a": "book",
+      "b": "jump",
+      "c": "blue",
+      "d": "apple",
+      "ans": "ans2",
+      "explanation": "'Jump' is a verb that describes an action."
+    },
+    {
+      "question": "What is the plural form of 'person'?",
+
+      "a": "persons",
+      "b": "people",
+      "c": "persones",
+      "d": "peoples",
+      "ans": "ans2",
+      "explanation": "The plural form of 'person' is 'people'."
+    }
+  ],
+
+  "Intermediate": [
+    {
+      "question": "Which of the following sentences is grammatically correct?",
+
+      "a": "She don't like pizza.",
+      "b": "He don't like pizza.",
+      "c": "She doesn't like pizza.",
+      "d": "He doesn't like pizza.",
+      "ans": "ans3",
+      "explanation": "The correct form is 'doesn't' for singular third-person subjects (she/he/it) in the present simple tense."
+    },
+    {
+      "question": "Choose the sentence that uses 'whom' correctly.",
+
+      "a": "Whom is going to the party tonight?",
+      "b": "To whom should I address this letter?",
+      "c": "Whom is responsible for this mess?",
+      "d": "She is the one whom you should ask.",
+      "ans": "ans2",
+      "explanation": "In this sentence, 'whom' is used correctly as the object of the preposition 'to' in the phrase 'to whom'."
+    },
+    {
+      "question": "Which of the following sentences is in the passive voice?",
+
+      "a": "The dog chased the cat.",
+      "b": "The cat was chased by the dog.",
+      "c": "She will finish the project tomorrow.",
+      "d": "He has written a book.",
+      "ans": "ans2",
+      "explanation": "The passive voice is formed with a form of 'to be' (was, were, is, are, etc.) and a past participle (chased)."
+    },
+    {
+      "question": "Select the sentence that uses 'their' correctly.",
+
+      "a": "Their going to the concert tomorrow.",
+      "b": "Their is a beautiful park near the lake.",
+      "c": "She gave me their phone number.",
+      "d": "Their are many books on the shelf.",
+      "ans": "ans3",
+      "explanation": "In this sentence, 'their' is used correctly as a possessive pronoun to indicate that the phone number belongs to someone else."
+    },
+    {
+      "question": "Choose the sentence with the correct use of the apostrophe.",
+
+      "a": "The dogs tail wagged happily.",
+      "b": "The dog's tail wagged happily.",
+      "c": "The dogs' tail wagged happily.",
+      "d": "The dogs tails wagged happily.",
+      "ans": "ans2",
+      "explanation": "The apostrophe is used to indicate possession. In this sentence, 'dog's' is used to show that the tail belongs to the dog."
+    },
+    {
+      "question": "Identify the sentence with correct subject-verb agreement.",
+
+      "a": "He don't like coffee.",
+      "b": "She don't like coffee.",
+      "c": "He doesn't like coffee.",
+      "d": "She doesn't like coffee.",
+      "ans": "ans3",
+      "explanation": "The correct form is 'doesn't' for singular third-person subjects (he/she/it) in the present simple tense."
+    },
+    {
+      "question": "Choose the sentence with the correct use of 'its' and 'it's'.",
+
+      "a": "Its raining outside.",
+      "b": "It's raining outside.",
+      "c": "The dog wagged it's tail.",
+      "d": "The dog wagged its tail.",
+      "ans": "ans4",
+      "explanation": "'Its' is a possessive pronoun, while 'it's' is a contraction of 'it is'. In this sentence, 'its' is used correctly to show that the tail belongs to the dog."
+    },
+    {
+      "question": "Which sentence uses 'who' correctly?",
+
+      "a": "Who is the book you borrowed from?",
+      "b": "Who is going to the party with?",
+      "c": "Who should I talk to about this?",
+      "d": "Who's bag is this?",
+      "ans": "ans3",
+      "explanation": "'Who' is used correctly as the subject of the verb 'talk'."
+    },
+    {
+      "question": "Select the sentence with the correct use of the past perfect tense.",
+
+      "a": "She had went to the store before it closed.",
+      "b": "He had began his new job already.",
+      "c": "They had never saw such a beautiful sunset.",
+      "d": "I had eaten dinner already.",
+      "ans": "ans4",
+      "explanation": "The past perfect tense is formed with 'had' + past participle. In this sentence, 'had eaten' is the correct past perfect construction."
+    },
+    {
+      "question": "Identify the sentence with correct comma usage.",
+
+      "a": "I went to the store but, I forgot to buy milk.",
+      "b": "She likes to read books, in the park.",
+      "c": "He enjoys playing soccer, and tennis.",
+      "d": "They went to the beach, and swam in the ocean.",
+      "ans": "ans4",
+      "explanation": "Commas are used to separate items in a list. In this sentence, the comma is correctly used to separate the two activities."
+    },
+    {
+      "question": "Choose the sentence with the correct use of 'your' and 'you're'.",
+
+      "a": "Your going to love this movie.",
+      "b": "You're going to love this movie.",
+      "c": "She asked for you're phone number.",
+      "d": "I like your new haircut.",
+      "ans": "ans4",
+      "explanation": "'Your' is a possessive pronoun, while 'you're' is a contraction of 'you are'. In this sentence, 'your' is used correctly to show possession."
+    },
+    {
+      "question": "Select the sentence with the correct use of a comparative adjective.",
+
+      "a": "This book is more better than the one I read last week.",
+      "b": "She is the goodest student in the class.",
+      "c": "He is taller than his brother.",
+      "d": "The weather today is more nice than yesterday.",
+      "ans": "ans3",
+      "explanation": "Comparative adjectives are used to compare two things. In this sentence, 'taller' is the correct comparative form of 'tall'."
+    },
+    {
+      "question": "Which sentence uses the correct conditional mood?",
+
+      "a": "If I would have known, I would have told you.",
+      "b": "If he will come, we can go together.",
+      "c": "If she had time, she will join us.",
+      "d": "If you go to the store, pick up some milk.",
+      "ans": "ans4",
+      "explanation": "The conditional mood is used to express a situation that is dependent on another. In this sentence, 'If you go' is the correct use of the conditional mood."
+    },
+    {
+      "question": "Identify the sentence with the correct use of a split infinitive.",
+
+      "a": "She decided to quickly finish her homework.",
+      "b": "He promised to carefully read the instructions.",
+      "c": "They wanted to really see the show.",
+      "d": "I tried to quietly sneak out of the room.",
+      "ans": "ans1",
+      "explanation": "A split infinitive occurs when an adverb or other word is inserted between 'to' and the verb in an infinitive. In this sentence, 'quickly' splits the infinitive 'to finish'."
+    },
+    {
+      "question": "Choose the sentence with the correct use of a dangling participle.",
+
+      "a": "Walking down the street, the trees looked beautiful.",
+      "b": "Sitting on the bench, the bus arrived.",
+      "c": "Having finished the book, it was time to start a new one.",
+      "d": "Eating dinner, the phone rang.",
+      "ans": "ans1",
+      "explanation": "A dangling participle occurs when the participle is not clearly related to the subject of the sentence. In this sentence, 'walking down the street' does not logically describe 'the trees'."
+    }
+  ],
+
+  "Advanced": [
+    {
+      "question": "Identify the sentence that contains a dangling modifier.",
+      "a": "After being marinated overnight, the chef cooked the steak perfectly.",
+      "b": "Racing down the hill, the deer was narrowly missed by the car.",
+      "c": "Served on a silver platter, the guests devoured the delicious meal.",
+      "d": "While jogging in the park, my keys fell out of my pocket.",
+      "ans": "ans2",
+      "explanation": "A dangling modifier occurs when the subject of the modifier is not clearly stated in the sentence. In this case, 'racing down the hill' does not clearly refer to any subject in the sentence."
+    },
+    {
+      "question": "Select the sentence with the correct subject-verb agreement.",
+
+      "a": "The number of students attending the seminar are increasing.",
+      "b": "Neither the book nor the movie was interesting.",
+      "c": "The staff at the restaurant is very friendly.",
+      "d": "Each of the boxes need to be labeled.",
+      "ans": "ans3",
+      "explanation": "The subject 'staff' is singular, so the verb should be 'is' instead of 'are'."
+    },
+    {
+      "question": "Which sentence uses the correct past perfect tense?",
+
+      "a": "She has eaten lunch before she went to the meeting.",
+      "b": "I had never saw that movie before last night.",
+      "c": "By the time we arrived, the movie already started.",
+      "d": "He was tired because he hadn't slept well the night before.",
+      "ans": "ans4",
+      "explanation": "The past perfect tense is formed with 'had' + past participle. In this sentence, 'hadn't slept' is the correct past perfect construction."
+    },
+    {
+      "question": "Choose the sentence with the correct use of the subjunctive mood.",
+
+      "a": "If I was you, I would take the job.",
+      "b": "I wish she was here right now.",
+      "c": "It's important that he goes to the doctor.",
+      "d": "If I were taller, I could reach the top shelf.",
+      "ans": "ans4",
+      "explanation": "The subjunctive mood is used to express hypothetical or unreal situations. In this case, 'were' is used instead of 'was' to indicate an unreal condition."
+    },
+    {
+      "question": "Identify the sentence with the correct use of the comparative form.",
+
+      "a": "She is the most tallest girl in her class.",
+      "b": "This book is more interesting than the one I read last week.",
+      "c": "He runs more faster than his brother.",
+      "d": "The weather today is more nice than yesterday.",
+      "ans": "ans2",
+      "explanation": "The comparative form is used to compare two things. In this sentence, 'more interesting' is used correctly to compare two books."
+    },
+    {
+      "question": "Select the sentence with the correct use of a gerund.",
+
+      "a": "I enjoy to swim in the ocean.",
+      "b": "He suggested going to the movies tonight.",
+      "c": "She admitted to making a mistake.",
+      "d": "They avoid to eat fast food.",
+      "ans": "ans2",
+      "explanation": "A gerund is a verb form ending in -ing that functions as a noun. In this sentence, 'going' is a gerund that serves as the object of the verb 'suggested'."
+    },
+    {
+      "question": "Which sentence uses the correct past participle form?",
+
+      "a": "She had went to the store before it closed.",
+      "b": "He has began his new job already.",
+      "c": "They have never saw such a beautiful sunset.",
+      "d": "I have eaten dinner already.",
+      "ans": "ans4",
+      "explanation": "The past participle form of 'eat' is 'eaten'. In this sentence, 'eaten' is used correctly with the auxiliary verb 'have'."
+    },
+    {
+      "question": "Choose the sentence with the correct use of a split infinitive.",
+
+      "a": "She decided to quickly finish her homework.",
+      "b": "He promised to carefully read the instructions.",
+      "c": "They wanted to really see the show.",
+      "d": "I tried to quietly sneak out of the room.",
+      "ans": "ans1",
+      "explanation": "A split infinitive occurs when an adverb or other word is inserted between 'to' and the verb in an infinitive. In this sentence, 'quickly' splits the infinitive 'to finish'."
+    },
+    {
+      "question": "Identify the sentence with the correct use of a comma splice.",
+
+      "a": "I went to the store, and bought some milk.",
+      "b": "She was tired, so she went to bed early.",
+      "c": "He studied hard, but he failed the test.",
+      "d": "They went for a walk, they saw a beautiful sunset.",
+      "ans": "ans1",
+      "explanation": "A comma splice occurs when two independent clauses are joined by a comma without a coordinating conjunction. In this sentence, the comma splice is used to join 'I went to the store' and 'bought some milk'."
+    },
+    {
+      "question": "Select the sentence with the correct use of a restrictive clause.",
+
+      "a": "The book, which is on the table, is mine.",
+      "b": "I want to buy a car, that is reliable.",
+      "c": "The man, who is wearing a hat, is my uncle.",
+      "d": "I need to return the book, that I borrowed from you.",
+      "ans": "ans3",
+      "explanation": "A restrictive clause provides essential information about the noun it modifies and is not set off by commas. In this sentence, 'who is wearing a hat' restricts the identity of 'the man'."
+    },
+    {
+      "question": "Which sentence uses the correct past continuous tense?",
+
+      "a": "I was walking home when it starts to rain.",
+      "b": "She were cooking dinner when the guests arrived.",
+      "c": "He was studying all night for his exam.",
+      "d": "They were playing tennis when it gets dark.",
+      "ans": "ans3",
+      "explanation": "The past continuous tense is formed with 'was' or 'were' + present participle. In this sentence, 'was studying' is the correct past continuous construction."
+    },
+    {
+      "question": "Identify the sentence with the correct use of an appositive.",
+
+      "a": "My brother, the doctor, is coming to visit.",
+      "b": "The movie, that we saw last night, was very good.",
+      "c": "She wants to buy a car, a reliable one.",
+      "d": "He gave me a book, I've been wanting to read.",
+      "ans": "ans1",
+      "explanation": "An appositive is a noun or noun phrase that renames or explains another noun. In this sentence, 'the doctor' is an appositive that renames 'my brother'."
+    },
+    {
+      "question": "Select the sentence with the correct use of a dangling participle.",
+
+      "a": "Walking down the street, the trees looked beautiful.",
+      "b": "Sitting on the bench, the bus arrived.",
+      "c": "Having finished the book, it was time to start a new one.",
+      "d": "Eating dinner, the phone rang.",
+      "ans": "ans1",
+      "explanation": "A dangling participle occurs when the participle is not clearly related to the subject of the sentence. In this sentence, 'walking down the street' does not logically describe 'the trees'."
+    },
+    {
+      "question": "Which sentence uses the correct conditional mood?",
+
+      "a": "If I would have known, I would have told you.",
+      "b": "If he will come, we can go together.",
+      "c": "If she had time, she will join us.",
+      "d": "If you go to the store, pick up some milk.",
+      "ans": "ans4",
+      "explanation": "The conditional mood is used to express a situation that is dependent on another. In this sentence, 'If you go' is the correct use of the conditional mood."
+    }
+  ]
 }

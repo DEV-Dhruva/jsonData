@@ -1,503 +1,458 @@
 {
-    "Basic":[
-        {
-            "question": "Which of the following is the correct way to declare an integer variable in C?",
-            
-                "a": "int x;",
-                "b": "integer x;",
-                "c": "x int;",
-                "d": "declare x as integer;"
-            ,
-            "ans": "int x;",
-            "explanation": "In C, integer variables are declared using the 'int' keyword followed by the variable name."
-        },
-        {
-            "question": "What is the correct way to end a C statement?",
-            
-                "a": "End",
-                "b": "Terminate",
-                "c": "Semicolon (;)",
-                "d": "Stop"
-            ,
-            "ans": "Semicolon (;)",
-            "explanation": "In C, statements are terminated with a semicolon (;)."
-        },
-        {
-            "question": "Which of the following is a valid C comment?",
-            
-                "a": "// This is a comment",
-                "b": "/* This is a comment */",
-                "c": "# This is a comment",
-                "d": "' This is a comment"
-            ,
-            "ans": "/* This is a comment */",
-            "explanation": "In C, comments can be written using /* ... */ for multiline comments or // for single-line comments."
-        },
-        {
-            "question": "What is the correct syntax for the 'if' statement in C?",
-            
-                "a": "if (condition) { // code }",
-                "b": "if {condition} then { // code }",
-                "c": "if (condition) then { // code }",
-                "d": "if then (condition) { // code }"
-            ,
-            "ans": "if (condition) { // code }",
-            "explanation": "The 'if' statement in C is written as 'if (condition) { // code }' where 'condition' is the expression to be evaluated."
-        },
-        {
-            "question": "Which of the following is used to access the value at a specific memory location in C?",
-            
-                "a": "addressOf operator (&)",
-                "b": "valueAt operator (*)",
-                "c": "value operator (=)",
-                "d": "pointer operator (->)"
-            ,
-            "ans": "valueAt operator (*)",
-            "explanation": "The valueAt operator (*) is used to access the value at a specific memory location, typically used with pointers."
-        },
-        {
-            "question": "What is the correct way to declare a pointer variable in C?",
-            
-                "a": "pointer x;",
-                "b": "int* x;",
-                "c": "x pointer;",
-                "d": "declare x as pointer;"
-            ,
-            "ans":  "int* x;",
-            "explanation": "Pointers are declared using the syntax 'type* name;' where 'type' is the type of data the pointer will point to."
-        },
-        {
-            "question": "Which of the following is used to allocate memory dynamically in C?",
-            
-                "a": "malloc()",
-                "b": "allocate()",
-                "c": "new()",
-                "d": "create()"
-            ,
-            "ans":"malloc()",
-            "explanation": "The malloc() function is used to dynamically allocate memory in C."
-        },
-        {
-            "question": "What is the correct way to define a function in C?",
-            
-                "a": "function myFunction() { // code }",
-                "b": "define myFunction() { // code }",
-                "c": "void myFunction() { // code }",
-                "d": "myFunction() { // code }"
-            ,
-            "ans": "void myFunction() { // code }",
-            "explanation": "Functions in C are defined using the return type followed by the function name and parameters (if any)."
-        },
-        {
-            "question": "Which of the following is the correct way to call a function in C?",
-            
-                "a": "call myFunction();",
-                "b": "invoke myFunction();",
-                "c": "myFunction();",
-                "d": "run myFunction();"
-            ,
-            "ans":  "myFunction();",
-            "explanation": "Functions in C are called by simply using the function name followed by parentheses and any required arguments."
-        },
-        {
-            "question": "What is the correct way to include a header file in C?",
-            
-                "a": "include <header.h>",
-                "b": "include header.h",
-                "c": "#include <header.h>",
-                "d": "#include header.h"
-            ,
-            "ans": "#include <header.h>",
-            "explanation": "Header files in C are included using the #include directive followed by the name of the header file enclosed in angle brackets or double quotes."
-        },
-        {
-            "question": "Which of the following is used to perform logical AND operation in C?",
-            
-                "a": "&",
-                "b": "&&",
-                "c": "|",
-                "d": "||"
-            ,
-            "ans": "&&",
-            "explanation": "The && operator is used to perform logical AND operation in C."
-        },
-        {
-            "question": "What is the correct syntax for a 'for' loop in C?",
-            
-                "a": "for (initialization; condition; update) { // code }",
-                "b": "for {initialization; condition; update} then { // code }",
-                "c": "for (condition) { // code }",
-                "d": "for then (initialization; condition; update) { // code }"
-            ,
-            "ans":  "for (initialization; condition; update) { // code }",
-            "explanation": "The 'for' loop in C is written as 'for (initialization; condition; update) { // code }' where 'initialization' is executed once at the beginning, 'condition' is checked before each iteration, and 'update' is executed after each iteration."
-        },
-        {
-            "question": "Which of the following is used to access the value of a variable through a pointer in C?",
-            
-                "a": "addressOf operator (&)",
-                "b": "valueAt operator (*)",
-                "c": "value operator (=)",
-                "d": "pointer operator (->)"
-            ,
-            "ans": "valueAt operator (*)",
-            "explanation": "The valueAt operator (*) is used to access the value of a variable through a pointer in C."
-        },
-        {
-            "question": "What is the correct way to compare two values in C?",
-            
-                "a": "==",
-                "b": "=",
-                "c": "<>",
-                "d": "!="
-            ,
-            "ans": "==",
-            "explanation": "The == operator is used to compare two values for equality in C."
-        },
-        {
-            "question": "Which of the following is used to perform logical OR operation in C?",
-            
-                "a": "&",
-                "b": "&&",
-                "c": "|",
-                "d": "||"
-            ,
-            "ans": "||",
-            "explanation": "The || operator is used to perform logical OR operation in C."
-        }
-    ],
-    "Intermediate":[
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    printf(\"%d\", x++);\n    return 0;\n}\n```",
-            
-                "a": "5",
-                "b": "6",
-                "c": "Compiler error",
-                "d": "Undefined behavior"
-            ,
-            "ans": "5",
-            "explanation": "The value of x is printed first, and then it is incremented. So, the output is 5."
-        },
-        {
-            "question": "Which of the following is a correct way to declare a constant in C?",
-            
-                "a": "const int PI = 3.14159;",
-                "b": "constant float PI = 3.14159;",
-                "c": "int constant PI = 3.14159;",
-                "d": "define PI 3.14159"
-            ,
-            "ans": "const int PI = 3.14159;",
-            "explanation": "The correct way to declare a constant in C is using the 'const' keyword followed by the data type and variable name."
-        },
-        {
-            "question": "What is the correct way to declare a 2D array in C?",
-            
-                "a": "int array[2][2] = {{1, 2}, {3, 4}};",
-                "b": "int array[][] = {{1, 2}, {3, 4}};",
-                "c": "int array[2, 2] = {{1, 2}, {3, 4}};",
-                "d": "int array[2][2] = {1, 2, 3, 4};"
-            ,
-            "ans": "int array[2][2] = {{1, 2}, {3, 4}};",
-            "explanation": "The correct way to declare a 2D array in C is to specify both dimensions in the declaration and initialize it with values."
-        },
-        {
-            "question": "What does the 'break' statement do in a loop?",
-            
-                "a": "Exits the loop and continues with the next iteration",
-                "b": "Exits the loop and terminates the loop",
-                "c": "Skips the current iteration and continues with the next iteration",
-                "d": "None of the above"
-            ,
-            "ans": "Exits the loop and terminates the loop",
-            "explanation": "The 'break' statement is used to exit the loop and terminate its execution."
-        },
-        {
-            "question": "What is the correct way to allocate memory dynamically in C?",
-            
-                "a": "int *ptr = malloc(sizeof(int));",
-                "b": "int ptr = malloc(sizeof(int));",
-                "c": "int *ptr = alloc(int);",
-                "d": "int ptr = alloc(sizeof(int));"
-            ,
-            "ans": "int *ptr = malloc(sizeof(int));",
-            "explanation": "The 'malloc' function is used to allocate memory dynamically in C, and the correct way to use it is shown in option 'a'."
-        },
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int i;\n    for(i = 0; i < 5; i++) {\n        if(i == 3)\n            continue;\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
-            
-                "a": "0 1 2 4",
-                "b": "0 1 2 3 4",
-                "c": "0 1 2 3",
-                "d": "Compiler error"
-            ,
-            "ans": "0 1 2 4",
-            "explanation": "The 'continue' statement skips the current iteration of the loop. So, when i is 3, it skips the printf statement, resulting in output 0 1 2 4."
-        },
-        {
-            "question": "What is the purpose of the 'static' keyword in C?",
-            
-                "a": "To declare a variable that retains its value between function calls",
-                "b": "To declare a variable that cannot be changed",
-                "c": "To declare a variable that is visible only within the current file",
-                "d": "To declare a variable that can be accessed from any function in the program"
-            ,
-            "ans": "To declare a variable that retains its value between function calls",
-            "explanation": "The 'static' keyword in C is used to declare a variable that retains its value between function calls."
-        },
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\n#define SQUARE(x) x * x\nint main() {\n    int a = 2, b = 3;\n    printf(\"%d\", SQUARE(a + b));\n    return 0;\n}\n```",
-            
-                "a": "10",
-                "b": "13",
-                "c": "25",
-                "d": "Compiler error"
-            ,
-            "ans": "13",
-            "explanation": "The macro SQUARE(a + b) is replaced with a + b * a + b, which simplifies to 2 + 3 * 2 + 3 = 2 + 6 + 3 = 11."
-        },
-        {
-            "question": "Which of the following is a correct way to access the value of a pointer variable in C?",
-            
-                "a": "*ptr",
-                "b": "&ptr",
-                "c": "ptr",
-                "d": "None of the above"
-            ,
-            "ans": "*ptr",
-            "explanation": "The * operator is used to dereference a pointer variable and access the value it points to."
-        },
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    printf(\"%d\", x << 1);\n    return 0;\n}\n```",
-            
-                "a": "5",
-                "b": "10",
-                "c": "20",
-                "d": "Compiler error"
-            ,
-            "ans": "20",
-            "explanation": "The << operator is the left shift operator in C. Shifting left by 1 bit doubles the value, so the output is 5 * 2 = 10."
-        },
-        {
-            "question": "Which of the following is not a valid data type in C?",
-            
-                "a": "float",
-                "b": "double",
-                "c": "char*",
-                "d": "string"
-            ,
-            "ans": "string",
-            "explanation": "'string' is not a valid data type in C. Strings are typically represented as arrays of characters (char*)."
-        },
-        {
-            "question": "What is the purpose of the 'typedef' keyword in C?",
-            
-                "a": "To define a new data type",
-                "b": "To declare a variable",
-                "c": "To include a header file",
-                "d": "To declare a function"
-            ,
-            "ans": "To define a new data type",
-            "explanation": "The 'typedef' keyword in C is used to define a new data type."
-        },
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    if(x == 5) {\n        int x = 10;\n        printf(\"%d\", x);\n    }\n    return 0;\n}\n```",
-            
-                "a": "5",
-                "b": "10",
-                "c": "Compiler error",
-                "d": "Undefined behavior"
-            ,
-            "ans": "10",
-            "explanation": "The inner variable x shadows the outer variable x within the if block, so the inner x is printed, resulting in output 10."
-        },
-        {
-            "question": "What is the purpose of the 'volatile' keyword in C?",
-            
-                "a": "To declare a variable that cannot be modified",
-                "b": "To declare a variable that retains its value between function calls",
-                "c": "To indicate that a variable may be changed unexpectedly",
-                "d": "To declare a variable that is visible only within the current file"
-            ,
-            "ans": "To indicate that a variable may be changed unexpectedly",
-            "explanation": "The 'volatile' keyword in C is used to indicate that a variable may be changed unexpectedly, typically by hardware or external factors."
-        },
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    int *ptr = &x;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
-            
-                "a": "5",
-                "b": "10",
-                "c": "Compiler error",
-                "d": "Undefined behavior"
-            ,
-            "ans": "5",
-            "explanation": "The *ptr dereferences the pointer, so it prints the value that ptr points to, which is 5."
-        }
-    ],
-    "Advanced":[
-        {
-            "question": "What will be the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 5;\n    int y = 10;\n    int *ptr = &x;\n    *ptr += 1;\n    ptr = &y;\n    *ptr += 2;\n    printf(\"%d\\n\", x + y);\n    return 0;\n}\n```",
-            
-                "a": "16",
-                "b": "18",
-                "c": "15",
-                "d": "17"
-            ,
-            "ans": "18",
-            "explanation": "The code snippet increments the value of 'x' by 1 through the pointer 'ptr', then changes 'ptr' to point to 'y' and increments the value of 'y' by 2. So, x = 6, y = 12, and the sum is 18."
-        },
-        {
-            "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int i = 10;\n    int *p;\n    p = &i;\n    printf(\"%d\\n\", *p++);\n    printf(\"%d\\n\", *p);\n    return 0;\n}\n```",
-            
-                "a": "10 and 10",
-                "b": "10 and 11",
-                "c": "11 and 11",
-                "d": "11 and 10"
-            ,
-            "ans": "10 and 10",
-            "explanation": "The post-increment operator (++) has a higher precedence than the dereference operator (*), so *p++ increments the value pointed by 'p' (which is 10) and then returns the original value. Hence, the first printf prints 10. The value of 'p' is then incremented to point to the next memory location, which still contains 10. So, the second printf also prints 10."
-        },
-        {
-            "question": "What is the value of 'a' after the following code executes?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int a = 5;\n    int *ptr = &a;\n    *ptr = *ptr + 10;\n    printf(\"%d\\n\", a);\n    return 0;\n}\n```",
-            
-                "a": "5",
-                "b": "10",
-                "c": "15",
-                "d": "20"
-            ,
-            "ans": "15",
-            "explanation": "The code snippet dereferences 'ptr' and adds 10 to the value at the address stored in 'ptr' (which is 'a'). So, 'a' becomes 15."
-        },
-        {
-            "question": "What will be the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello, World!\";\n    printf(\"%c\\n\", *str);\n    return 0;\n}\n```",
-            
-                "a": "H",
-                "b": "e",
-                "c": "l",
-                "d": "o"
-            ,
-            "ans": "H",
-            "explanation": "The code snippet dereferences the pointer to the first element of the character array 'str', which is 'H'. So, the output is 'H'."
-        },
-        {
-            "question": "What will be the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {10, 20, 30, 40};\n    int *ptr = arr;\n    printf(\"%d\\n\", *(ptr++));\n    printf(\"%d\\n\", *ptr);\n    return 0;\n}\n```",
-            
-                "a": "10 and 20",
-                "b": "10 and 30",
-                "c": "20 and 20",
-                "d": "20 and 30"
-            ,
-            "ans": "10 and 30",
-            "explanation": "The code snippet prints the value pointed to by 'ptr' (which is the first element of 'arr') and then increments 'ptr'. So, the first printf prints 10. After the increment, 'ptr' points to the second element of 'arr', which is 20. So, the second printf prints 20."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int a = 5, b = 10, c = 15;\n    int *ptr1 = &a, *ptr2 = &b, *ptr3 = &c;\n    int **ptr4 = &ptr1, **ptr5 = &ptr2, **ptr6 = &ptr3;\n    printf(\"%d\\n\", **ptr4 + **ptr5 + **ptr6);\n    return 0;\n}\n```",
-            
-                "a": "15",
-                "b": "30",
-                "c": "45",
-                "d": "60"
-            ,
-            "ans": "45",
-            "explanation": "The code snippet uses pointers to pointers to access the values of 'a', 'b', and 'c'. It adds these values and prints the result, which is 15 + 10 + 20 = 45."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr;\n    printf(\"%d\\n\", *(ptr + 2));\n    return 0;\n}\n```",
-            
-                "a": "1",
-                "b": "2",
-                "c": "3",
-                "d": "4"
-            ,
-            "ans": "3",
-            "explanation": "The code snippet prints the value at the address 'ptr + 2', which is the third element of the array 'arr' (index 2). So, the output is 3."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char *str1 = \"Hello\";\n    char *str2 = \"Hello\";\n    if (str1 == str2)\n    {\n        printf(\"Strings are equal.\\n\");\n    }\n    else\n    {\n        printf(\"Strings are not equal.\\n\");\n    }\n    return 0;\n}\n```",
-            
-                "a": "Strings are equal.",
-                "b": "Strings are not equal.",
-                "c": "Implementation-defined behavior.",
-                "d": "Compilation error."
-            ,
-            "ans": "Strings are equal.",
-            "explanation": "The code snippet compares the memory addresses of the string literals 'str1' and 'str2', which are the same. So, the if condition is true, and the output is 'Strings are equal.'"
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 5;\n    int *ptr = &x;\n    printf(\"%d\\n\", *ptr / 2);\n    return 0;\n}\n```",
-            
-                "a": "2",
-                "b": "2.5",
-                "c": "5",
-                "d": "Compile error"
-            ,
-            "ans": "2",
-            "explanation": "The code snippet dereferences 'ptr' to get the value of 'x' and then divides it by 2. Since 'x' is an integer, the division is integer division, so the result is 2."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 20;\n    int *ptr1 = &x, *ptr2 = &y;\n    ptr1 = ptr2;\n    *ptr1 = 30;\n    printf(\"%d %d\\n\", x, y);\n    return 0;\n}\n```",
-            
-                "a": "10 20",
-                "b": "20 20",
-                "c": "10 30",
-                "d": "30 20"
-            ,
-            "ans": "30 20",
-            "explanation": "Initially, 'ptr1' points to 'x' and 'ptr2' points to 'y'. Then, 'ptr1' is made to point to 'y'. When '*ptr1' is assigned 30, it actually modifies the value of 'y'. So, the output is '30 20'."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str1[] = \"Hello\";\n    char str2[] = \"World\";\n    char *ptr1 = str1;\n    char *ptr2 = str2;\n    while (*ptr1++ = *ptr2++);\n    printf(\"%s\\n\", str1);\n    return 0;\n}\n```",
-            
-                "a": "Hello",
-                "b": "World",
-                "c": "HelloWorld",
-                "d": "WorldHello"
-            ,
-            "ans": "World",
-            "explanation": "The code snippet copies the contents of 'str2' into 'str1' character by character using pointers. After the loop, 'str1' becomes 'World', so the output is 'World'."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr + 3;\n    printf(\"%d\\n\", *--ptr);\n    return 0;\n}\n```",
-            
-                "a": "2",
-                "b": "3",
-                "c": "4",
-                "d": "5"
-            ,
-            "ans": "3",
-            "explanation": "The code snippet moves 'ptr' to point to the fourth element of the array 'arr' (index 3) using pointer arithmetic. Then, it decrements 'ptr' and dereferences it, which gives the value at index 2 (3). So, the output is 3."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr + 2;\n    printf(\"%d\\n\", *(ptr - 1));\n    return 0;\n}\n```",
-            
-                "a": "1",
-                "b": "2",
-                "c": "3",
-                "d": "4"
-            ,
-            "ans": "2",
-            "explanation": "The code snippet moves 'ptr' to point to the third element of the array 'arr' (index 2) using pointer arithmetic. Then, it subtracts 1 from 'ptr' and dereferences it, which gives the value at index 1 (2). So, the output is 2."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello, World!\";\n    char *ptr = str;\n    printf(\"%c\\n\", *(ptr + 7));\n    return 0;\n}\n```",
-            
-                "a": "W",
-                "b": "o",
-                "c": "r",
-                "d": "l"
-            ,
-            "ans": "o",
-            "explanation": "The code snippet moves 'ptr' to point to the eighth character of the string 'str' (index 7) using pointer arithmetic. Then, it dereferences 'ptr', which gives 'o'. So, the output is 'o'."
-        },
-        {
-            "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello\";\n    char *ptr = str;\n    printf(\"%c\\n\", *ptr++);\n    printf(\"%c\\n\", *ptr);\n    return 0;\n}\n```",
-            
-                "a": "H and e",
-                "b": "H and l",
-                "c": "H and H",
-                "d": "e and l"
-            ,
-            "ans": "H and e",
-            "explanation": "The post-increment operator (++) has a higher precedence than the dereference operator (*), so *ptr++ increments the value pointed by 'ptr' (which is 'H') and then returns the original value. Hence, the first printf prints 'H'. The value of 'ptr' is then incremented to point to the next character, which is 'e'. So, the second printf prints 'e'."
-        }
-    ]
+  "Basic": [
+    {
+      "question": "Which of the following is the correct way to declare an integer variable in C?",
+
+      "a": "int x;",
+      "b": "integer x;",
+      "c": "x int;",
+      "d": "declare x as integer;",
+      "ans": "ans1",
+      "explanation": "In C, integer variables are declared using the 'int' keyword followed by the variable name."
+    },
+    {
+      "question": "What is the correct way to end a C statement?",
+
+      "a": "End",
+      "b": "Terminate",
+      "c": "Semicolon (;)",
+      "d": "Stop",
+      "ans": "ans3",
+      "explanation": "In C, statements are terminated with a semicolon (;)."
+    },
+    {
+      "question": "Which of the following is a valid C comment?",
+
+      "a": "// This is a comment",
+      "b": "/* This is a comment */",
+      "c": "# This is a comment",
+      "d": "' This is a comment",
+      "ans": "ans2",
+      "explanation": "In C, comments can be written using /* ... */ for multiline comments or // for single-line comments."
+    },
+    {
+      "question": "What is the correct syntax for the 'if' statement in C?",
+
+      "a": "if (condition) { // code }",
+      "b": "if {condition} then { // code }",
+      "c": "if (condition) then { // code }",
+      "d": "if then (condition) { // code }",
+      "ans": "ans3",
+      "explanation": "The 'if' statement in C is written as 'if (condition) { // code }' where 'condition' is the expression to be evaluated."
+    },
+    {
+      "question": "Which of the following is used to access the value at a specific memory location in C?",
+
+      "a": "addressOf operator (&)",
+      "b": "valueAt operator (*)",
+      "c": "value operator (=)",
+      "d": "pointer operator (->)",
+      "ans": "ans2",
+      "explanation": "The valueAt operator (*) is used to access the value at a specific memory location, typically used with pointers."
+    },
+    {
+      "question": "What is the correct way to declare a pointer variable in C?",
+
+      "a": "pointer x;",
+      "b": "int* x;",
+      "c": "x pointer;",
+      "d": "declare x as pointer;",
+      "ans": "ansb;",
+      "explanation": "Pointers are declared using the syntax 'type* name;' where 'type' is the type of data the pointer will point to."
+    },
+    {
+      "question": "Which of the following is used to allocate memory dynamically in C?",
+
+      "a": "malloc()",
+      "b": "allocate()",
+      "c": "new()",
+      "d": "create()",
+      "ans": "ans1",
+      "explanation": "The malloc() function is used to dynamically allocate memory in C."
+    },
+    {
+      "question": "What is the correct way to define a function in C?",
+
+      "a": "function myFunction() { // code }",
+      "b": "define myFunction() { // code }",
+      "c": "void myFunction() { // code }",
+      "d": "myFunction() { // code }",
+      "ans": "ans3",
+      "explanation": "Functions in C are defined using the return type followed by the function name and parameters (if any)."
+    },
+    {
+      "question": "Which of the following is the correct way to call a function in C?",
+
+      "a": "call myFunction();",
+      "b": "invoke myFunction();",
+      "c": "myFunction();",
+      "d": "run myFunction();",
+      "ans": "ans3",
+      "explanation": "Functions in C are called by simply using the function name followed by parentheses and any required arguments."
+    },
+    {
+      "question": "What is the correct way to include a header file in C?",
+
+      "a": "include <header.h>",
+      "b": "include header.h",
+      "c": "#include <header.h>",
+      "d": "#include header.h",
+      "ans": "ans3",
+      "explanation": "Header files in C are included using the #include directive followed by the name of the header file enclosed in angle brackets or double quotes."
+    },
+    {
+      "question": "Which of the following is used to perform logical AND operation in C?",
+
+      "a": "&",
+      "b": "&&",
+      "c": "|",
+      "d": "||",
+      "ans": "ans2",
+      "explanation": "The && operator is used to perform logical AND operation in C."
+    },
+    {
+      "question": "What is the correct syntax for a 'for' loop in C?",
+
+      "a": "for (initialization; condition; update) { // code }",
+      "b": "for {initialization; condition; update} then { // code }",
+      "c": "for (condition) { // code }",
+      "d": "for then (initialization; condition; update) { // code }",
+      "ans": "ans1",
+      "explanation": "The 'for' loop in C is written as 'for (initialization; condition; update) { // code }' where 'initialization' is executed once at the beginning, 'condition' is checked before each iteration, and 'update' is executed after each iteration."
+    },
+    {
+      "question": "Which of the following is used to access the value of a variable through a pointer in C?",
+
+      "a": "addressOf operator (&)",
+      "b": "valueAt operator (*)",
+      "c": "value operator (=)",
+      "d": "pointer operator (->)",
+      "ans": "ans2",
+      "explanation": "The valueAt operator (*) is used to access the value of a variable through a pointer in C."
+    },
+    {
+      "question": "What is the correct way to compare two values in C?",
+
+      "a": "==",
+      "b": "=",
+      "c": "<>",
+      "d": "!=",
+      "ans": "ans1",
+      "explanation": "The == operator is used to compare two values for equality in C."
+    },
+    {
+      "question": "Which of the following is used to perform logical OR operation in C?",
+
+      "a": "&",
+      "b": "&&",
+      "c": "|",
+      "d": "||",
+      "ans": "ans4",
+      "explanation": "The || operator is used to perform logical OR operation in C."
+    }
+  ],
+  "Intermediate": [
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    printf(\"%d\", x++);\n    return 0;\n}\n```",
+
+      "a": "5",
+      "b": "6",
+      "c": "Compiler error",
+      "d": "Undefined behavior",
+      "ans": "ans1",
+      "explanation": "The value of x is printed first, and then it is incremented. So, the output is 5."
+    },
+    {
+      "question": "Which of the following is a correct way to declare a constant in C?",
+
+      "a": "const int PI = 3.14159;",
+      "b": "constant float PI = 3.14159;",
+      "c": "int constant PI = 3.14159;",
+      "d": "define PI 3.14159",
+      "ans": "ans1",
+      "explanation": "The correct way to declare a constant in C is using the 'const' keyword followed by the data type and variable name."
+    },
+    {
+      "question": "What is the correct way to declare a 2D array in C?",
+
+      "a": "int array[2][2] = {{1, 2}, {3, 4}};",
+      "b": "int array[][] = {{1, 2}, {3, 4}};",
+      "c": "int array[2, 2] = {{1, 2}, {3, 4}};",
+      "d": "int array[2][2] = {1, 2, 3, 4};",
+      "ans": "ans1",
+      "explanation": "The correct way to declare a 2D array in C is to specify both dimensions in the declaration and initialize it with values."
+    },
+    {
+      "question": "What does the 'break' statement do in a loop?",
+
+      "a": "Exits the loop and continues with the next iteration",
+      "b": "Exits the loop and terminates the loop",
+      "c": "Skips the current iteration and continues with the next iteration",
+      "d": "None of the above",
+      "ans": "ans2",
+      "explanation": "The 'break' statement is used to exit the loop and terminate its execution."
+    },
+    {
+      "question": "What is the correct way to allocate memory dynamically in C?",
+
+      "a": "int *ptr = malloc(sizeof(int));",
+      "b": "int ptr = malloc(sizeof(int));",
+      "c": "int *ptr = alloc(int);",
+      "d": "int ptr = alloc(sizeof(int));",
+      "ans": "ans1",
+      "explanation": "The 'malloc' function is used to allocate memory dynamically in C, and the correct way to use it is shown in option 'a'."
+    },
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int i;\n    for(i = 0; i < 5; i++) {\n        if(i == 3)\n            continue;\n        printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+
+      "a": "0 1 2 4",
+      "b": "0 1 2 3 4",
+      "c": "0 1 2 3",
+      "d": "Compiler error",
+      "ans": "ans1",
+      "explanation": "The 'continue' statement skips the current iteration of the loop. So, when i is 3, it skips the printf statement, resulting in output 0 1 2 4."
+    },
+    {
+      "question": "What is the purpose of the 'static' keyword in C?",
+
+      "a": "To declare a variable that retains its value between function calls",
+      "b": "To declare a variable that cannot be changed",
+      "c": "To declare a variable that is visible only within the current file",
+      "d": "To declare a variable that can be accessed from any function in the program",
+      "ans": "ans1",
+      "explanation": "The 'static' keyword in C is used to declare a variable that retains its value between function calls."
+    },
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\n#define SQUARE(x) x * x\nint main() {\n    int a = 2, b = 3;\n    printf(\"%d\", SQUARE(a + b));\n    return 0;\n}\n```",
+
+      "a": "10",
+      "b": "13",
+      "c": "25",
+      "d": "Compiler error",
+      "ans": "ans2",
+      "explanation": "The macro SQUARE(a + b) is replaced with a + b * a + b, which simplifies to 2 + 3 * 2 + 3 = 2 + 6 + 3 = 11."
+    },
+    {
+      "question": "Which of the following is a correct way to access the value of a pointer variable in C?",
+
+      "a": "*ptr",
+      "b": "&ptr",
+      "c": "ptr",
+      "d": "None of the above",
+      "ans": "ans1",
+      "explanation": "The * operator is used to dereference a pointer variable and access the value it points to."
+    },
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    printf(\"%d\", x << 1);\n    return 0;\n}\n```",
+
+      "a": "5",
+      "b": "10",
+      "c": "20",
+      "d": "Compiler error",
+      "ans": "ans3",
+      "explanation": "The << operator is the left shift operator in C. Shifting left by 1 bit doubles the value, so the output is 5 * 2 = 10."
+    },
+    {
+      "question": "Which of the following is not a valid data type in C?",
+
+      "a": "float",
+      "b": "double",
+      "c": "char*",
+      "d": "string",
+      "ans": "ans4",
+      "explanation": "'string' is not a valid data type in C. Strings are typically represented as arrays of characters (char*)."
+    },
+    {
+      "question": "What is the purpose of the 'typedef' keyword in C?",
+
+      "a": "To define a new data type",
+      "b": "To declare a variable",
+      "c": "To include a header file",
+      "d": "To declare a function",
+      "ans": "ans1",
+      "explanation": "The 'typedef' keyword in C is used to define a new data type."
+    },
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    if(x == 5) {\n        int x = 10;\n        printf(\"%d\", x);\n    }\n    return 0;\n}\n```",
+
+      "a": "5",
+      "b": "10",
+      "c": "Compiler error",
+      "d": "Undefined behavior",
+      "ans": "ans2",
+      "explanation": "The inner variable x shadows the outer variable x within the if block, so the inner x is printed, resulting in output 10."
+    },
+    {
+      "question": "What is the purpose of the 'volatile' keyword in C?",
+
+      "a": "To declare a variable that cannot be modified",
+      "b": "To declare a variable that retains its value between function calls",
+      "c": "To indicate that a variable may be changed unexpectedly",
+      "d": "To declare a variable that is visible only within the current file",
+      "ans": "ans3",
+      "explanation": "The 'volatile' keyword in C is used to indicate that a variable may be changed unexpectedly, typically by hardware or external factors."
+    },
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    int *ptr = &x;\n    printf(\"%d\", *ptr);\n    return 0;\n}\n```",
+
+      "a": "5",
+      "b": "10",
+      "c": "Compiler error",
+      "d": "Undefined behavior",
+      "ans": "ans1",
+      "explanation": "The *ptr dereferences the pointer, so it prints the value that ptr points to, which is 5."
+    }
+  ],
+  "Advanced": [
+    {
+      "question": "What will be the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 5;\n    int y = 10;\n    int *ptr = &x;\n    *ptr += 1;\n    ptr = &y;\n    *ptr += 2;\n    printf(\"%d\\n\", x + y);\n    return 0;\n}\n```",
+
+      "a": "16",
+      "b": "18",
+      "c": "15",
+      "d": "17",
+      "ans": "ans2",
+      "explanation": "The code snippet increments the value of 'x' by 1 through the pointer 'ptr', then changes 'ptr' to point to 'y' and increments the value of 'y' by 2. So, x = 6, y = 12, and the sum is 18."
+    },
+    {
+      "question": "What is the output of the following code?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int i = 10;\n    int *p;\n    p = &i;\n    printf(\"%d\\n\", *p++);\n    printf(\"%d\\n\", *p);\n    return 0;\n}\n```",
+
+      "a": "10 and 10",
+      "b": "10 and 11",
+      "c": "11 and 11",
+      "d": "11 and 10",
+      "ans": "ans1",
+      "explanation": "The post-increment operator (++) has a higher precedence than the dereference operator (*), so *p++ increments the value pointed by 'p' (which is 10) and then returns the original value. Hence, the first printf prints 10. The value of 'p' is then incremented to point to the next memory location, which still contains 10. So, the second printf also prints 10."
+    },
+    {
+      "question": "What is the value of 'a' after the following code executes?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int a = 5;\n    int *ptr = &a;\n    *ptr = *ptr + 10;\n    printf(\"%d\\n\", a);\n    return 0;\n}\n```",
+
+      "a": "5",
+      "b": "10",
+      "c": "15",
+      "d": "20",
+      "ans": "ans3",
+      "explanation": "The code snippet dereferences 'ptr' and adds 10 to the value at the address stored in 'ptr' (which is 'a'). So, 'a' becomes 15."
+    },
+    {
+      "question": "What will be the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello, World!\";\n    printf(\"%c\\n\", *str);\n    return 0;\n}\n```",
+
+      "a": "H",
+      "b": "e",
+      "c": "l",
+      "d": "o",
+      "ans": "ans1",
+      "explanation": "The code snippet dereferences the pointer to the first element of the character array 'str', which is 'H'. So, the output is 'H'."
+    },
+    {
+      "question": "What will be the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {10, 20, 30, 40};\n    int *ptr = arr;\n    printf(\"%d\\n\", *(ptr++));\n    printf(\"%d\\n\", *ptr);\n    return 0;\n}\n```",
+
+      "a": "10 and 20",
+      "b": "10 and 30",
+      "c": "20 and 20",
+      "d": "20 and 30",
+      "ans": "ans2",
+      "explanation": "The code snippet prints the value pointed to by 'ptr' (which is the first element of 'arr') and then increments 'ptr'. So, the first printf prints 10. After the increment, 'ptr' points to the second element of 'arr', which is 20. So, the second printf prints 20."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int a = 5, b = 10, c = 15;\n    int *ptr1 = &a, *ptr2 = &b, *ptr3 = &c;\n    int **ptr4 = &ptr1, **ptr5 = &ptr2, **ptr6 = &ptr3;\n    printf(\"%d\\n\", **ptr4 + **ptr5 + **ptr6);\n    return 0;\n}\n```",
+
+      "a": "15",
+      "b": "30",
+      "c": "45",
+      "d": "60",
+      "ans": "ans3",
+      "explanation": "The code snippet uses pointers to pointers to access the values of 'a', 'b', and 'c'. It adds these values and prints the result, which is 15 + 10 + 20 = 45."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr;\n    printf(\"%d\\n\", *(ptr + 2));\n    return 0;\n}\n```",
+
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "ans": "ans3",
+      "explanation": "The code snippet prints the value at the address 'ptr + 2', which is the third element of the array 'arr' (index 2). So, the output is 3."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char *str1 = \"Hello\";\n    char *str2 = \"Hello\";\n    if (str1 == str2)\n    {\n        printf(\"Strings are equal.\\n\");\n    }\n    else\n    {\n        printf(\"Strings are not equal.\\n\");\n    }\n    return 0;\n}\n```",
+
+      "a": "Strings are equal.",
+      "b": "Strings are not equal.",
+      "c": "Implementation-defined behavior.",
+      "d": "Compilation error.",
+      "ans": "ans1",
+      "explanation": "The code snippet compares the memory addresses of the string literals 'str1' and 'str2', which are the same. So, the if condition is true, and the output is 'Strings are equal.'"
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 5;\n    int *ptr = &x;\n    printf(\"%d\\n\", *ptr / 2);\n    return 0;\n}\n```",
+
+      "a": "2",
+      "b": "2.5",
+      "c": "5",
+      "d": "Compile error",
+      "ans": "ans1",
+      "explanation": "The code snippet dereferences 'ptr' to get the value of 'x' and then divides it by 2. Since 'x' is an integer, the division is integer division, so the result is 2."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 20;\n    int *ptr1 = &x, *ptr2 = &y;\n    ptr1 = ptr2;\n    *ptr1 = 30;\n    printf(\"%d %d\\n\", x, y);\n    return 0;\n}\n```",
+
+      "a": "10 20",
+      "b": "20 20",
+      "c": "10 30",
+      "d": "30 20",
+      "ans": "ans4",
+      "explanation": "Initially, 'ptr1' points to 'x' and 'ptr2' points to 'y'. Then, 'ptr1' is made to point to 'y'. When '*ptr1' is assigned 30, it actually modifies the value of 'y'. So, the output is '30 20'."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str1[] = \"Hello\";\n    char str2[] = \"World\";\n    char *ptr1 = str1;\n    char *ptr2 = str2;\n    while (*ptr1++ = *ptr2++);\n    printf(\"%s\\n\", str1);\n    return 0;\n}\n```",
+
+      "a": "Hello",
+      "b": "World",
+      "c": "HelloWorld",
+      "d": "WorldHello",
+      "ans": "ans2",
+      "explanation": "The code snippet copies the contents of 'str2' into 'str1' character by character using pointers. After the loop, 'str1' becomes 'World', so the output is 'World'."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr + 3;\n    printf(\"%d\\n\", *--ptr);\n    return 0;\n}\n```",
+
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5",
+      "ans": "ans2",
+      "explanation": "The code snippet moves 'ptr' to point to the fourth element of the array 'arr' (index 3) using pointer arithmetic. Then, it decrements 'ptr' and dereferences it, which gives the value at index 2 (3). So, the output is 3."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    int arr[] = {1, 2, 3, 4, 5};\n    int *ptr = arr + 2;\n    printf(\"%d\\n\", *(ptr - 1));\n    return 0;\n}\n```",
+
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4",
+      "ans": "ans2",
+      "explanation": "The code snippet moves 'ptr' to point to the third element of the array 'arr' (index 2) using pointer arithmetic. Then, it subtracts 1 from 'ptr' and dereferences it, which gives the value at index 1 (2). So, the output is 2."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello, World!\";\n    char *ptr = str;\n    printf(\"%c\\n\", *(ptr + 7));\n    return 0;\n}\n```",
+
+      "a": "W",
+      "b": "o",
+      "c": "r",
+      "d": "l",
+      "ans": "ans2",
+      "explanation": "The code snippet moves 'ptr' to point to the eighth character of the string 'str' (index 7) using pointer arithmetic. Then, it dereferences 'ptr', which gives 'o'. So, the output is 'o'."
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main()\n{\n    char str[] = \"Hello\";\n    char *ptr = str;\n    printf(\"%c\\n\", *ptr++);\n    printf(\"%c\\n\", *ptr);\n    return 0;\n}\n```",
+
+      "a": "H and e",
+      "b": "H and l",
+      "c": "H and H",
+      "d": "e and l",
+      "ans": "ans1",
+      "explanation": "The post-increment operator (++) has a higher precedence than the dereference operator (*), so *ptr++ increments the value pointed by 'ptr' (which is 'H') and then returns the original value. Hence, the first printf prints 'H'. The value of 'ptr' is then incremented to point to the next character, which is 'e'. So, the second printf prints 'e'."
+    }
+  ]
 }

@@ -1,417 +1,416 @@
 {
-    "Basic": [
-        {
-            "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
-            "a": "50 km",
-            "b": "56 km",
-            "c": "70 km",
-            "d": "76 km",
-            "ans": "50 km",
-            "explaination": "Let the actual distance travelled be x km.Then ,x/10 =x + 20/14 ,14x = 10x + 200 ,4x = 200  ,x = 50 km."
-        },
-        {
-            "question": "An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
-            "a": "144°",
-            "b": "150°",
-            "c": "168°",
-            "d": "180°",
-            "ans":"180",
-            "explaination": "Angle traced by the hour hand in 6 hours = 360 * 60/120 = 180"
-        }, 
-        
-        {
-            "question": " 3, 5, 11, 14, 17, 21",
-            "a": "17",
-            "b": "21",
-            "c": "5",
-            "d": "14",
-            "ans":"14",
-            "explaination": "Each of the numbers except 14 is an odd number.The number '14' is the only EVEN number. "
-        },
-        {
-            "question": "10, 25, 45, 54, 60, 75, 80",
-            "a": "10",
-            "b": "75",
-            "c": "54",
-            "d": "80",
-            "ans":"54",
-            "explaination": "54 is not a multiple of 5"
-        },
-        {
-            "question": "396, 462, 572, 427, 671, 264",
-            "a": "396",
-            "b": "427",
-            "c": "572",
-            "d": "671",
-            "ans":"427",
-            "explaination": "In each number except 427, the middle digit is the sum of other two."
-        },
-        {
-            "question": "6, 9, 15, 21, 24, 28, 30",
-            "a": "28",
-            "b": "15",
-            "c": "30",
-            "d": "24",
-            "ans":"28",
-            "explaination": "28 is not a multiple of 3"
-        },
-        {
-            "question": "1, 4, 9, 16, 23, 25, 36",
-            "a": "1",
-            "b": "23",
-            "c": "36",
-            "d": "16",
-            "ans":"23",
-            "explaination": "Each of the numbers except 23, is perfect square."
-        },
-        {
-            "question": "10, 14, 16, 18, 21, 24, 26",
-            "a": "10",
-            "b": "21",
-            "c": "26",
-            "d": "18",
-            "ans":"21",
-            "explaination": "21 is a odd number"
-        },
-        {
-            "question": "Area of rectangle having l=12 ,b=4 is:",
-            "a": "0.934",
-            "b": "0.945",
-            "c": "0.954",
-            "d": "0.958",
-            "ans":"0.954",
-            "explaination": "area = l x b = 12 x 4=48"
-        },
-        {
-            "question": "If log 27 = 1.431, then the value of log 9 is:",
-            "a": "10",
-            "b": "75",
-            "c": "54",
-            "d": "80",
-            "ans":"54",
-            "explaination": "log 27 = 1.431, log (3^3 ) = 1.431, 3 log 3 = 1.431,  log 3 = 0.477,log 9 = log(3^2 ) = 2 log 3 = (2 x 0.477) = 0.954."
-        },
-        {
-            "question": "area of circle with r=7:",
-            "a": "154",
-            "b": "145",
-            "c": "77",
-            "d": "127",
-            "ans":"154",
-            "explaination": "area = 22/7 x r^2"
-        },
-        {
-            "question": "area of square with length = 3:",
-            "a": "9",
-            "b": "6",
-            "c": "3",
-            "d": "12",
-            "ans":"9",
-            "explaination": "area = 3x3=9"
-        },
-        {
-            "question": "What is the probability of getting a sum 9 from two throws of a dice",
-            "a": "1/3",
-            "b": "1/6",
-            "c": "1/9",
-            "d": "1/12",
-            "ans":"1/9",
-            "explaination": "In two throws of a dice, n(S) = (6 x 6) = 36. Let E = event of getting a sum ={(3, 6), (4, 5), (5, 4), (6, 3)}. p= 4/36 = 1/9"
-        },
-        {
-            "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream",
-            "a": "2",
-            "b": "3",
-            "c": "4",
-            "d": "5",
-            "ans":"4",
-            "explaination": "Speed downstream = (13 + 4) km/hr = 17 km/hr. Time taken to travel 68 km downstream = 68/17=4"
-        },
-        {
-            "question": "find mean 1,2,3,4,5",
-            "a": "2.5",
-            "b": "3",
-            "c": "3.5",
-            "d": "2",
-            "ans":"3",
-            "explaination": "mean = (1+2+3+4+5)/5 = 3"
-        }
-    ],
-    "Intermediate": [
-        {
-            "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
-            "a": "50 km",
-            "b": "56 km",
-            "c": "70 km",
-            "d": "76 km",
-            "ans": "50 km",
-            "explaination": "Let the actual distance travelled be x km.Then ,x/10 =x + 20/14 ,14x = 10x + 200 ,4x = 200  ,x = 50 km."
-        },
-        {
-            "question": "An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
-            "a": "144°",
-            "b": "150°",
-            "c": "168°",
-            "d": "180°",
-            "ans":"180",
-            "explaination": "Angle traced by the hour hand in 6 hours = 360 * 60/120 = 180"
-        }, 
-        
-        {
-            "question": " SCD, TEF, UGH, ____, WKL",
-            "a": "CMN",
-            "b": "UJI",
-            "c": "VIJ",
-            "d": "IJT",
-            "ans":"VIJ",
-            "explaination": "There are two alphabetical series here. The first series is with the first letters only: STUVW. The second series involves the remaining letters: CD, EF, GH, IJ, KL "
-        },
-        {
-            "question": "ELFA, GLHA, ILJA, _____, MLNA",
-            "a": "OLPA",
-            "b": "KLMA",
-            "c": "LLMA",
-            "d": "KLLA",
-            "ans":"KLLA",
-            "explaination": "The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E"
-        },
-        {
-            "question": "BCB, DED, FGF, HIH, ___",
-            "a": "JKJ",
-            "b": "HJH",
-            "c": "IJI",
-            "d": "JHJ",
-            "ans":"JKJ",
-            "explaination": "This series consists of a simple alphabetical order with the first two letters of all segments: B, C, D, E, F, G, H, I, J, K. The third letter of each segment is a repetition of the first letter."
-        },
-        {
-            "question": "It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?",
-            "a": "sunday",
-            "b": "saturday",
-            "c": "friday",
-            "d": "wednesday",
-            "ans":"friday",
-            "explaination": "On 31st December, 2005 it was Saturday. Number of odd days from the year 2006 to the year 2009 = (1 + 1 + 2 + 1) = 5 days.On 31st December 2009, it was Thursday.Thus, on 1st Jan, 2010 it is Friday."
-        },
-        {
-            "question": "Today is Monday. After 61 days, it will be:",
-            "a": "sunday",
-            "b": "saturday",
-            "c": "friday",
-            "d": "wednesday",
-            "ans":"saturday",
-            "explaination": "Each day of the week is repeated after 7 days.So, after 63 days, it will be Monday. After 61 days, it will be Saturday."
-        },
-        {
-            "question": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
-            "a": "4",
-            "b": "7",
-            "c": "9",
-            "d": "13",
-            "ans":"4",
-            "explaination": "Required number = H.C.F. of (91 - 43), (183 - 91) and (183 - 43)= H.C.F. of 48, 92 and 140 = 4."
-        },
-        {
-            "question": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together ?",
-            "a": "15",
-            "b": "14",
-            "c": "16",
-            "d": "17",
-            "ans":"16",
-            "explaination": "L.C.M. of 2, 4, 6, 8, 10, 12 is 120. So, the bells will toll together after every 120 seconds(2 minutes). In 30 minutes, they will toll together 30/2 + 1 = 16 times."
-        },
-        {
-            "question": "If log 27 = 1.431, then the value of log 9 is:",
-            "a": "10",
-            "b": "75",
-            "c": "54",
-            "d": "80",
-            "ans":"54",
-            "explaination": "log 27 = 1.431, log (3^3 ) = 1.431, 3 log 3 = 1.431,  log 3 = 0.477,log 9 = log(3^2 ) = 2 log 3 = (2 x 0.477) = 0.954."
-        },
-        {
-            "question": "The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:",
-            "a": "9600",
-            "b": "9400",
-            "c": "9800",
-            "d": "9300",
-            "ans":"9600",
-            "explaination": "Greatest number of 4-digits is 9999. L.C.M. of 15, 25, 40 and 75 is 600. On dividing 9999 by 600, the remainder is 399.Required number (9999 - 399) = 9600."
-        },
-        {
-            "question": "What is the product of the first 5 prime numbers?",
-            "a": "110",
-            "b": "120",
-            "c": "130",
-            "d": "140",
-            "ans":"110",
-            "explaination":"The first 5 prime numbers are 2, 3, 5, 7, and 11. The product of these numbers is 2 * 3 * 5 * 7 * 11 = 2310."
-        },
-        {
-            "question":"If a number is increased by 20% and then decreased by 20%, what is the overall change in percentage?",
-            "a": "3%",
-            "b": "4%",
-            "c": "8%",
-            "d": "6%",
-            "ans":"4%",
-            "explaination":"Let the original number be 100. After increasing by 20%, it becomes 120. After decreasing by 20%, it becomes (120 * 0.8) = 96. The overall change is (96 - 100)/100 * 100% = -4%. However, the change is considered positive, so the overall change is 4%."
-        },
-        {
-            "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream",
-            "a": "2",
-            "b": "3",
-            "c": "4",
-            "d": "5",
-            "ans":"4",
-            "explaination": "Speed downstream = (13 + 4) km/hr = 17 km/hr. Time taken to travel 68 km downstream = 68/17=4"
-        },
-        {
-            "question": "If the radius of a circle is doubled, by what factor does its area increase?",
-            "a": "3",
-            "b": "4",
-            "c": "5",
-            "d": "6",
-            "ans":"4",
-            "explaination":  "The area of a circle is πr^2. If the radius is doubled, the new area becomes π(2r)^2 = π(4r^2) = 4πr^2. The area increases by a factor of 4."
-        }      
-    ],
-    "Advanced": [
-        {
-            "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
-            "a": "50 km",
-            "b": "56 km",
-            "c": "70 km",
-            "d": "76 km",
-            "ans": "50 km",
-            "explaination": "Let the actual distance travelled be x km.Then ,x/10 =x + 20/14 ,14x = 10x + 200 ,4x = 200  ,x = 50 km."
-        },
-        {
-            "question": "An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
-            "a": "144°",
-            "b": "150°",
-            "c": "168°",
-            "d": "180°",
-            "ans":"180",
-            "explaination": "Angle traced by the hour hand in 6 hours = 360 * 60/120 = 180"
-        }, 
-        
-        {
-            "question": " SCD, TEF, UGH, ____, WKL",
-            "a": "CMN",
-            "b": "UJI",
-            "c": "VIJ",
-            "d": "IJT",
-            "ans":"VIJ",
-            "explaination": "There are two alphabetical series here. The first series is with the first letters only: STUVW. The second series involves the remaining letters: CD, EF, GH, IJ, KL "
-        },
-        {
-            "question": "ELFA, GLHA, ILJA, _____, MLNA",
-            "a": "OLPA",
-            "b": "KLMA",
-            "c": "LLMA",
-            "d": "KLLA",
-            "ans":"KLLA",
-            "explaination": "The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E"
-        },
-        {
-            "question": "BCB, DED, FGF, HIH, ___",
-            "a": "JKJ",
-            "b": "HJH",
-            "c": "IJI",
-            "d": "JHJ",
-            "ans":"JKJ",
-            "explaination": "This series consists of a simple alphabetical order with the first two letters of all segments: B, C, D, E, F, G, H, I, J, K. The third letter of each segment is a repetition of the first letter."
-        },
-        {
-            "question": "It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?",
-            "a": "sunday",
-            "b": "saturday",
-            "c": "friday",
-            "d": "wednesday",
-            "ans":"friday",
-            "explaination": "On 31st December, 2005 it was Saturday. Number of odd days from the year 2006 to the year 2009 = (1 + 1 + 2 + 1) = 5 days.On 31st December 2009, it was Thursday.Thus, on 1st Jan, 2010 it is Friday."
-        },
-        {
-            "question": "Today is Monday. After 61 days, it will be:",
-            "a": "sunday",
-            "b": "saturday",
-            "c": "friday",
-            "d": "wednesday",
-            "ans":"saturday",
-            "explaination": "Each day of the week is repeated after 7 days.So, after 63 days, it will be Monday. After 61 days, it will be Saturday."
-        },
-        {
-            "question": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
-            "a": "4",
-            "b": "7",
-            "c": "9",
-            "d": "13",
-            "ans":"4",
-            "explaination": "Required number = H.C.F. of (91 - 43), (183 - 91) and (183 - 43)= H.C.F. of 48, 92 and 140 = 4."
-        },
-        {
-            "question": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together ?",
-            "a": "15",
-            "b": "14",
-            "c": "16",
-            "d": "17",
-            "ans":"16",
-            "explaination": "L.C.M. of 2, 4, 6, 8, 10, 12 is 120. So, the bells will toll together after every 120 seconds(2 minutes). In 30 minutes, they will toll together 30/2 + 1 = 16 times."
-        },
-        {
-            "question": "If log 27 = 1.431, then the value of log 9 is:",
-            "a": "10",
-            "b": "75",
-            "c": "54",
-            "d": "80",
-            "ans":"54",
-            "explaination": "log 27 = 1.431, log (3^3 ) = 1.431, 3 log 3 = 1.431,  log 3 = 0.477,log 9 = log(3^2 ) = 2 log 3 = (2 x 0.477) = 0.954."
-        },
-        {
-            "question": "The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:",
-            "a": "9600",
-            "b": "9400",
-            "c": "9800",
-            "d": "9300",
-            "ans":"9600",
-            "explaination": "Greatest number of 4-digits is 9999. L.C.M. of 15, 25, 40 and 75 is 600. On dividing 9999 by 600, the remainder is 399.Required number (9999 - 399) = 9600."
-        },
-        {
-            "question": "What is the product of the first 5 prime numbers?",
-            "a": "110",
-            "b": "120",
-            "c": "130",
-            "d": "140",
-            "ans":"110",
-            "explaination":"The first 5 prime numbers are 2, 3, 5, 7, and 11. The product of these numbers is 2 * 3 * 5 * 7 * 11 = 2310."
-        },
-        {
-            "question":"If a number is increased by 20% and then decreased by 20%, what is the overall change in percentage?",
-            "a": "3%",
-            "b": "4%",
-            "c": "8%",
-            "d": "6%",
-            "ans":"4%",
-            "explaination":"Let the original number be 100. After increasing by 20%, it becomes 120. After decreasing by 20%, it becomes (120 * 0.8) = 96. The overall change is (96 - 100)/100 * 100% = -4%. However, the change is considered positive, so the overall change is 4%."
-        },
-        {
-            "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream",
-            "a": "2",
-            "b": "3",
-            "c": "4",
-            "d": "5",
-            "ans":"4",
-            "explaination": "Speed downstream = (13 + 4) km/hr = 17 km/hr. Time taken to travel 68 km downstream = 68/17=4"
-        },
-        {
-            "question": "If the radius of a circle is doubled, by what factor does its area increase?",
-            "a": "3",
-            "b": "4",
-            "c": "5",
-            "d": "6",
-            "ans":"4",
-            "explaination":  "The area of a circle is πr^2. If the radius is doubled, the new area becomes π(2r)^2 = π(4r^2) = 4πr^2. The area increases by a factor of 4."
-        } 
-    ]
+  "Basic": [
+    {
+      "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+      "a": "50 km",
+      "b": "56 km",
+      "c": "70 km",
+      "d": "76 km",
+      "ans": "ans1",
+      "explaination": "Let the actual distance travelled be x km.Then ,x/10 =x + 20/14 ,14x = 10x + 200 ,4x = 200  ,x = 50 km."
+    },
+    {
+      "question": "An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
+      "a": "144°",
+      "b": "150°",
+      "c": "168°",
+      "d": "180°",
+      "ans": "ans4",
+      "explaination": "Angle traced by the hour hand in 6 hours = 360 * 60/120 = 180"
+    },
+
+    {
+      "question": "Find odd number from: 3, 5, 11, 14, 17, 21",
+      "a": "17",
+      "b": "21",
+      "c": "5",
+      "d": "14",
+      "ans": "ans4",
+      "explaination": "Each of the numbers except 14 is an odd number.The number '14' is the only EVEN number. "
+    },
+    {
+      "question": "Find odd number from: 10, 25, 45, 54, 60, 75, 80",
+      "a": "10",
+      "b": "75",
+      "c": "54",
+      "d": "80",
+      "ans": "ans3",
+      "explaination": "54 is not a multiple of 5"
+    },
+    {
+      "question": "Find odd number from: 396, 462, 572, 427, 671, 264",
+      "a": "396",
+      "b": "427",
+      "c": "572",
+      "d": "671",
+      "ans": "ans2",
+      "explaination": "In each number except 427, the middle digit is the sum of other two."
+    },
+    {
+      "question": "Find odd number from: 6, 9, 15, 21, 24, 28, 30",
+      "a": "28",
+      "b": "15",
+      "c": "30",
+      "d": "24",
+      "ans": "ans1",
+      "explaination": "28 is not a multiple of 3"
+    },
+    {
+      "question": "Find odd number from: 1, 4, 9, 16, 23, 25, 36",
+      "a": "1",
+      "b": "23",
+      "c": "36",
+      "d": "16",
+      "ans": "ans2",
+      "explaination": "Each of the numbers except 23, is perfect square."
+    },
+    {
+      "question": "find odd number from: 10, 14, 16, 18, 21, 24, 26",
+      "a": "10",
+      "b": "21",
+      "c": "26",
+      "d": "18",
+      "ans": "ans2",
+      "explaination": "21 is a odd number"
+    },
+    {
+      "question": "Area of rectangle having l=0.001 ,b=954 is:",
+      "a": "0.934",
+      "b": "0.945",
+      "c": "0.954",
+      "d": "0.958",
+      "ans": "ans3",
+      "explaination": "area = l x b = 0.001 x 945= 0.954"
+    },
+    {
+      "question": "If log 27 = 1.431, then the value of log 9 is:",
+      "a": "10",
+      "b": "75",
+      "c": "54",
+      "d": "80",
+      "ans": "ans3",
+      "explaination": "log 27 = 1.431, log (3^3 ) = 1.431, 3 log 3 = 1.431,  log 3 = 0.477,log 9 = log(3^2 ) = 2 log 3 = (2 x 0.477) = 0.954."
+    },
+    {
+      "question": "area of circle with r=7:",
+      "a": "154",
+      "b": "145",
+      "c": "77",
+      "d": "127",
+      "ans": "ans1",
+      "explaination": "area = 22/7 x r^2"
+    },
+    {
+      "question": "area of square with length = 3:",
+      "a": "9",
+      "b": "6",
+      "c": "3",
+      "d": "12",
+      "ans": "ans1",
+      "explaination": "area = 3x3=9"
+    },
+    {
+      "question": "What is the probability of getting a sum 9 from two throws of a dice",
+      "a": "1/3",
+      "b": "1/6",
+      "c": "1/9",
+      "d": "1/12",
+      "ans": "ans3",
+      "explaination": "In two throws of a dice, n(S) = (6 x 6) = 36. Let E = event of getting a sum ={(3, 6), (4, 5), (5, 4), (6, 3)}. p= 4/36 = 1/9"
+    },
+    {
+      "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream",
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5",
+      "ans": "ans3",
+      "explaination": "Speed downstream = (13 + 4) km/hr = 17 km/hr. Time taken to travel 68 km downstream = 68/17=4"
+    },
+    {
+      "question": "find mean of the series: 1,2,3,4,5",
+      "a": "2.5",
+      "b": "3",
+      "c": "3.5",
+      "d": "2",
+      "ans": "ans2",
+      "explaination": "mean = (1+2+3+4+5)/5 = 3 or if series is in arithmetic series then median==mean"
+    }
+  ],
+  "Intermediate": [
+    {
+      "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+      "a": "50 km",
+      "b": "56 km",
+      "c": "70 km",
+      "d": "76 km",
+      "ans": "ans1",
+      "explaination": "Let the actual distance travelled be x km.Then ,x/10 =x + 20/14 ,14x = 10x + 200 ,4x = 200  ,x = 50 km."
+    },
+    {
+      "question": "An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
+      "a": "144°",
+      "b": "150°",
+      "c": "168°",
+      "d": "180°",
+      "ans": "ans4",
+      "explaination": "Angle traced by the hour hand in 6 hours = 360 * 60/120 = 180"
+    },
+
+    {
+      "question": "find missing element in series: SCD, TEF, UGH, ____, WKL",
+      "a": "CMN",
+      "b": "UJI",
+      "c": "VIJ",
+      "d": "IJT",
+      "ans": "ans3",
+      "explaination": "There are two alphabetical series here. The first series is with the first letters only: STUVW. The second series involves the remaining letters: CD, EF, GH, IJ, KL "
+    },
+    {
+      "question": "find missing element in series: ELFA, GLHA, ILJA, _____, MLNA",
+      "a": "OLPA",
+      "b": "KLMA",
+      "c": "LLMA",
+      "d": "KLLA",
+      "ans": "ans4",
+      "explaination": "The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E"
+    },
+    {
+      "question": "find next element in series: BCB, DED, FGF, HIH, ___",
+      "a": "JKJ",
+      "b": "HJH",
+      "c": "IJI",
+      "d": "JHJ",
+      "ans": "ans1",
+      "explaination": "This series consists of a simple alphabetical order with the first two letters of all segments: B, C, D, E, F, G, H, I, J, K. The third letter of each segment is a repetition of the first letter."
+    },
+    {
+      "question": "It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?",
+      "a": "sunday",
+      "b": "saturday",
+      "c": "friday",
+      "d": "wednesday",
+      "ans": "ans3",
+      "explaination": "On 31st December, 2005 it was Saturday. Number of odd days from the year 2006 to the year 2009 = (1 + 1 + 2 + 1) = 5 days.On 31st December 2009, it was Thursday.Thus, on 1st Jan, 2010 it is Friday."
+    },
+    {
+      "question": "Today is Monday. After 61 days, it will be:",
+      "a": "sunday",
+      "b": "saturday",
+      "c": "friday",
+      "d": "wednesday",
+      "ans": "ans2",
+      "explaination": "Each day of the week is repeated after 7 days.So, after 63 days, it will be Monday. After 61 days, it will be Saturday."
+    },
+    {
+      "question": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
+      "a": "4",
+      "b": "7",
+      "c": "9",
+      "d": "13",
+      "ans": "ans1",
+      "explaination": "Required number = H.C.F. of (91 - 43), (183 - 91) and (183 - 43)= H.C.F. of 48, 92 and 140 = 4."
+    },
+    {
+      "question": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together ?",
+      "a": "15",
+      "b": "14",
+      "c": "16",
+      "d": "17",
+      "ans": "ans3",
+      "explaination": "L.C.M. of 2, 4, 6, 8, 10, 12 is 120. So, the bells will toll together after every 120 seconds(2 minutes). In 30 minutes, they will toll together 30/2 + 1 = 16 times."
+    },
+    {
+      "question": "If log 27 = 1.431, then the value of log 9 is:",
+      "a": "10",
+      "b": "75",
+      "c": "54",
+      "d": "80",
+      "ans": "ans3",
+      "explaination": "log 27 = 1.431, log (3^3 ) = 1.431, 3 log 3 = 1.431,  log 3 = 0.477,log 9 = log(3^2 ) = 2 log 3 = (2 x 0.477) = 0.954."
+    },
+    {
+      "question": "The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:",
+      "a": "9600",
+      "b": "9400",
+      "c": "9800",
+      "d": "9300",
+      "ans": "ans1",
+      "explaination": "Greatest number of 4-digits is 9999. L.C.M. of 15, 25, 40 and 75 is 600. On dividing 9999 by 600, the remainder is 399.Required number (9999 - 399) = 9600."
+    },
+    {
+      "question": "What is the product of the first 5 prime numbers?",
+      "a": "110",
+      "b": "120",
+      "c": "130",
+      "d": "140",
+      "ans": "ans1",
+      "explaination": "The first 5 prime numbers are 2, 3, 5, 7, and 11. The product of these numbers is 2 * 3 * 5 * 7 * 11 = 2310."
+    },
+    {
+      "question": "If a number is increased by 20% and then decreased by 20%, what is the overall change in percentage?",
+      "a": "3%",
+      "b": "4%",
+      "c": "8%",
+      "d": "6%",
+      "ans": "ans2",
+      "explaination": "Let the original number be 100. After increasing by 20%, it becomes 120. After decreasing by 20%, it becomes (120 * 0.8) = 96. The overall change is (96 - 100)/100 * 100% = -4%. However, the change is considered positive, so the overall change is 4%."
+    },
+    {
+      "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream",
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5",
+      "ans": "ans3",
+      "explaination": "Speed downstream = (13 + 4) km/hr = 17 km/hr. Time taken to travel 68 km downstream = 68/17=4"
+    },
+    {
+      "question": "If the radius of a circle is doubled, by what factor does its area increase?",
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6",
+      "ans": "ans2",
+      "explaination": "The area of a circle is πr^2. If the radius is doubled, the new area becomes π(2r)^2 = π(4r^2) = 4πr^2. The area increases by a factor of 4."
+    }
+  ],
+  "Advanced": [
+    {
+      "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+      "a": "50 km",
+      "b": "56 km",
+      "c": "70 km",
+      "d": "76 km",
+      "ans": "ans1",
+      "explaination": "Let the actual distance travelled be x km.Then ,x/10 =x + 20/14 ,14x = 10x + 200 ,4x = 200  ,x = 50 km."
+    },
+    {
+      "question": "An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon?",
+      "a": "144°",
+      "b": "150°",
+      "c": "168°",
+      "d": "180°",
+      "ans": "ans4",
+      "explaination": "Angle traced by the hour hand in 6 hours = 360 * 60/120 = 180"
+    },
+
+    {
+      "question": "find missing element in series: SCD, TEF, UGH, ____, WKL",
+      "a": "CMN",
+      "b": "UJI",
+      "c": "VIJ",
+      "d": "IJT",
+      "ans": "ans3",
+      "explaination": "There are two alphabetical series here. The first series is with the first letters only: STUVW. The second series involves the remaining letters: CD, EF, GH, IJ, KL "
+    },
+    {
+      "question": "find missing element in series: ELFA, GLHA, ILJA, _____, MLNA",
+      "a": "OLPA",
+      "b": "KLMA",
+      "c": "LLMA",
+      "d": "KLLA",
+      "ans": "ans4",
+      "explaination": "The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E"
+    },
+    {
+      "question": "find missing element in series: BCB, DED, FGF, HIH, ___",
+      "a": "JKJ",
+      "b": "HJH",
+      "c": "IJI",
+      "d": "JHJ",
+      "ans": "ans1",
+      "explaination": "This series consists of a simple alphabetical order with the first two letters of all segments: B, C, D, E, F, G, H, I, J, K. The third letter of each segment is a repetition of the first letter."
+    },
+    {
+      "question": "It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?",
+      "a": "sunday",
+      "b": "saturday",
+      "c": "friday",
+      "d": "wednesday",
+      "ans": "ans3",
+      "explaination": "On 31st December, 2005 it was Saturday. Number of odd days from the year 2006 to the year 2009 = (1 + 1 + 2 + 1) = 5 days.On 31st December 2009, it was Thursday.Thus, on 1st Jan, 2010 it is Friday."
+    },
+    {
+      "question": "Today is Monday. After 61 days, it will be:",
+      "a": "sunday",
+      "b": "saturday",
+      "c": "friday",
+      "d": "wednesday",
+      "ans": "ans2",
+      "explaination": "Each day of the week is repeated after 7 days.So, after 63 days, it will be Monday. After 61 days, it will be Saturday."
+    },
+    {
+      "question": "Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.",
+      "a": "4",
+      "b": "7",
+      "c": "9",
+      "d": "13",
+      "ans": "ans1",
+      "explaination": "Required number = H.C.F. of (91 - 43), (183 - 91) and (183 - 43)= H.C.F. of 48, 92 and 140 = 4."
+    },
+    {
+      "question": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8 10 and 12 seconds respectively. In 30 minutes, how many times do they toll together ?",
+      "a": "15",
+      "b": "14",
+      "c": "16",
+      "d": "17",
+      "ans": "ans3",
+      "explaination": "L.C.M. of 2, 4, 6, 8, 10, 12 is 120. So, the bells will toll together after every 120 seconds(2 minutes). In 30 minutes, they will toll together 30/2 + 1 = 16 times."
+    },
+    {
+      "question": "If log 27 = 1.431, then the value of log 9 is:",
+      "a": "10",
+      "b": "75",
+      "c": "54",
+      "d": "80",
+      "ans": "ans3",
+      "explaination": "log 27 = 1.431, log (3^3 ) = 1.431, 3 log 3 = 1.431,  log 3 = 0.477,log 9 = log(3^2 ) = 2 log 3 = (2 x 0.477) = 0.954."
+    },
+    {
+      "question": "The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:",
+      "a": "9600",
+      "b": "9400",
+      "c": "9800",
+      "d": "9300",
+      "ans": "ans1",
+      "explaination": "Greatest number of 4-digits is 9999. L.C.M. of 15, 25, 40 and 75 is 600. On dividing 9999 by 600, the remainder is 399.Required number (9999 - 399) = 9600."
+    },
+    {
+      "question": "What is the product of the first 5 prime numbers?",
+      "a": "110",
+      "b": "120",
+      "c": "130",
+      "d": "140",
+      "ans": "ans1",
+      "explaination": "The first 5 prime numbers are 2, 3, 5, 7, and 11. The product of these numbers is 2 * 3 * 5 * 7 * 11 = 2310."
+    },
+    {
+      "question": "If a number is increased by 20% and then decreased by 20%, what is the overall change in percentage?",
+      "a": "3%",
+      "b": "4%",
+      "c": "8%",
+      "d": "6%",
+      "ans": "ans2",
+      "explaination": "Let the original number be 100. After increasing by 20%, it becomes 120. After decreasing by 20%, it becomes (120 * 0.8) = 96. The overall change is (96 - 100)/100 * 100% = -4%. However, the change is considered positive, so the overall change is 4%."
+    },
+    {
+      "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream",
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5",
+      "ans": "ans3",
+      "explaination": "Speed downstream = (13 + 4) km/hr = 17 km/hr. Time taken to travel 68 km downstream = 68/17=4"
+    },
+    {
+      "question": "If the radius of a circle is doubled, by what factor does its area increase?",
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6",
+      "ans": "ans2",
+      "explaination": "The area of a circle is πr^2. If the radius is doubled, the new area becomes π(2r)^2 = π(4r^2) = 4πr^2. The area increases by a factor of 4."
+    }
+  ]
 }
-                       
